@@ -1,0 +1,88 @@
+stf_title - page title
+info_pageID - OpenText page ID
+headline_parent - page headline
+text_keywords - page keywords
+text_description - page description
+info_pageURL - OpenText page URL
+img_favicon - favicon icon
+image_ogPageImage - social image for FB and TW
+opt_robots - hide from SEO
+con_headerScripts - header scripts
+con_header - visual header
+con_content - content sections
+con_footer - visual footer 
+con_footerScripts - footer scripts
+
+Code
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <title>Brooklyn College | <%headline_parent%></title>
+
+    <!-- <%stf_title%> -->
+    <!-- Page ID: <%info_pageID%> -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0; maximum-scale=1.0"/>
+
+    <meta name="<%headline_parent%>">
+    <meta name="keywords" content="<%text_keywords%>" />
+    <meta name="description" content="<%text_description%>" />
+
+    <link rel="shortcut icon" type="image/ico" href="<%img_favicon%>" />
+
+    <!-- FB OG protocol -->
+    <meta property="og:title" content="Brooklyn College | <%headline_parent%>" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<%info_pageURL%>" />
+    <meta property="og:image" content="<%image_ogPageImage%>" />
+    <meta property="og:description" content="<%text_description%>" />
+    <meta property="og:site_name" content="Brooklyn College" />
+
+    <!-- Twitter Card protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@bklyncollege411">
+    <meta name="twitter:creator" content="@bklyncollege411">
+    <meta name="twitter:title" content="Brooklyn College | <%headline_parent%>">
+    <meta name="twitter:description" content="<%text_description%>">
+    <meta name="twitter:image:src" content="<%image_ogPageImage%>">
+
+    <%opt_robots%>
+
+    <%con_headerScripts%>
+
+  </head>
+  <body data-responsejs='{"create" : {"mode" : "src", "prefix" : "src"}}' class="cbp-spmenu-push">
+
+    
+    <header class="">
+    <%con_header%>
+    </header>
+
+    <section class="content">
+
+Red Dots
+    <!IoRangeRedDotMode><section class="row"><div class="large-12 columns" style="padding: 150px 0px 0px 0px;"><!/IoRangeRedDotMode>
+    <!IoRangeRedDotMode><!IoRedDotOpenPage><!IoRangeNoEditMode><span style="color:red">Open Page</span><br/><br/><!/IoRangeNoEditMode>
+    <!IoRangeRedDotEditOnly><span style="color:red">Close Page</span><br/><br/><!/IoRangeRedDotEditOnly><!/IoRangeRedDotMode>
+
+    <!IoRangeRedDotEditOnly>
+        <!IoRedDot_stf_title><span style="color:red">Add/Edit Page Title</span></br>
+        <!IoRedDot_con_content><span style="color:red">Add/Edit/Order Content Sections</span><!/IoRangeRedDotEditOnly>
+    <!IoRangeRedDotMode></div></section><!/IoRangeRedDotMode>
+
+Code    
+    <%con_content%>
+    </section>
+
+    <footer>
+    <%con_footer%>
+    </footer>
+    
+    <%con_footerScripts%>
+
+  </body>
+</html>
+ 

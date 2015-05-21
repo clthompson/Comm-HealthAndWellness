@@ -1,0 +1,15 @@
+stf_css - CSS filename
+text_ga - google analytics code
+
+Code
+    <link rel="stylesheet" href="http://www.brooklyn.cuny.edu/web/css/<%stf_css%>">
+
+    <script src="http://www.brooklyn.cuny.edu/web/js/foundation/bower_components/modernizr/modernizr.js"></script>  <!-- Modernizr -->
+    <script src="http://www.brooklyn.cuny.edu/web/js/foundation/bower_components/jquery/dist/jquery.min.js"></script>  <!-- 2015 jQuery -->
+    
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <!-- Google Analytics -->
+        <%text_ga%>

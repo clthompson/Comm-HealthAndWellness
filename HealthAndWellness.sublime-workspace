@@ -1,0 +1,922 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"com",
+				"ComeniaSansCondBold"
+			],
+			[
+				"Cons",
+				"ComeniaSansCondBold"
+			],
+			[
+				"Com",
+				"ComeniaSansCondRegular"
+			],
+			[
+				"come",
+				"ComeniaSansCondBold"
+			],
+			[
+				"fon",
+				"font-lucida"
+			],
+			[
+				"Co",
+				"ComeniaSansCondBold"
+			],
+			[
+				"bo",
+				"bold"
+			],
+			[
+				"thin",
+				"thin-maroon"
+			],
+			[
+				"color-gr",
+				"color-grayErato"
+			],
+			[
+				"thin-gray",
+				"thin-grayLinus"
+			],
+			[
+				"color-",
+				"color-black"
+			],
+			[
+				"n",
+				"normal"
+			],
+			[
+				"color",
+				"color-darkGray"
+			],
+			[
+				"border",
+				"border-left"
+			],
+			[
+				"co",
+				"color-white"
+			],
+			[
+				"last",
+				"last-of-type"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"s",
+				"script"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"bol",
+				"bold"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"paddi",
+				"padding-mini"
+			],
+			[
+				"col",
+				"color-lightGray"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"padding-",
+				"padding-right"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"di",
+				"DIV	Tag"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "scss/app.scss",
+			"settings":
+			{
+				"buffer_size": 2015,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_local_var.scss",
+			"settings":
+			{
+				"buffer_size": 133,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_local_css.scss",
+			"settings":
+			{
+				"buffer_size": 267,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/app.css",
+			"settings":
+			{
+				"buffer_size": 4476,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_settings.scss",
+			"settings":
+			{
+				"buffer_size": 50186,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6738,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 242.0,
+		"selected_items":
+		[
+			[
+				"color",
+				"Color picker"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git h",
+				"Git: Commit history"
+			],
+			[
+				"readme",
+				"ReadmePlease"
+			],
+			[
+				"pack i",
+				"Package Control: Install Package"
+			],
+			[
+				"pack I",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"synt js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"snip",
+				"Snippet: Function"
+			],
+			[
+				"synt j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synt ht",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Z/Public/webDevelopment/projects/sampleSubProject/config.rb",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/Feirstein.sublime-project",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/faq.php",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/jobs.php",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/letter-from-the-director.php",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/faculty.php",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/build/styles/app.min.css",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/build/styles/app.css",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein.php",
+		"/Z/Public/$$Redesign/$Admin/Standards/Dev/9733.php",
+		"/Z/Public/$$Redesign/$Admin/Standards/forms/process-form.php",
+		"/Z/Public/$$Redesign/$Admin/Standards/forms/process-form_NEW.php",
+		"/Z/Public/$$Redesign/$Admin/Standards/forms/contactUScaptcha.php",
+		"/Z/Public/$$Redesign/$Admin/Standards/forms/contact_form.php",
+		"/Z/Public/$$Redesign/$Admin/Standards/forms/clt-form_NEW.php",
+		"/Z/Public/$$Redesign/$Admin/Standards/forms/clt-form.php",
+		"/Z/Public/$$Redesign/$Admin/Standards/forms/process-form_old.php",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/admissions.php",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/about.php",
+		"/Z/Public/$$Redesign/$Admin/Standards/forms/recaptcha-php-1.11/recaptchalib.php",
+		"/Z/Public/$$Redesign/$Admin/Standards/forms/clt-form.html",
+		"/Z/Public/$$Redesign/$Admin/Standards/forms/process-form-settings.php",
+		"/Z/Public/$$Redesign/fire.html",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/build/js/app.js",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/build/js/app.min.js",
+		"/C/Users/jdoe/Downloads/HTML5 - Design the Web - From Illustrator to HTML5 Canvas/Exercise Files/HTML5 Canvas Script/canvas2.html",
+		"/Z/Public/$$Redesign/Academics/Schools/Business/Learning Cycle/canvas.html",
+		"/C/Users/jdoe/Downloads/HTML5 - Design the Web - From Illustrator to HTML5 Canvas/Exercise Files/HTML5 Canvas Script/canvas.html",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/mfa-cinematography.php",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/mfa-post-production.php",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/mfa-screenwriting.php",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/mfa-producing.php",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/facilities.php",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/mfa-directing.php",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/mfa-digital-arts.php",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/contact-us.php",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/ma-cinema-studies.php",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/academics.php",
+		"/Z/Public/$$Redesign/$Admin/Imagery/PG 3.0 (2014)/themes/classic - Copy (2)/galleria2.classic.css",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/admissions_BAD.php",
+		"/Z/Public/$$Redesign/$Admin/Imagery/PG 3.0/themes/classic - Copy (2)/galleria2.classic.css",
+		"/Z/Public/$$Redesign/$Admin/Imagery/PG 3.0/themes/classic/galleria.classic.css",
+		"/Z/Public/$$Redesign/$Admin/Imagery/PG 3.0/themes/classic/galleria.classic.js",
+		"/Z/Public/$$Redesign/$Admin/Imagery/PG 3.0/themes/classic - Copy (2)/galleria2.classic.js",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/feirsteingraduateapplication.php",
+		"/Z/Public/$$$Feirstein/Development/003/feirstein.php",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein2.php",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/admissions2.php",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/admissions2.html",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/New Text Document.html",
+		"/Z/Public/$$$Feirstein/Development/004/feirstein/build/styles/vendor.css",
+		"/Z/Public/$BCF_Website/Development/003-Production5/sass/_custom.scss",
+		"/Z/Public/$BCF_Website/Development/003-Production5/sass/app.scss",
+		"/Z/Public/$$$Feirstein/Development/004/site/feirstein/facilities.php",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/004/site/feirstein/admissions.php",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/004/site/feirstein/contact-us.php",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/004/site/feirstein/facilities.php",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/004/site/feirstein/academics.php",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/004/site/feirstein/about.php",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/004/site/feirstein/faq.php",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/004/site/feirstein/letter-from-the-director.php",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/004/site/feirstein/mfa-screenwriting.php",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/004/site/feirstein/mfa-producing.php",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/004/site/feirstein/mfa-post-production.php",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/004/site/feirstein/mfa-directing.php",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/004/site/feirstein/ma-cinema-studies.php",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/004/site/feirstein/mfa-digital-arts.php",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/004/site/feirstein/mfa-cinematography.php",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/004/site/feirstein.php",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/004/site/build/styles/app.css",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/004/site/build/styles/vendor.css",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/003/index.html",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/003/feirstein.php",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/002/feirstein.php",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/001/feirstein.php",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/assets/css/app.css",
+		"/Z/Public/$$Redesign/Academics/Schools/Visual Arts/Feirstein/feirstein.php",
+		"/Z/Public/$$Redesign/$Admin/Mobile/isMobile.js",
+		"/Z/Public/$$Redesign/$Admin/Mobile/mobile.html",
+		"/Z/Public/$BCF_Website/Development/003-Production5/EFT/css/app.css",
+		"/Z/Public/$BCF_Website/Development/003-Production5/EFT/EFTContentTemplate.html",
+		"/Z/Public/$BCF_Website/Development/003-Production5/js/jquery.slimmenu.js",
+		"/Z/Public/$BCF_Website/Development/003-Production5/css/app.css",
+		"/Z/Public/$BCF_Website/Development/003-Production5/sass/foundation/components/_orbit.scss",
+		"/Z/Public/$BCF_Website/Development/003-Production5/HomePageBaseWithSlimmenu.html",
+		"/Z/Public/$BCF_Website/Development/003-Production5/js/foundation/foundation.responsive-tables.js",
+		"/Z/Public/$BCF_Website/Development/slimmenu/jquery.slimmenu.js",
+		"/Z/Public/$BCF_Website/Development/slimmenu/slimmenu.css",
+		"/Z/Public/$BCF_Website/Development/slimmenu/demo.html",
+		"/Z/Public/$BCF_Website/Development/003-Production5/sass/foundation/components/_top-bar.scss",
+		"/Z/Public/$BCF_Website/Development/003-Production5/js/foundation/foundation.topbar.js",
+		"/Z/Public/$BCF_Website/Development/slimmenu/HomePageBaseWithSlimmenu.html",
+		"/Z/Public/$BCF_Website/Development/003-Production5/EFTContentTemplate.html",
+		"/Z/Public/$BCF_Website/Development/003-Production5/ContentPageBase.html",
+		"/Z/Public/2013 Admissions Marketing Materials/DIGITAL/website/production/013/css/admissions2013.css",
+		"/Z/Public/$BCF_Website/Development/003-Production5/sidenav.html",
+		"/Z/Public/$BCF_Website/Development/003-Production5/sass/_foundation.scss",
+		"/Z/Public/$BCF_Website/Development/003-Production5/sass/foundation/components/_type.scss",
+		"/Z/Public/2013 Admissions Marketing Materials/DIGITAL/website/production/013/js/response.js",
+		"/Z/Public/$BCF_Website/Development/003-Production5/elder.html",
+		"/Z/Public/$BCF_Website/Development/003-Production5/navOne.html",
+		"/Z/Public/$$Redesign/Imagery/For the Website/Academics - Visual Media - COM/faculty.html",
+		"/Z/Public/$BCF_Website/Development/003-Production5/pageBuild-FlexNav.html",
+		"/Z/Public/$BCF_Website/Development/Flexnav/README.md",
+		"/Z/Public/$BCF_Website/Development/003-Production5/pageBuild.html",
+		"/Z/Public/$BCF_Website/Development/003-Production5/FlexNavMod1.html",
+		"/Z/Public/$BCF_Website/Development/003-Production5/sass/flexnav.scss",
+		"/Z/Public/$BCF_Website/Development/Flexnav/index.html",
+		"/C/Users/jdoe/AppData/Local/Temp/Rar$DR56.616/flexnav-master/css/flexnav.css",
+		"/Z/Public/$BCF_Website/Development/003-Production5/navOne-FlexNav.html",
+		"/Z/Public/$BCF_Website/Development/003-Production5/css/flexnav.css",
+		"/Z/Public/$BCF_Website/Development/003-Production5/demo.html",
+		"/Z/Public/$BCF_Website/Development/003-Production5/css/slimmenu.css",
+		"/Z/Public/$BCF_Website/Development/003-Production5/articleBuild.html",
+		"/Z/Public/$BCF_Website/$Admin/Diagrams/desktopLayout.html",
+		"/Z/Public/$BCF_Website/$Admin/Diagrams/desktopArticleWithImage.html",
+		"/Z/Public/$BCF_Website/Development/003-Production5/statsHighlights.html",
+		"/Z/Public/$BCF_Website/Development/003-Production5/sass/foundation/components/_buttons.scss",
+		"/Z/Public/$BCF_Website/Development/003-Production5/sass/_settings.scss",
+		"/Z/Public/$BCF_Website/Development/003-Production5/js/jquery.js",
+		"/Z/Public/$BCF_Website/Development/003-Production5/OT-Templates/Foundation - footerScripts.txt",
+		"/Z/Public/$BCF_Website/Development/003-Production5/OT-Templates/Foundation - Content Video.txt",
+		"/Z/Public/$BCF_Website/Development/003-Production5/OT-Templates/Foundation - Home Page.txt",
+		"/Z/Public/$BCF_Website/Development/003-Production5/OT-Templates/Foundation - News Landing Page.txt",
+		"/Z/Public/$BCF_Website/Development/003-Production5/OT-Templates/Foundation - Content Page.txt",
+		"/Z/Public/$BCF_Website/Development/003-Production5/OT-Templates/Foundation - Aside Spotlight.txt",
+		"/Z/Public/$BCF_Website/Development/003-Production5/OT-Templates/Foundation - Aside Advertisement.txt",
+		"/Z/Public/$BCF_Website/Development/003-Production5/articlesSectionForContent.html"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open folders>",
+			"C:\\Users\\jdoe\\Downloads\\Foundation-4.3.2"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"clear",
+			"article h1",
+			"article h2",
+			"1600",
+			"1650",
+			"1600",
+			"hover",
+			"admissions-ma-cinemastudies",
+			"bio",
+			"?php",
+			"form>",
+			".salmon",
+			"salmon",
+			"js",
+			"button",
+			"ctx.fillStyle=\"rgb(0,0,0)\";",
+			".question p.answer",
+			"answer",
+			"galleria-info-text",
+			"desc",
+			"SALEAMT",
+			"imiclk",
+			"apply",
+			"washington",
+			"december",
+			"12/01/14",
+			"cta-info",
+			"cta",
+			"selection",
+			"instagram",
+			"twitter",
+			"track",
+			"mixpane;l",
+			"button",
+			"The Lord of the Rings ",
+			"buch",
+			"World Cinema 1960 to the presen",
+			"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein.php",
+			"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/",
+			"styles/app.css",
+			"styles/vendor.css",
+			"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/",
+			"styles/vendor.css",
+			"styles/app.css",
+			"styles/vendor.css",
+			"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/",
+			"styles/vendor.css",
+			"styles/app.css",
+			"styles/vendor.css",
+			"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/",
+			"styles/app.css",
+			"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/",
+			"styles/vendor.css",
+			"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/",
+			"homepage-hero-introduction > .title h3",
+			"financial",
+			"li ",
+			"p ",
+			"ul ",
+			"ul",
+			"h3",
+			"TUITION & FEES",
+			"/build/",
+			".fa ",
+			".fa",
+			"fa",
+			"fa-vimeo-square",
+			"min",
+			"5001",
+			"jon",
+			"h4.smaller",
+			"last",
+			"h5",
+			"<!",
+			"\"http://www.brooklyn.cuny.edu/gradadmissions\"",
+			"APPLICATIONS OPEN",
+			"\"http://www.brooklyn.cuny.edu/gradadmissions\"",
+			"\"/faq\"",
+			"\"/contact-us\"",
+			"\"/about\"",
+			"\"/facilities\"",
+			"\"/academics\"",
+			"\"/admissions\"",
+			"\"/\"",
+			"/build/",
+			"\"/faq\"",
+			"\"/contact-us\"",
+			"\"/about\"",
+			"\"/facilities\"",
+			"\"/academics\"",
+			"\"/admissions\"",
+			"\"/\"",
+			"/build/",
+			"\"/faq\"",
+			"\"/contact-us\"",
+			"\"/about\"",
+			"\"/facilities\"",
+			"\"/academics\"",
+			"\"/admissions\"",
+			"\"/\"",
+			"/build/",
+			"\"/faq\"",
+			"\"/contact-us\"",
+			"\"/about\"",
+			"\"/facilities\"",
+			"\"/academics\"",
+			"\"/admissions\"",
+			"\"/\"",
+			"/build/",
+			"\"/faq\"",
+			"\"/contact-us\"",
+			"\"/about\"",
+			"\"/facilities\"",
+			"\"/academics\"",
+			"\"/admissions\"",
+			"\"/\"",
+			"/build/",
+			"\"/faq\"",
+			"\"/contact-us\"",
+			"\"/about\"",
+			"\"/facilities\"",
+			"\"/academics\"",
+			"\"/admissions\"",
+			"\"/\"",
+			"/build/",
+			"\"/faq\"",
+			"\"/contact-us\"",
+			"\"/about\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"http://www.brooklyn.cuny.edu/web/academics/schools/mediaarts/schools/feirstein.php",
+			"http://www.brooklyn.cuny.edu/web/academics/schools/mediaarts/schools/feirstein/",
+			"styles/app.min.css",
+			"styles/vendor.min.css",
+			"http://www.brooklyn.cuny.edu/web/academics/schools/mediaarts/schools/feirstein/",
+			"styles/vendor.min.css",
+			"styles/app.min.css",
+			"styles/vendor.min.css",
+			"http://www.brooklyn.cuny.edu/web/academics/schools/mediaarts/schools/feirstein/",
+			"styles/vendor.min.css",
+			"styles/app.min.css",
+			"styles/vendor.min.css",
+			"http://www.brooklyn.cuny.edu/web/academics/schools/mediaarts/schools/feirstein/",
+			"styles/app.min.css",
+			"http://www.brooklyn.cuny.edu/web/academics/schools/mediaarts/schools/feirstein/",
+			"styles/vendor.min.css",
+			"http://www.brooklyn.cuny.edu/web/academics/schools/mediaarts/schools/feirstein/",
+			"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/build/",
+			"\"http://www.brooklyn.cuny.edu/web/academics/schools/mediaarts/schools/feirstein/feirsteingraduateapplication.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/faq.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/contact-us.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/about.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/facilities.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/academics.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/admissions.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein.php\"",
+			"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/build/",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/faq.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/contact-us.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/about.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/facilities.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/academics.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/admissions.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein.php\"",
+			"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/build/",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/faq.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/contact-us.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/about.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/facilities.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/academics.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/admissions.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein.php\"",
+			"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/build/",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/faq.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/contact-us.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/about.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/facilities.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/academics.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/admissions.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein.php\"",
+			"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/build/",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/faq.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/contact-us.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/about.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/facilities.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/academics.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/admissions.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein.php\"",
+			"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/build/",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/faq.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/contact-us.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/about.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/facilities.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/academics.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/admissions.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein.php\"",
+			"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/build/",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/faq.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/contact-us.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/about.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/facilities.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/academics.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/admissions.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein.php\"",
+			"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/build/",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/faq.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/contact-us.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/about.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/facilities.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/academics.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/admissions.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein.php\"",
+			"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/build/",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/faq.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/contact-us.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/about.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/facilities.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/academics.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/admissions.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein.php\"",
+			"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/build/",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/faq.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/contact-us.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/about.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/facilities.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/academics.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/admissions.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein.php\"",
+			"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/build/",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/faq.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/contact-us.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/about.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/facilities.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/academics.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/admissions.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein.php\"",
+			"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/build/",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/faq.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/contact-us.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/about.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/facilities.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/academics.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/admissions.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein.php\"",
+			"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/build/",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/faq.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/contact-us.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/about.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/facilities.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/academics.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/admissions.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein.php\"",
+			"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/build/",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/faq.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/contact-us.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/about.php\"",
+			"\"http://www.brooklyn.cuny.edu/web/feirsteinbeta/feirstein/facilities.php\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "scss/app.scss",
+					"settings":
+					{
+						"buffer_size": 2015,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								438,
+								438
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scss/_local_var.scss",
+					"settings":
+					{
+						"buffer_size": 133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110,
+								110
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scss/_local_css.scss",
+					"settings":
+					{
+						"buffer_size": 267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								187,
+								187
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/app.css",
+					"settings":
+					{
+						"buffer_size": 4476,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 574.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "scss/_settings.scss",
+					"settings":
+					{
+						"buffer_size": 50186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24559,
+								24574
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 6738,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1324,
+								1324
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"doc",
+				"css/foundation.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Z/Public/webDevelopment/projects/CSSparallax/Parallax.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true
+}
