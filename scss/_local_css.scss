@@ -16,6 +16,69 @@
 // @media #{$Large} {}
 // @media #{$xLarge} {}
 
+// Fonts Sizes - OVERRIDE - ?????
+  $h1-font-size: rem-calc(36); // $h1-font-size: rem-calc(44);  // not used yet
+  $h2-font-size: rem-calc(22); // $h2-font-size: rem-calc(37);  // 22
+  $h3-font-size: rem-calc(18); // $h3-font-size: rem-calc(27);  // 18
+
+  $h4-font-size: rem-calc(14); // $h4-font-size: rem-calc(23);  // not used yet
+  $h5-font-size: rem-calc(15); // $h5-font-size: rem-calc(18);  // not used yet
+  $h6-font-size: rem-calc(16); // $h6-font-size: 1rem;          // not used yet
+
+// Typical Paragraphs
+  $paragraph-font-size: rem-calc(15); // 15 
+  $footer-font-size: rem-calc(12); //12
+
+// Backgrounds and Sprite Sheets - ?????
+  $background-d: url('http://www.brooklyn.cuny.edu/web/sup_foundation/diagonals.png');
+  $SpriteSheet: url('http://www.brooklyn.cuny.edu/web/sup_foundation/BOB_spriteSheet_400x142.png');
+
+// Colors
+  $color-maroon: #781a42; //#7c2142 BCF
+  $color-maroon2: #5d0e2e;
+  $color-black: #000;
+  $color-white: #fff;
+
+  $color-gray222: #222;
+  $color-gray444: #444;
+  $color-gray555: #555;
+  $color-gray666: #666;
+  $color-gray999: #999;
+  $color-grayccc: #ccc;
+  $color-gray404: #404040;
+  $color-graya2a: #a2a2a2;
+  $color-grayece: #ececec;
+  $color-gray7c7: #7c7c7c;
+  $color-graye6e: #e6e6e6;
+  $color-gray5a5: #5a5a5a;
+  $color-grayefe: #efefef;
+
+  $b-healthy: #367ddb;
+  $b-healthy-dark: #184b92;
+  $b-healthy-medium: #225eb3; 
+  $b-healthy-light: #3b7ddb;
+
+  $b-smart: #d30043;
+  $b-smart-dark: #8c0832;
+  $b-smart-medium: #b2083e; 
+  $b-smart-light: #d30043;
+
+  $b-green: #8fd300;
+  $b-green-dark: #527705;
+  $b-green-medium: #74a709; 
+  $b-green-light: #8fd300;
+
+  $b-aware: #a060b6;
+  $b-aware-dark: #6c2e83;
+  $b-aware-medium: #8c3da6; 
+  $b-aware-light: #a060b6;
+
+// Line Styles
+  $thin-grayccc: 1px solid $color-grayccc;
+  $thin-maroon2: 2px solid $color-maroon2;
+  $thin-graye6e: 1px solid $color-graye6e;
+
+
 header {
 	nav {
 
@@ -23,7 +86,6 @@ header {
 }
 
 .anchor {
-	
 }
 
 .content { // content
@@ -48,3 +110,4 @@ aside {
 footer {
 
 }
+

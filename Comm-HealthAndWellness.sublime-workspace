@@ -16,26 +16,26 @@
 	"buffers":
 	[
 		{
-			"file": "scss/_local_css.scss",
-			"settings":
-			{
-				"buffer_size": 569,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "working.html",
 			"settings":
 			{
-				"buffer_size": 6589,
+				"buffer_size": 10730,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "diagram.html",
+			"file": "scss/_local_css.scss",
 			"settings":
 			{
-				"buffer_size": 460,
+				"buffer_size": 2428,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_local_var.scss",
+			"settings":
+			{
+				"buffer_size": 651,
 				"line_ending": "Windows"
 			}
 		}
@@ -108,10 +108,12 @@
 	},
 	"file_history":
 	[
+		"/Z/Public/webDevelopment/projects/Comm-HealthAndWellness/css/comm-hw.css",
 		"/Z/Public/webDevelopment/projects/Comm-HealthAndWellness/scss/comm-hw.scss",
+		"/Z/Public/webDevelopment/projects/Comm-HealthAndWellness/scss/_local_var.scss",
+		"/Z/Public/webDevelopment/projects/Comm-HealthAndWellness/diagram.html",
 		"/Z/Public/webDevelopment/projects/Comm-HealthAndWellness/index.html",
 		"/Z/Public/webDevelopment/projects/Comm-HealthAndWellness/Content Classes/contentPage.con",
-		"/Z/Public/webDevelopment/projects/Comm-HealthAndWellness/scss/_local_var.scss",
 		"/Z/Public/webDevelopment/projects/Comm-HealthAndWellness/css/app.css",
 		"/Z/Public/webDevelopment/master/scss/_custom.scss",
 		"/Z/Public/webDevelopment/master/css/app.css",
@@ -209,6 +211,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".anchor",
+			"_local_var",
 			"Health & Wellness Initiative",
 			"$small-screen",
 			"1500px",
@@ -237,50 +241,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "scss/_local_css.scss",
-					"settings":
-					{
-						"buffer_size": 569,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "working.html",
 					"settings":
 					{
-						"buffer_size": 6589,
+						"buffer_size": 10730,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1395,
-								1395
+								6125,
+								6125
 							]
 						],
 						"settings":
@@ -290,30 +267,58 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 360.0,
+						"translation.y": 1999.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "diagram.html",
+					"buffer": 1,
+					"file": "scss/_local_css.scss",
 					"settings":
 					{
-						"buffer_size": 460,
+						"buffer_size": 2428,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								88,
-								88
+								2175,
+								2175
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scss/_local_var.scss",
+					"settings":
+					{
+						"buffer_size": 651,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94,
+								97
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -383,7 +388,7 @@
 		[
 			[
 				"",
-				"/Z/Public/$$$Feirstein/Development/004/feirstein/Feirstein.sublime-project"
+				"/Z/Public/webDevelopment/master/MASTER.sublime-project"
 			]
 		],
 		"width": 380.0

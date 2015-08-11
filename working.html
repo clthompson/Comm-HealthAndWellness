@@ -39,7 +39,7 @@
     <meta name="robots" content="noindex"><meta name="googlebot" content="noindex">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/comm-hw.css">
 
     <!-- Core JS -->
     <script src="http://www.brooklyn.cuny.edu/web/js/foundation/bower_components/modernizr/modernizr.js"></script>  <!-- Modernizr -->
@@ -57,106 +57,250 @@
   </head>
 
   <body data-responsejs='{"create" : {"mode" : "src", "prefix" : "src"}}'>
-    <header class="row">
-      <div class="large-12 columns">
-        <h1>Brooklyn College Foundation Setup</h1>
-        <h4>This is a small page with a number of rows, explaining how to setup the most basic site layout, as well as provide links to the various JS code elements, etc.</h4>
-        <p>All other styling happens of a per project basis. The use of the PANEL style is for visualization on this page only.</p>
-      </div>
-    </header>
     
+<!-- Header -->
+<header class="">
+            <section class="row">
+            <!-- full Desktop menu -->
+            <div class="large-12 columns hide-for-small">
+                <!-- logo -->
+                <a href="anc_URL"><img class="logo" src="img_image" alt="" title""></a>
+                <a href="anc_URL"><img class="logo" src="img_image" alt="" title""></a>
+                <!-- menu -->
+                <nav class="topBar">
+                    <ul class="right">
+                      <li class=""><a href="URL" STF_GA>Home</a></li>
+                      <li class=""><a href="URL" STF_GA>B Healthy</a></li>
+                      <li class=""><a href="URL" STF_GA>B Smart</a></li>
+                      <li class=""><a href="URL" STF_GA>B Green</a></li>
+                      <li class=""><a href="URL" STF_GA>B Aware</a></li>
+                      <li class=""><a href="URL" STF_GA>News</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- end Desktop menu -->
+
+            <!-- begin Tablet/Mobile menu -->
+            <div class="large-12 columns hide-for-medium-up">
+                <!-- logo -->
+                <a href="anc_URL"><img class="logo" src="img_image" alt="" title""></a>
+                <a href="anc_URL"><img class="logo" src="img_image" alt="" title""></a>
+                <div class="showPushMenu right" id="showRightPush"></div>
+                <!-- menu -->
+                <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+                    <ul class="">
+                      <li class=""><a href="URL" STF_GA>Home</a></li>
+                      <li class=""><a href="URL" STF_GA>B Healthy</a></li>
+                      <li class=""><a href="URL" STF_GA>B Smart</a></li>
+                      <li class=""><a href="URL" STF_GA>B Green</a></li>
+                      <li class=""><a href="URL" STF_GA>B Aware</a></li>
+                      <li class=""><a href="URL" STF_GA>News</a></li>               
+                    </ul>
+                </nav>
+            </div>
+            <!-- end Tablet/Mobile menu -->
+        </section>
+    </header>
+
+
+<!-- Homepage Content -->
     <section class="row">
-      <div class="large-12 columns panel">
-        <h2>The Grid</h2>
-        <p>The default BC grid has 12 columns, and max-width of 1080px. Each row (this is a row) spans the full width of the grid, and contains content elements that use column width styles for size and arrangement at each breakpoint. This is a 12-column content element at the large size. The grid has zones of presentation:</p>
-        <ul>
-          <li>Xlarge - above 1441px</li>
-          <li>Large - between 1440 and 849px</li>
-          <li>Medium - between 848px and 641px</li>
-          <li>Small - smaller than 640px</li>
-        </ul>
+      <div class="medium-12 columns">
+        <img class="logo" src="img_image" alt="" title""></a>
       </div>
     </section>
 
     <section class="row">
-      <div class="large-12 columns panel">
-        <h2>Column Content Elements</h2>
-        <p>Rows are filled with content elements that can respond to the presentation zones. Add styles to these elements:</p>
+      <div class="large-10 large-offset-1 columns">
+        <p>centered text text text</p>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="medium-12 columns">
+        <p>ORBIT SLIDER</p>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="medium-3 columns">
+        <a href="anc_URL"><img class="logo" src="img_image" alt="" title""></a>
+        <p>B Healthy</p>
+      </div>
+      <div class="medium-3 columns">
+        <a href="anc_URL"><img class="logo" src="img_image" alt="" title""></a>
+        <p>B Smart</p>
+      </div>
+      <div class="medium-3 columns">
+        <a href="anc_URL"><img class="logo" src="img_image" alt="" title""></a>
+        <p>B Green</p>
+      </div>
+      <div class="medium-3 columns">
+        <a href="anc_URL"><img class="logo" src="img_image" alt="" title""></a>
+        <p>B Aware</p>
+      </div>
+    </section>
+
+  <div class="full-width b-category gray-bg">
+    <section class="row">
+      <div class="medium-7 columns">
+        <div><a href="anc_URL"><img class="logo" src="img_image" alt="" title""></a><h2>Healthy</h2></div>
+        <div><p>text text text</p>
+      </div>
+      <div class="medium-5 columns">
         <ul>
-          <li>columns - add to all content elements</li>
-          <li>large-X</li>
-          <li>medium-X</li>
-          <li>small-X</li>
+          <a href="#"><li>Events</li></a>
+          <a href="#"><li>Programs</li></a>
+          <a href="#"><li>Resources</li></a>
         </ul>
-        <p>If there is no definition for the specific zone, the content element will fill the grid 100%. This allows for some elements to maintain a column definition while other abandon it as screens change. You can even nest rows within content elements, like this:</p>
-        <div class="row">
-          <div class="large-4 medium-6 small-6 columns panel">
-             <p>4-column L, 6-column M,S content element nested within the 12-column main content element.</p>
+      </div>
+    </section>
+  </div>
+
+
+<!-- Category Content -->
+    <section class="row">
+      <div class="medium-12 columns">
+        <img class="right" src="URL" alt="" title"">
+        <div><a href="anc_URL"><img class="logo" src="img_image" alt="" title""></a><h2>Aware</h2></div>
+        <p>text text text</p>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="medium-4 columns">
+        <a href="#"><div><p>Events</p></div></a>
+      </div>
+      <div class="medium-4 columns">
+        <a href="#"><div><p>Programs</p></div></a>
+      </div>
+      <div class="medium-4 columns">
+        <a href="#"><div><p>Resources</p></div></a>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="large-1 visible-for-large-up columns">
+        <a href="#"><div>Up arrow</div></a>
+        <div><p>Scroll</p></div>
+        <a href="#"><div>Down arrow</div></a>
+      </div>
+      <div class="large-11 columns">
+        <div><h2>Programs</h2></div>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="large-10 columns">
+        <p>text text text</p>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="large-5 large-offset-1 medium-6 columns">
+        <p>calendar element 1</p>
+      </div>
+      <div class="large-5 medium-6 columns">
+        <p>calendar element 2</p>
+      </div>
+    </section>
+
+
+<!-- News Landing Content -->
+    <!-- (same initial row as Homepage) -->
+    <section class="row">
+      <div class="large-10 large-offset-1 columns">
+        <div>News Story 1 (image floats left)</div>
+        <div>News Story 2</div>
+        <div>News Story 3</div>
+        <div>News Story 4</div>
+      </div>
+    </section>
+
+
+<!-- News Content - All Conditional-->
+    <section class="row">
+      <div class="large-12 columns">
+        <p>Breadcrumbs</p>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="large-12 columns">
+        <p>Story title</p>
+      </div>
+    </section>
+
+
+
+
+
+<!-- Back To Top -->
+  <div class="full-width btt">
+  </div>
+
+<!-- Footer -->
+  <div class="full-width footer-wrapper">
+    <footer>
+      <div class="bg">
+        <section class="row topLine">
+          <div class="large-12 medium-12 columns footerNav">
+            <ul>
+              <li class=""><a href="URL" STF_GA>Home</a></li>
+              <li class=""><a href="URL" STF_GA>B Healthy</a></li>
+              <li class=""><a href="URL" STF_GA>B Smart</a></li>
+              <li class=""><a href="URL" STF_GA>B Green</a></li>
+              <li class=""><a href="URL" STF_GA>B Aware</a></li>
+              <li class=""><a href="URL" STF_GA>News</a></li>
+            </ul>
           </div>
-          <div class="large-6 medium-6 small-6 columns panel">
-            <p>6-column L,M,S content element nested within the 12-column main content element.</p>
+        </section>
+        <section class="row">
+          <div class="large-12 medium-12 columns">
+            <h2>The Brooklyn College Foundation</h2>
+            <p>&copy; <script>document.write(new Date().getFullYear())</script> All Rights Reserved Brooklyn College<br />
+            2900 Bedford Avenue, Brooklyn, NY 11210</p>
+            <p>Visit the <a href="URL" stf_GA>Brooklyn College website</a></p>
           </div>
-          <div class="large-2 columns panel">
-            <p>2-column L content element nested within the 12-column main content element.</p>
-          </div>        
-        </div>
-      </div>
-    </section>
-
-    <section class="row">
-      <div class="large-6 columns panel">
-        <p>Here is a 6-column L content element.</p>
-      </div>
-      <div class="large-6 columns panel">
-        <p>Here is a 6-column L content element.</p>
-      </div>
-    </section>
-
-    <section class="row">
-      <div class="large-9 medium-9 columns panel">
-        <p>Here is a 9-column L,M content element.</p>
-      </div>
-      <div class="large-3 medium-3 columns panel">
-        <p>Here is a 3-column L,M content element.</p>
-      </div>
-    </section>
-
-    <section class="row">
-      <div class="large-12 columns panel">
-        <h2>Media Queries</h2>
-        <p>Specific content elements can also break independently of the grid with media queries:</p>
-        <ul>
-          <li>Desktop - 850px or more</li>
-          <li>iPadPortrait - less than 850px</li>
-          <li>Phone - less than 768px</li>
-          <li>Five00 - less than 500px</li>
-        </ul>
-      </div>
-    </section>
-
-    <footer class="row">
-      <div class="large-12 columns panel">
-        <h2>Footer Row</h2>
-        <p>Example of a footer.</p>
-        <ul>
-          <li>li 1</li>
-          <li>li 2</li>
-          <li>li 3</li>
-          <li>li 4</li>
-        </ul>
-      </div>
+        </section>
+     </div>
     </footer>
+  </div>
 
-    <!-- Foundation JS and additional scripts -->
-    <script src="http://www.brooklyn.cuny.edu/web/js/foundation/bower_components/foundation/js/foundation.min.js"></script>
 
-    <script src="http://www.brooklyn.cuny.edu/web/js/ga-eventtracker.js"></script>  <!-- eventTracker -->
-    <script src="http://www.brooklyn.cuny.edu/web/js/response.js"></script>  <!-- responsive content images -->
-    <script src="http://www.brooklyn.cuny.edu/web/js/classie.js"></script>  <!-- Classie menu -->
+    <!-- Footer Elements -->
+        <script src="http://www.brooklyn.cuny.edu/web/js/ga-eventtracker.js"></script>  <!-- eventTracker -->
+        <script src="http://www.brooklyn.cuny.edu/web/js/foundation/bower_components/foundation/js/foundation.min.js"></script>  <!-- Foundation -->
+        <script src="http://www.brooklyn.cuny.edu/web/js/response.js"></script>  <!-- responsive content images --> 
 
-    <script>
-      $(document).foundation();
-    </script>
+        <script src="http://www.brooklyn.cuny.edu/web/js/classie.js"></script> <!-- Classie menu -->
+ 
+        <script> 
+        // Scrolling 
+          $('a[href^=#]').on("click",function(){ 
+          var t= $(this.hash); 
+          var t=t.length&&t||$('[name='+this.hash.slice(1)+']'); 
+          if(t.length){ 
+          var tOffset=t.offset().top; 
+          $('html,body').animate({scrollTop:tOffset-20},'slow'); 
+          return false; 
+          } 
+          }); 
+        // Push Menu Right 
+          var menuRight = document.getElementById( 'cbp-spmenu-s2' ), 
+          showRightPush = document.getElementById( 'showRightPush' ), 
+          body = document.body; 
+
+          showRightPush.onclick = function() { 
+          classie.toggle( this, 'active' ); 
+          classie.toggle( body, 'cbp-spmenu-push-toleft' ); 
+          classie.toggle( menuRight, 'cbp-spmenu-open' ); 
+          disableOther( 'showRightPush' ); 
+          }; 
+        </script>
+
+        <script>$(document).foundation();</script>
+    <!-- End Footer Elements -->
 
   </body>
 </html>
