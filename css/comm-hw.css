@@ -2945,3 +2945,351 @@ th.hide-for-touch {
   }
 }
 /* CSS Document */
+/* line 82, ../scss/_local_css.scss */
+body {
+  background-color: #fff;
+}
+
+/* line 86, ../scss/_local_css.scss */
+.row {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+/* line 91, ../scss/_local_css.scss */
+.full-width {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Header*/
+/* line 97, ../scss/_local_css.scss */
+header {
+  width: 100%;
+  margin-bottom: 3.75rem;
+  z-index: 1000;
+}
+/* line 108, ../scss/_local_css.scss */
+header section {
+  height: 3.75rem;
+}
+@media screen and (max-width: 848px) {
+  /* line 108, ../scss/_local_css.scss */
+  header section {
+    margin-bottom: 2.5rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 108, ../scss/_local_css.scss */
+  header section {
+    height: 2.8125rem;
+    margin-bottom: 1.25rem;
+  }
+}
+/* line 121, ../scss/_local_css.scss */
+header section .BClogo {
+  display: inline-block;
+  margin: 0 0.3125rem 0 0.3125rem;
+  width: 129px;
+  height: 60px;
+}
+@media screen and (max-width: 640px) {
+  /* line 121, ../scss/_local_css.scss */
+  header section .BClogo {
+    margin: 0;
+    padding: 0;
+    width: 90px;
+    height: 42px;
+  }
+}
+/* line 138, ../scss/_local_css.scss */
+header section .BClogo img {
+  margin: 0;
+  padding: 0;
+}
+/* line 143, ../scss/_local_css.scss */
+header section .HWIlogo {
+  display: inline-block;
+  height: 60px;
+}
+@media screen and (max-width: 640px) {
+  /* line 143, ../scss/_local_css.scss */
+  header section .HWIlogo {
+    margin: 0;
+    padding: 0;
+    height: 42px;
+  }
+  /* line 151, ../scss/_local_css.scss */
+  header section .HWIlogo img {
+    height: 42px;
+  }
+}
+/* line 155, ../scss/_local_css.scss */
+header section .HWIlogo img {
+  margin: 0;
+  padding: 0;
+}
+/* line 160, ../scss/_local_css.scss */
+header section .showPushMenu {
+  cursor: pointer;
+  display: inline-block;
+  background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat 0px 11px;
+  width: 42px;
+  height: 60px;
+  margin-right: 5px;
+}
+@media screen and (max-width: 640px) {
+  /* line 160, ../scss/_local_css.scss */
+  header section .showPushMenu {
+    background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -42px 8px;
+    width: 30px;
+    height: 45px;
+  }
+}
+/* line 179, ../scss/_local_css.scss */
+header section nav.topBar ul {
+  list-style-type: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 1rem 0 1rem 0;
+}
+/* line 185, ../scss/_local_css.scss */
+header section nav.topBar ul li {
+  font-family: 'ComeniaSansCondRegular';
+  font-size: 0.75rem;
+  display: inline-block;
+  padding: 0 1.875rem 0 0;
+}
+/* line 186, ../scss/_local_css.scss */
+header section nav.topBar ul li:first-letter {
+  font-weight: bold;
+}
+@media screen and (min-width: 850px) and (max-width: 849px) {
+  /* line 185, ../scss/_local_css.scss */
+  header section nav.topBar ul li {
+    padding-right: 1.5625rem;
+  }
+}
+/* line 200, ../scss/_local_css.scss */
+header section nav.topBar ul li:last-of-type {
+  padding-right: 1.25rem;
+}
+/* line 202, ../scss/_local_css.scss */
+header section nav.topBar ul li:last-of-type:first-letter {
+  font-weight: normal;
+}
+/* line 207, ../scss/_local_css.scss */
+header section nav.topBar ul li:first-of-type:first-letter {
+  font-weight: normal;
+}
+/* line 211, ../scss/_local_css.scss */
+header section nav.topBar ul li a {
+  color: #222;
+  text-decoration: none;
+}
+/* line 215, ../scss/_local_css.scss */
+header section nav.topBar ul li a:hover {
+  color: #666;
+}
+/* line 219, ../scss/_local_css.scss */
+header section nav.topBar ul li.healthy a:hover {
+  color: #367ddb;
+}
+/* line 222, ../scss/_local_css.scss */
+header section nav.topBar ul li.smart a:hover {
+  color: #d30043;
+}
+/* line 225, ../scss/_local_css.scss */
+header section nav.topBar ul li.green a:hover {
+  color: #8fd300;
+}
+/* line 228, ../scss/_local_css.scss */
+header section nav.topBar ul li.aware a:hover {
+  color: #a060b6;
+}
+/* line 234, ../scss/_local_css.scss */
+header section nav.cbp-spmenu {
+  background: #fff;
+  position: fixed;
+}
+/* line 237, ../scss/_local_css.scss */
+header section nav.cbp-spmenu.cbp-spmenu-vertical {
+  width: 240px;
+  height: 100%;
+  top: 0px;
+  z-index: 1000;
+}
+@media screen and (max-width: 640px) {
+  /* line 237, ../scss/_local_css.scss */
+  header section nav.cbp-spmenu.cbp-spmenu-vertical {
+    top: 0px;
+  }
+}
+/* line 246, ../scss/_local_css.scss */
+header section nav.cbp-spmenu ul {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+/* line 250, ../scss/_local_css.scss */
+header section nav.cbp-spmenu ul li {
+  font-family: 'ComeniaSansCondRegular';
+  font-size: 1rem;
+  display: block;
+  padding: 1rem 2.0625rem 0 0;
+}
+/* line 251, ../scss/_local_css.scss */
+header section nav.cbp-spmenu ul li:first-letter {
+  font-weight: bold;
+}
+/* line 262, ../scss/_local_css.scss */
+header section nav.cbp-spmenu ul li:last-of-type {
+  padding-right: 1.25rem;
+}
+/* line 264, ../scss/_local_css.scss */
+header section nav.cbp-spmenu ul li:last-of-type:first-letter {
+  font-weight: normal;
+}
+/* line 269, ../scss/_local_css.scss */
+header section nav.cbp-spmenu ul li:first-of-type:first-letter {
+  font-weight: normal;
+}
+/* line 273, ../scss/_local_css.scss */
+header section nav.cbp-spmenu ul li a {
+  color: #222;
+  text-decoration: none;
+}
+/* line 277, ../scss/_local_css.scss */
+header section nav.cbp-spmenu ul li a:hover {
+  color: #666;
+}
+/* line 281, ../scss/_local_css.scss */
+header section nav.cbp-spmenu ul li.healthy a:hover {
+  color: #367ddb;
+}
+/* line 284, ../scss/_local_css.scss */
+header section nav.cbp-spmenu ul li.smart a:hover {
+  color: #d30043;
+}
+/* line 287, ../scss/_local_css.scss */
+header section nav.cbp-spmenu ul li.green a:hover {
+  color: #8fd300;
+}
+/* line 290, ../scss/_local_css.scss */
+header section nav.cbp-spmenu ul li.aware a:hover {
+  color: #a060b6;
+}
+@media screen and (max-width: 640px) {
+  /* line 293, ../scss/_local_css.scss */
+  header section nav.cbp-spmenu ul li.hideForSmallOnly {
+    display: none;
+  }
+}
+/* line 298, ../scss/_local_css.scss */
+header section nav.cbp-spmenu ul li a {
+  color: #222;
+  text-decoration: none;
+}
+/* line 302, ../scss/_local_css.scss */
+header section nav.cbp-spmenu ul li a:hover {
+  color: #666;
+}
+
+/* Vertical menu that slides from the left or right */
+/* line 314, ../scss/_local_css.scss */
+.cbp-spmenu-right {
+  right: -240px;
+}
+
+/* line 318, ../scss/_local_css.scss */
+.cbp-spmenu-right.cbp-spmenu-open {
+  right: 0px;
+}
+
+/* Push classes applied to the body */
+/* line 324, ../scss/_local_css.scss */
+.cbp-spmenu-push {
+  overflow-x: hidden;
+  position: relative;
+  left: 0;
+}
+
+/* line 330, ../scss/_local_css.scss */
+.cbp-spmenu-push-toright {
+  left: 240px;
+}
+
+/* line 334, ../scss/_local_css.scss */
+.cbp-spmenu-push-toleft {
+  left: -240px;
+}
+
+/* Transitions */
+/* line 340, ../scss/_local_css.scss */
+.cbp-spmenu,
+.cbp-spmenu-push {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 347, ../scss/_local_css.scss */
+.anchor {
+  position: relative;
+  display: block;
+  top: -78px;
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+/* line 400, ../scss/_local_css.scss */
+footer {
+  background-color: #ececec;
+}
+/* line 403, ../scss/_local_css.scss */
+footer .footerNav {
+  text-align: center;
+  margin-top: 1.875rem;
+  margin-bottom: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 409, ../scss/_local_css.scss */
+footer .footerNav ul {
+  font-size: 0.9375rem;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+/* line 413, ../scss/_local_css.scss */
+footer .footerNav ul li {
+  display: inline-block;
+  padding: 0 0.9375rem 0 0.9375rem;
+}
+/* line 420, ../scss/_local_css.scss */
+footer .footerNav ul li a {
+  color: #666;
+  text-decoration: none;
+}
+/* line 423, ../scss/_local_css.scss */
+footer .footerNav ul li a:hover {
+  color: #999;
+}
+/* line 430, ../scss/_local_css.scss */
+footer .copyright {
+  margin: 0 0 2.5rem 0.3125rem;
+}
+/* line 433, ../scss/_local_css.scss */
+footer .copyright p {
+  font-size: 0.75rem;
+  color: #666;
+}
+/* line 436, ../scss/_local_css.scss */
+footer .copyright p a {
+  color: #781a42;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* line 440, ../scss/_local_css.scss */
+footer .copyright p a:hover {
+  color: #999;
+}

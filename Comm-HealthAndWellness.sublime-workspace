@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"b-",
+				"b-healthy"
+			],
+			[
+				"h",
+				"healthy"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"colo",
+				"color-maroon"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
 				"di",
 				"DIV	Tag"
 			],
@@ -16,26 +36,18 @@
 	"buffers":
 	[
 		{
-			"file": "working.html",
-			"settings":
-			{
-				"buffer_size": 10730,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "scss/_local_css.scss",
 			"settings":
 			{
-				"buffer_size": 2428,
+				"buffer_size": 9256,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "scss/_local_var.scss",
+			"file": "working.html",
 			"settings":
 			{
-				"buffer_size": 651,
+				"buffer_size": 11737,
 				"line_ending": "Windows"
 			}
 		}
@@ -110,6 +122,7 @@
 	[
 		"/Z/Public/webDevelopment/projects/Comm-HealthAndWellness/css/comm-hw.css",
 		"/Z/Public/webDevelopment/projects/Comm-HealthAndWellness/scss/comm-hw.scss",
+		"/Z/Public/webDevelopment/projects/Comm-HealthAndWellness/scss/_local_css.scss",
 		"/Z/Public/webDevelopment/projects/Comm-HealthAndWellness/scss/_local_var.scss",
 		"/Z/Public/webDevelopment/projects/Comm-HealthAndWellness/diagram.html",
 		"/Z/Public/webDevelopment/projects/Comm-HealthAndWellness/index.html",
@@ -211,6 +224,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"vertical",
 			".anchor",
 			"_local_var",
 			"Health & Wellness Initiative",
@@ -246,46 +260,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "working.html",
-					"settings":
-					{
-						"buffer_size": 10730,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6125,
-								6125
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1999.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "scss/_local_css.scss",
 					"settings":
 					{
-						"buffer_size": 2428,
+						"buffer_size": 9256,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2175,
-								2175
+								8365,
+								8365
 							]
 						],
 						"settings":
@@ -295,33 +281,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 983.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "scss/_local_var.scss",
+					"buffer": 1,
+					"file": "working.html",
 					"settings":
 					{
-						"buffer_size": 651,
+						"buffer_size": 11737,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								94,
-								97
+								2380,
+								2380
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 389.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

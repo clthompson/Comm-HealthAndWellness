@@ -26,12 +26,12 @@
   $h6-font-size: rem-calc(16); // $h6-font-size: 1rem;          // not used yet
 
 // Typical Paragraphs
-  $paragraph-font-size: rem-calc(15); // 15 
-  $footer-font-size: rem-calc(12); //12
+  $paragraph-font-size: rem-calc(15); // 15 good
+  $small-font-size: rem-calc(12); //12 good
 
 // Backgrounds and Sprite Sheets - ?????
-  $background-d: url('http://www.brooklyn.cuny.edu/web/sup_foundation/diagonals.png');
-  $SpriteSheet: url('http://www.brooklyn.cuny.edu/web/sup_foundation/BOB_spriteSheet_400x142.png');
+  $SpriteSheet: url('http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png');
+  //$SpriteSheet: url('../images/spriteSheet.png');
 
 // Colors
   $color-maroon: #781a42; //#7c2142 BCF
@@ -52,6 +52,7 @@
   $color-graye6e: #e6e6e6;
   $color-gray5a5: #5a5a5a;
   $color-grayefe: #efefef;
+
 
   $b-healthy: #367ddb;
   $b-healthy-dark: #184b92;
@@ -78,12 +79,305 @@
   $thin-maroon2: 2px solid $color-maroon2;
   $thin-graye6e: 1px solid $color-graye6e;
 
-
-header {
-	nav {
-
-	}
+body {
+  background-color: $color-white;
 }
+
+.row {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.full-width { 
+  width: 100%; 
+  max-width: 100%;
+}
+
+/* Header*/
+header {
+  //border-bottom: 1px solid #000;
+  width: 100%;
+  margin-bottom: rem-calc(60);
+  //background-image: $background-d;
+  //height: rem-calc(55);
+  //top:0px; 
+  //margin:auto; 
+  //position: fixed;
+  z-index: 1000;
+  //background-color: #eee;
+  section {
+    //width: 100%;
+    //position: fixed;
+    //top:0px;
+    //background-image: $background-d;
+    height: rem-calc(60);
+    @media #{$Medium} {
+      margin-bottom: rem-calc(40);
+    }
+    @media #{$Small} {
+      height: rem-calc(45); // should be 42?
+      margin-bottom: rem-calc(20);
+    }
+    .BClogo {
+      display: inline-block;
+      //position:fixed;
+      //top:0;
+      //border: 1px solid #000;
+      //z-index: 2;
+      //overflow: visible;
+      margin: rem-calc(0) rem-calc(5) 0 rem-calc(5);
+
+      width: 129px;
+      height: 60px;
+      @media #{$Small} {
+        margin: 0;
+        padding: 0;
+        width: 90px;
+        height: 42px; 
+      }
+      img {
+        margin: 0;
+        padding: 0;
+      }
+    }
+    .HWIlogo {
+      //border: 1px solid #000;
+      display: inline-block;
+      height: 60px;
+      @media #{$Small} {
+        margin: 0;
+        padding: 0;
+        height: 42px;
+        img {
+          height: 42px;
+        }
+      }
+      img {
+        margin: 0;
+        padding: 0;
+      }
+    }
+    .showPushMenu {
+      //border: 1px solid #000;
+      cursor: pointer;
+      display: inline-block;
+      background: $SpriteSheet no-repeat 0px 11px;
+      width: 42px;
+      height: 60px;
+      margin-right: 5px;
+      //margin: rem-calc(22) rem-calc(11) 0 rem-calc(11);
+      //&:hover {
+      //  background: $SpriteSheet no-repeat -142px 0px;
+      //}
+      @media #{$Small} {
+        background: $SpriteSheet no-repeat -42px 8px;
+        width: 30px;
+        height: 45px;
+      }
+    }
+    nav.topBar { 
+      ul{
+        list-style-type: none;
+        text-transform: uppercase;
+        margin:0;
+        padding: rem-calc(16) 0 rem-calc(16) 0;
+        //display: table;
+        li {
+          &:first-letter {
+            font-weight: $bold;
+          }
+          font-family: 'ComeniaSansCondRegular';
+          font-size: $small-font-size;
+          //color: $color-maroon;
+
+          display: inline-block;
+          padding: 0 rem-calc(30) 0 0;
+          //display: table-cell;
+          //vertical-align: middle;
+          @media #{$Desktop} {
+            padding-right: rem-calc(25); 
+          }
+          &:last-of-type {
+            padding-right: rem-calc(20);
+            &:first-letter {
+              font-weight: normal;
+            }
+          }
+          &:first-of-type {
+            &:first-letter {
+              font-weight: normal;
+            }
+          }
+          a {
+            color: $color-gray222;
+            text-decoration:none;
+            //font-weight: $bold;
+            &:hover {
+              color: $color-gray666;
+            }
+          }
+          &.healthy a:hover {
+            color: $b-healthy;
+          }
+          &.smart a:hover {
+            color: $b-smart;
+          }
+          &.green a:hover {
+            color: $b-green;
+          }
+          &.aware a:hover {
+            color: $b-aware;
+          }
+        }
+      }
+    }
+    nav.cbp-spmenu {
+      background: $color-white;
+      position: fixed;
+      &.cbp-spmenu-vertical {
+        width: 240px;
+        height: 100%;
+        top: 0px;
+        z-index: 1000;
+        @media #{$Small} {
+          top: 0px;
+        }
+      }
+      ul{
+        list-style-type: none;
+        text-transform: uppercase;
+        //display: table;
+        li {
+          &:first-letter {
+            font-weight: $bold;
+          }
+          font-family: 'ComeniaSansCondRegular';
+          font-size: $h6-font-size;
+          //color: $color-maroon;
+
+          display: block;
+          padding: rem-calc(16) rem-calc(33) 0 0;
+          //display: table-cell;
+          //vertical-align: middle;
+          &:last-of-type {
+            padding-right: rem-calc(20);
+            &:first-letter {
+              font-weight: normal;
+            }
+          }
+          &:first-of-type {
+            &:first-letter {
+              font-weight: normal;
+            }
+          }
+          a {
+            color: $color-gray222;
+            text-decoration:none;
+            //font-weight: $bold;
+            &:hover {
+              color: $color-gray666;
+            }
+          }
+          &.healthy a:hover {
+            color: $b-healthy;
+          }
+          &.smart a:hover {
+            color: $b-smart;
+          }
+          &.green a:hover {
+            color: $b-green;
+          }
+          &.aware a:hover {
+            color: $b-aware;
+          }
+          &.hideForSmallOnly {
+            @media #{$Small} {
+              display: none;
+            }
+          }
+          a {
+            color: $color-gray222;
+            text-decoration:none;
+            //font-weight: $bold;
+            &:hover {
+              color: $color-gray666;
+            }
+          }
+        }
+      }
+    }  
+  }
+}
+
+/* Vertical menu that slides from the left or right */
+
+.cbp-spmenu-right {
+  right: -240px;
+}
+
+.cbp-spmenu-right.cbp-spmenu-open {
+  right: 0px;
+}
+
+/* Push classes applied to the body */
+
+.cbp-spmenu-push {
+  overflow-x: hidden;
+  position: relative;
+  left: 0;
+}
+
+.cbp-spmenu-push-toright {
+  left: 240px;
+}
+
+.cbp-spmenu-push-toleft {
+  left: -240px;
+}
+
+/* Transitions */
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.anchor {
+  position: relative;
+  display: block;
+  top: -78px;
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .anchor {
 }
@@ -101,13 +395,54 @@ header {
 	}
 }
 
-aside {
-
-}
-
 
 
 footer {
-
+  //margin-top: rem-calc(60);
+  background-color: $color-grayece;
+  .footerNav {
+    text-align: center;
+    margin-top: rem-calc(30);
+    margin-bottom: rem-calc(20);
+    margin-left: auto;
+    margin-right: auto;
+    ul {
+      font-size: $paragraph-font-size;
+      list-style-type: none;
+      text-transform: uppercase;
+      li {
+        display: inline-block;
+        padding: 0 rem-calc(15) 0 rem-calc(15);
+        //&.hideForSmallOnly {
+        //  @media #{$Small} {
+        //    display: none;
+        //  }
+        a {
+          color: $color-gray666;
+          text-decoration: none;
+          &:hover {
+            color: $color-gray999;
+          }
+        }
+      }
+    }
+  }
+  .copyright {
+    margin: rem-calc(0) rem-calc(0) rem-calc(40) rem-calc(5);
+    //border: 1px solid #000;
+    p {
+      font-size: $small-font-size;
+      color: $color-gray666;
+      a {
+        color: $color-maroon;
+        font-weight: $bold;
+        text-decoration: none; 
+        &:hover {
+          color: $color-gray999;
+        }
+      }
+    }
+  }
 }
+
 

@@ -56,51 +56,52 @@
 
   </head>
 
-  <body data-responsejs='{"create" : {"mode" : "src", "prefix" : "src"}}'>
+  <body data-responsejs='{"create" : {"mode" : "src", "prefix" : "src"}}' class="cbp-spmenu-push">
     
 <!-- Header -->
 <header class="">
             <section class="row">
             <!-- full Desktop menu -->
-            <div class="large-12 columns hide-for-small">
+            <div class="large-12 columns hide-for-medium hide-for-small">
                 <!-- logo -->
-                <a href="anc_URL"><img class="logo" src="img_image" alt="" title""></a>
-                <a href="anc_URL"><img class="logo" src="img_image" alt="" title""></a>
+                <div class="BClogo"><a href="#"><img src="images/BC-logo_129x60.png" alt="" title=""></a></div>
+                <div class="HWIlogo"><a href="#">
+                  <img src="images/HWI-icon_40x60.png" alt="" title=""><img src="images/HWI-logotype_170x60.png" alt="" title=""></a>
+                </div>
                 <!-- menu -->
-                <nav class="topBar">
-                    <ul class="right">
-                      <li class=""><a href="URL" STF_GA>Home</a></li>
-                      <li class=""><a href="URL" STF_GA>B Healthy</a></li>
-                      <li class=""><a href="URL" STF_GA>B Smart</a></li>
-                      <li class=""><a href="URL" STF_GA>B Green</a></li>
-                      <li class=""><a href="URL" STF_GA>B Aware</a></li>
-                      <li class=""><a href="URL" STF_GA>News</a></li>
+                <nav class="topBar right">
+                    <ul class="">
+                      <li class=""><a href="#" STF_GA>Home</a></li>
+                      <li class="healthy"><a href="#" STF_GA>B Healthy</a></li>
+                      <li class="smart"><a href="#" STF_GA>B Smart</a></li>
                     </ul>
                 </nav>
             </div>
             <!-- end Desktop menu -->
 
             <!-- begin Tablet/Mobile menu -->
-            <div class="large-12 columns hide-for-medium-up">
+            <div class="large-12 columns hide-for-large-up">
                 <!-- logo -->
-                <a href="anc_URL"><img class="logo" src="img_image" alt="" title""></a>
-                <a href="anc_URL"><img class="logo" src="img_image" alt="" title""></a>
+                <div class="BClogo"><a href="#"><img src="images/BC-logo_129x60.png" alt="" title=""></a></div>
+                <div class="HWIlogo"><a href="#">
+                  <img src="images/HWI-icon_40x60.png" alt="" title=""><img class="hide-for-small" src="images/HWI-logotype_170x60.png" alt="" title=""></a>
+                </div>
                 <div class="showPushMenu right" id="showRightPush"></div>
                 <!-- menu -->
                 <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
                     <ul class="">
-                      <li class=""><a href="URL" STF_GA>Home</a></li>
-                      <li class=""><a href="URL" STF_GA>B Healthy</a></li>
-                      <li class=""><a href="URL" STF_GA>B Smart</a></li>
-                      <li class=""><a href="URL" STF_GA>B Green</a></li>
-                      <li class=""><a href="URL" STF_GA>B Aware</a></li>
-                      <li class=""><a href="URL" STF_GA>News</a></li>               
+                      <li class=""><a href="#" STF_GA>Home</a></li>
+                      <li class=""><a href="#" STF_GA>B Healthy</a></li>
+                      <li class=""><a href="#" STF_GA>B Smart</a></li>
+                      <li class=""><a href="#" STF_GA>B Green</a></li>
+                      <li class=""><a href="#" STF_GA>B Aware</a></li>
+                      <li class=""><a href="#" STF_GA>News</a></li>               
                     </ul>
                 </nav>
             </div>
             <!-- end Tablet/Mobile menu -->
         </section>
-    </header>
+</header>
 
 
 <!-- Homepage Content -->
@@ -191,7 +192,7 @@
     </section>
 
     <section class="row">
-      <div class="large-10 columns">
+      <div class="large-10 large-offset-1 columns">
         <p>text text text</p>
       </div>
     </section>
@@ -227,13 +228,37 @@
 
     <section class="row">
       <div class="large-12 columns">
-        <p>Story title</p>
+        <h1 class="hide-for-print">Story title</h1>
       </div>
     </section>
 
+    <section class="row">
+      <div class="large-12 columns">
+        <div>CON Social Icons (container for this - so we can in one place)</div>
+      </div>
+    </section>
 
+    <section class="row">
+      <div class="large-10 large-offset-1 columns">
+        <article>
+          <h1 class="show-for-print">Story title</h1>
+          <div>CON Image - like BCF with caption</div>
+          <div>CON additional content 1 - for text images, etc</div>
+          <p>text text text</p>
+          <div>CON additional content 2 - for text images, etc</div>
+        </article>
+          <div>CON Social Icons (repeated)</div>
+      </div>
+    </section>
 
-
+    <section class="row">
+      <div class="large-5 large-offset-1 medium-6 columns">
+        <div>button 1</div>
+      </div>
+      <div class="large-5 medium-6 columns">
+        <div>button 2</div>
+      </div>
+    </section>
 
 <!-- Back To Top -->
   <div class="full-width btt">
@@ -242,7 +267,6 @@
 <!-- Footer -->
   <div class="full-width footer-wrapper">
     <footer>
-      <div class="bg">
         <section class="row topLine">
           <div class="large-12 medium-12 columns footerNav">
             <ul>
@@ -257,13 +281,13 @@
         </section>
         <section class="row">
           <div class="large-12 medium-12 columns">
-            <h2>The Brooklyn College Foundation</h2>
-            <p>&copy; <script>document.write(new Date().getFullYear())</script> All Rights Reserved Brooklyn College<br />
-            2900 Bedford Avenue, Brooklyn, NY 11210</p>
-            <p>Visit the <a href="URL" stf_GA>Brooklyn College website</a></p>
+            <div class="copyright">
+              <p>&copy; <script>document.write(new Date().getFullYear())</script> All Rights Reserved Brooklyn College<br />
+              2900 Bedford Avenue, Brooklyn, NY 11210</p>
+              <p>Visit the <a href="URL" stf_GA>Brooklyn College website</a></p>
+            </div>
           </div>
         </section>
-     </div>
     </footer>
   </div>
 
