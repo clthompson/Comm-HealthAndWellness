@@ -207,7 +207,7 @@
     </section>
 
 
-<!-- News Landing Content -->
+<!-- News Landing Content - needs to be integrated into the Content page - can't be a separate thing -->
     <!-- (same initial row as Homepage) -->
     <section class="row">
       <div class="large-10 large-offset-1 columns">
@@ -220,21 +220,36 @@
 
 
 <!-- News Content - All Conditional-->
-    <section class="row">
+<section class="content">
+    <section class="row rowInside">
       <div class="large-12 columns">
-        <p>Breadcrumbs</p>
+        <div class="sectionObject breadcrumbs">
+          <p class="news"><a href="anc_news">HWI News</a></p>
+          <p class="category green"><a href="#">B Category</a></p>
+          <p class="storytitle">Page Title</p>
+        </div>
       </div>
     </section>
 
-    <section class="row">
+    <section class="row rowInside">
       <div class="large-12 columns">
-        <h1 class="hide-for-print">Story title</h1>
+        <div class="sectionObject title">
+          <h1 class="hide-for-print">Story title</h1>
+        </div>
       </div>
     </section>
 
-    <section class="row">
+    <section class="row rowInside socialIcons">
       <div class="large-12 columns">
-        <div>CON Social Icons (container for this - so we can in one place)</div>
+        <div class="sectionObject">
+          <div class="icons">
+            <a class="facebook" href="http://www.facebook.com/share.php?u=[URL]&title=[TITLE]" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"></a>
+            <a class="twitter" href="http://twitter.com/intent/tweet?status=[TITLE]+[URL]" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"></a>
+            <a class="pinterest" href="http://pinterest.com/pin/create/bookmarklet/?media=[MEDIA]&url=[URL]&is_video=false&description=[TITLE]" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"></a>
+            <a class="googleplus" href="https://plus.google.com/share?url=[URL]" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"></a>
+            <a class="email" href="mailto:email@brooklyn.cuny.edu"></a>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -242,12 +257,30 @@
       <div class="large-10 large-offset-1 columns">
         <article>
           <h1 class="show-for-print">Story title</h1>
-          <div>CON Image - like BCF with caption</div>
-          <div>CON additional content 1 - for text images, etc</div>
-          <p>text text text</p>
-          <div>CON additional content 2 - for text images, etc</div>
+          <div class="image-content">
+            <img src="http://www.brooklyn.cuny.edu/web/adm_2013marketing/trans.gif"
+              data-src0="images/test_375x210.jpg"
+              data-src500="images/test_750x420.jpg"
+              data-src768="images/test_1000x560.jpg"/>
+          </div>
+          <div class="caption"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p></div>
+          con_additional1
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <ul>
+            <li>con_additional1</li>
+            <li>con_additional2</li>
+          </ul>
+          con_additional2
         </article>
-          <div>CON Social Icons (repeated)</div>
+          <div class="sectionObject">
+            <div class="icons">
+              <a class="facebook" href="http://www.facebook.com/share.php?u=[URL]&title=[TITLE]" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"></a>
+              <a class="twitter" href="http://twitter.com/intent/tweet?status=[TITLE]+[URL]" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"></a>
+              <a class="pinterest" href="http://pinterest.com/pin/create/bookmarklet/?media=[MEDIA]&url=[URL]&is_video=false&description=[TITLE]" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"></a>
+              <a class="googleplus" href="https://plus.google.com/share?url=[URL]" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"></a>
+              <a class="email" href="mailto:email@brooklyn.cuny.edu"></a>
+            </div>
+        </div>
       </div>
     </section>
 
@@ -259,6 +292,7 @@
         <div>button 2</div>
       </div>
     </section>
+</section>
 
 <!-- Back To Top -->
   <div class="full-width btt">

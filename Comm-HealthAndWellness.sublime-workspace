@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"sm",
+				"small-font-size"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"colo",
+				"color-black"
+			],
+			[
+				"C",
+				"ComeniaSansCondRegular"
+			],
+			[
+				"pa",
+				"paragraph-font-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
 				"b-",
 				"b-healthy"
 			],
@@ -14,10 +46,6 @@
 			[
 				"font-",
 				"font-size"
-			],
-			[
-				"colo",
-				"color-maroon"
 			],
 			[
 				"margin-",
@@ -39,7 +67,7 @@
 			"file": "scss/_local_css.scss",
 			"settings":
 			{
-				"buffer_size": 9256,
+				"buffer_size": 12271,
 				"line_ending": "Windows"
 			}
 		},
@@ -47,8 +75,25 @@
 			"file": "working.html",
 			"settings":
 			{
-				"buffer_size": 11737,
+				"buffer_size": 15348,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_local_var.scss",
+			"settings":
+			{
+				"buffer_size": 651,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+			"settings":
+			{
+				"buffer_size": 446,
+				"line_ending": "Windows",
+				"name": "Lorem ipsum dolor sit amet, consectetur adipisicin"
 			}
 		}
 	],
@@ -120,6 +165,7 @@
 	},
 	"file_history":
 	[
+		"/Z/Public/webDevelopment/master/js/response.js",
 		"/Z/Public/webDevelopment/projects/Comm-HealthAndWellness/css/comm-hw.css",
 		"/Z/Public/webDevelopment/projects/Comm-HealthAndWellness/scss/comm-hw.scss",
 		"/Z/Public/webDevelopment/projects/Comm-HealthAndWellness/scss/_local_css.scss",
@@ -224,6 +270,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"title",
 			"vertical",
 			".anchor",
 			"_local_var",
@@ -263,15 +310,15 @@
 					"file": "scss/_local_css.scss",
 					"settings":
 					{
-						"buffer_size": 9256,
+						"buffer_size": 12271,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8365,
-								8365
+								11011,
+								11011
 							]
 						],
 						"settings":
@@ -281,7 +328,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 983.0,
+						"translation.y": 6793.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -291,15 +338,15 @@
 					"file": "working.html",
 					"settings":
 					{
-						"buffer_size": 11737,
+						"buffer_size": 15348,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2380,
-								2380
+								11187,
+								11187
 							]
 						],
 						"settings":
@@ -309,7 +356,59 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 389.0,
+						"translation.y": 3911.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scss/_local_var.scss",
+					"settings":
+					{
+						"buffer_size": 651,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"settings":
+					{
+						"buffer_size": 446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								446,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Lorem ipsum dolor sit amet, consectetur adipisicin",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -376,7 +475,7 @@
 		[
 			[
 				"",
-				"/Z/Public/webDevelopment/master/MASTER.sublime-project"
+				"/Z/Public/$BCF_Website/Development/003-Production5/BrooklynCollegeFoundation.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -385,6 +484,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 307.0,
+	"side_bar_width": 326.0,
 	"status_bar_visible": true
 }
