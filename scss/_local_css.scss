@@ -18,7 +18,8 @@
 
 // Fonts Sizes - OVERRIDE - ?????
   $h1-font-size: rem-calc(36); // $h1-font-size: rem-calc(44);  // not used yet
-  $h2-font-size: rem-calc(22); // $h2-font-size: rem-calc(37);  // 22
+  $h2-news-archive-font-size: rem-calc(24); // $h2-font-size: rem-calc(37);  // 22
+  $h2-font-size: rem-calc(20); // $h2-font-size: rem-calc(37);  // 22
   $h3-font-size: rem-calc(18); // $h3-font-size: rem-calc(27);  // 18
 
   $h4-font-size: rem-calc(14); // $h4-font-size: rem-calc(23);  // not used yet
@@ -476,6 +477,8 @@ header {
       }
     }
   }
+
+  // Article Styles
   article {
     margin: 0 rem-calc(5) rem-calc(60) rem-calc(5);
     .image-content {
@@ -492,6 +495,12 @@ header {
         margin: 0;
       }
     }
+    h1 {
+      display: none;
+      @media print {
+        display: inline;
+      }
+    }
     p {
       font-size: $article-font-size;
       line-height: 19px;
@@ -506,7 +515,214 @@ header {
       }
     }
   }
+  .articleButtons {
+    padding: 0 rem-calc(5) 0 rem-calc(5);
+    margin-bottom: rem-calc(60);
+    a {
+      text-decoration: none;
+    }
+    .articleButton {
+      //border: $thin-maroon2;
+      //padding: 17px 0px 17px 0;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      height: rem-calc(40);
+      &.abLeft {
+        margin-right: rem-calc(34);
+        @media #{$Small} {
+          margin-right: 0;
+        }
+      }
+      &.abRight {
+        margin-left: rem-calc(34);
+        @media #{$Small} {
+          margin-left: 0;
+        }
+      }
+      p {
+        color: $color-white;
+        font-size: $h2-font-size;
+        font-family: 'ComeniaSansCondRegular';
+        text-transform: uppercase;
+        padding-top: rem-calc(5);
+      }
+      &.healthy {
+        background-color: $b-healthy;
+        &:hover {
+          background-color: $color-gray666;
+        }
+      }
+      &.smart {
+        background-color: $b-smart;
+        &:hover {
+          background-color: $color-gray666;
+        }
+      }
+      &.green {
+        background-color: $b-green;
+        &:hover {
+          background-color: $color-gray666;
+        }
+      }
+      &.aware {
+        background-color: $b-aware;
+        &:hover {
+          background-color: $color-gray666;
+        }
+      }
+    }
+  }
 }
+
+// Article Section Styles for Home Page and News Landing Page
+  section .articles-wrapper {
+    //border: 1px solid #000;
+    padding: 0 rem-calc(5) rem-calc(60) rem-calc(5);
+    @media #{$iPadPortrait} {
+      //padding: rem-calc(32) rem-calc(8) rem-calc(90) rem-calc(16);
+    }
+    @media #{$Phone} {
+      //padding: rem-calc(20) rem-calc(16) rem-calc(16) rem-calc(16);
+    }
+    ul {
+      list-style-type: none;
+      padding: 0; 
+      margin: 0;
+      li {
+        margin: 0 0 rem-calc(50) 0;
+        &:last-of-type{
+          margin: 0;
+        }
+        &:nth-child(odd){
+          background-color: $color-grayefe; // for JS rewrite
+        }
+        padding:0;
+        .listed-article {
+          //border: 1px solid #000;
+          .article-image {
+            float: left;
+            overflow: hidden; // this is important
+            position: relative; // this is important too
+            width: 196px;
+            height: 140px;
+            @media #{$Small} {
+              display: none;
+            }
+            img {
+              position:absolute;
+              max-width: 250px;
+              height: 140px;
+              left: -25px;
+              @media #{$Small} {
+                position:relative;
+                //width: 1000px;
+                //height: 1000px;
+                left: 0px;
+              }
+            }
+          }
+          .article-image2 {
+            display: none;
+            @media #{$Small} {
+              display: block;
+            }
+          }
+          .text-elements {
+            margin-left: rem-calc(196);
+            padding: 0;
+            @media #{$Small} {
+              margin-left: 0;
+            }
+          }
+          .article-tag {
+            margin: 0 0 0 rem-calc(10);
+            text-transform: uppercase;
+            font-size: $h4-font-size;
+            display: inline-block;
+            width: rem-calc(100);
+            //height: rem-calc(20);
+            //position: relative;
+            p {
+              font-family: 'ComeniaSansCondRegular'; //B
+              padding: 0 0 0 rem-calc(10);
+              color: $color-white;
+              text-decoration: none;
+              &.healthy {
+                background-color: $b-healthy;
+              }
+              &.smart {
+                background-color: $b-smart;
+              }
+              &.green {
+                background-color: $b-green;
+              }
+              &.aware {
+                background-color: $b-aware;
+              }
+            }
+            a {
+              
+            }
+          }
+          .article-date {
+            font-family: $font-lucida;
+            font-size: $h4-font-size;
+            margin-left: rem-calc(10);
+            display: inline-block;
+            color: $color-gray666;
+          }
+          .article-title {
+            margin: rem-calc(-25) 0 rem-calc(12) rem-calc(10);
+            h2 {
+              font-family: 'ComeniaSansCondRegular'; //B
+              font-size: $h2-news-archive-font-size;
+              line-height: 25px;
+              @media #{$Five00} {
+                font-size: rem-calc(18);
+                line-height: 19px;
+              }
+              a {
+                color: $color-gray222;
+                text-decoration: none;
+                @media #{$Phone} {
+                  color: $color-maroon;
+                }
+                &:hover {
+                  text-decoration: underline;
+                  @media #{$Phone} {
+                  }
+                }
+              }
+            }
+          }
+          .article-teaser p {
+            margin-left: rem-calc(10);
+            font-family: $font-lucida;
+            font-size: rem-calc(16);
+            color: $color-gray404;
+            line-height: 19px;
+            @media #{$Five00} {
+              font-size: rem-calc(14);
+              line-height: 16px;
+            }
+          }
+        }        
+      }
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

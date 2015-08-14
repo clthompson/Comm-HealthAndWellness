@@ -207,14 +207,45 @@
     </section>
 
 
-<!-- News Landing Content - needs to be integrated into the Content page - can't be a separate thing -->
+<!-- News Landing Content - needs to be integrated into the Content page - can't be a separate thing so it can pull content -->
     <!-- (same initial row as Homepage) -->
     <section class="row">
       <div class="large-10 large-offset-1 columns">
-        <div>News Story 1 (image floats left)</div>
-        <div>News Story 2</div>
-        <div>News Story 3</div>
-        <div>News Story 4</div>
+        <div class="articles-wrapper">
+          <ul>
+            <li>
+              <div class="listed-article clearfix">
+                <div class="article-image"><a href="#">
+                  <img src="http://www.brooklyn.cuny.edu/web/adm_2013marketing/trans.gif"
+                    data-src0="images/test_750x420.jpg"
+                    data-src500="images/test_375x210.jpg"
+                    data-src768="images/test_375x210.jpg"/>
+                </a></div>
+                <div class="article-image2"><a href="#">
+                  <img src="http://www.brooklyn.cuny.edu/web/adm_2013marketing/trans.gif"
+                    data-src0="images/test_750x420.jpg"
+                    data-src500="images/test_375x210.jpg"
+                    data-src768="images/test_375x210.jpg"/>
+                </a></div>
+                <div class="text-elements">
+                  <a href="#"><div class="article-tag"><p class="green">B Green</p></div></a>
+                  <div class="article-date"><p>July 1, 2015</p></div>
+                  <div class="article-title"><h2><a href="#">Title</a></h2></div>
+                  <div class="article-teaser"><p>Teaser</p></div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="listed-article clearfix">
+                <!--<div class="article-image left"><a href="#"><img src="images/test_1000x560.jpg" alt="" title=""></a></div>-->
+                <div class="article-tag"><p class="healthy"><a href="#">B Healthy</a></p></div>
+                <div class="article-date"><p>July 1, 2015</p></div>
+                <div class="article-title"><h2><a href="#">Title</a></h2></div>
+                <div class="article-teaser"><p>Teaser</p></div>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
 
@@ -253,7 +284,7 @@
       </div>
     </section>
 
-    <section class="row">
+    <section class="row rowInside">
       <div class="large-10 large-offset-1 columns">
         <article>
           <h1 class="show-for-print">Story title</h1>
@@ -284,12 +315,16 @@
       </div>
     </section>
 
-    <section class="row">
+    <section class="row rowInside articleButtons">
       <div class="large-5 large-offset-1 medium-6 columns">
-        <div>button 1</div>
+        <div class="sectionObject">
+          <a href="#"><div class="articleButton abLeft green"><p>Read More "B Healthy" News</p></div></a>
+        </div>
       </div>
-      <div class="large-5 medium-6 columns">
-        <div>button 2</div>
+      <div class="large-5 medium-6 end columns">
+        <div class="sectionObject">
+          <a href="#"><div class="articleButton abRight green"><p>Read All News</p></div></a>
+        </div>
       </div>
     </section>
 </section>
