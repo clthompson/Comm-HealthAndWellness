@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"color-graye",
+				"color-grayece"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"co",
+				"color-gray666"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
 				"color-gray",
 				"color-gray666"
 			],
@@ -16,16 +32,8 @@
 				"color-gray404"
 			],
 			[
-				"color-graye",
-				"color-grayefe"
-			],
-			[
 				"b-",
 				"b-green"
-			],
-			[
-				"background",
-				"background-color"
 			],
 			[
 				"text-",
@@ -87,7 +95,7 @@
 			"file": "scss/_local_css.scss",
 			"settings":
 			{
-				"buffer_size": 17714,
+				"buffer_size": 19777,
 				"line_ending": "Windows"
 			}
 		},
@@ -95,7 +103,7 @@
 			"file": "working.html",
 			"settings":
 			{
-				"buffer_size": 17321,
+				"buffer_size": 18676,
 				"line_ending": "Windows"
 			}
 		},
@@ -106,6 +114,22 @@
 				"buffer_size": 446,
 				"line_ending": "Windows",
 				"name": "Lorem ipsum dolor sit amet, consectetur adipisicin"
+			}
+		},
+		{
+			"file": "css/comm-hw.css",
+			"settings":
+			{
+				"buffer_size": 125204,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/comm-hw.scss",
+			"settings":
+			{
+				"buffer_size": 2124,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -282,6 +306,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hide",
+			"show",
+			"sprite",
+			"image",
 			"title",
 			"vertical",
 			".anchor",
@@ -314,7 +342,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -322,15 +350,15 @@
 					"file": "scss/_local_css.scss",
 					"settings":
 					{
-						"buffer_size": 17714,
+						"buffer_size": 19777,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13249,
-								13249
+								17360,
+								17360
 							]
 						],
 						"settings":
@@ -340,7 +368,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8580.0,
+						"translation.y": 10932.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -350,15 +378,15 @@
 					"file": "working.html",
 					"settings":
 					{
-						"buffer_size": 17321,
+						"buffer_size": 18676,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9634,
-								9634
+								6302,
+								6302
 							]
 						],
 						"settings":
@@ -368,7 +396,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2964.0,
+						"translation.y": 1778.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -392,6 +420,60 @@
 						{
 							"auto_name": "Lorem ipsum dolor sit amet, consectetur adipisicin",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/comm-hw.css",
+					"settings":
+					{
+						"buffer_size": 125204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								122657,
+								122657
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 54566.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "scss/comm-hw.scss",
+					"settings":
+					{
+						"buffer_size": 2124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1918,
+								1918
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

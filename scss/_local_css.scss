@@ -80,19 +80,23 @@
   $thin-grayccc: 1px solid $color-grayccc;
   $thin-maroon2: 2px solid $color-maroon2;
   $thin-graye6e: 1px solid $color-graye6e;
+  $medium-white: 6px solid $color-white;
 
 body {
   background-color: $color-white;
 }
 
 .row {
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
+  //border-left: 1px solid #000;
+  //border-right: 1px solid #000;
 }
 
 .full-width { 
   width: 100%; 
   max-width: 100%;
+  &.gray {
+    background-color: $color-grayece;
+  }
 }
 
 /* Header*/
@@ -573,7 +577,6 @@ header {
       }
     }
   }
-}
 
 // Article Section Styles for Home Page and News Landing Page
   section .articles-wrapper {
@@ -636,7 +639,7 @@ header {
             }
           }
           .article-tag {
-            margin: 0 0 0 rem-calc(10);
+            margin: rem-calc(-10) 0 0 rem-calc(10);
             text-transform: uppercase;
             font-size: $h4-font-size;
             display: inline-block;
@@ -644,6 +647,7 @@ header {
             //height: rem-calc(20);
             //position: relative;
             p {
+              margin: 0;
               font-family: 'ComeniaSansCondRegular'; //B
               padding: 0 0 0 rem-calc(10);
               color: $color-white;
@@ -661,9 +665,6 @@ header {
                 background-color: $b-aware;
               }
             }
-            a {
-              
-            }
           }
           .article-date {
             font-family: $font-lucida;
@@ -673,42 +674,130 @@ header {
             color: $color-gray666;
           }
           .article-title {
-            margin: rem-calc(-25) 0 rem-calc(12) rem-calc(10);
+
             h2 {
+              margin: rem-calc(-5) 0 0 rem-calc(10);
               font-family: 'ComeniaSansCondRegular'; //B
               font-size: $h2-news-archive-font-size;
               line-height: 25px;
               @media #{$Five00} {
-                font-size: rem-calc(18);
-                line-height: 19px;
+                font-size: rem-calc(20);
+                line-height: 20px;
               }
               a {
                 color: $color-gray222;
                 text-decoration: none;
-                @media #{$Phone} {
-                  color: $color-maroon;
-                }
                 &:hover {
                   text-decoration: underline;
-                  @media #{$Phone} {
-                  }
                 }
               }
             }
           }
           .article-teaser p {
-            margin-left: rem-calc(10);
+            margin: 0 0 0 rem-calc(10);
             font-family: $font-lucida;
             font-size: rem-calc(16);
             color: $color-gray404;
             line-height: 19px;
-            @media #{$Five00} {
-              font-size: rem-calc(14);
-              line-height: 16px;
-            }
           }
         }        
       }
+    }
+  }
+  .titleIcon {
+    //border: 1px solid #000;
+    padding: 0 rem-calc(5) rem-calc(30) rem-calc(5);
+    &.homePage {
+      .icon {
+        background: $SpriteSheet no-repeat -258px 0px;
+        width: rem-calc(67);
+        height: rem-calc(67);
+        float: left;
+        @media #{$Small} {
+          background: $SpriteSheet no-repeat -385px 0px;
+          width: rem-calc(37);
+          height: rem-calc(37);
+        }
+      }
+      h1 {
+        display: inline-block;
+        font-family: 'ComeniaSansCondRegular';
+        font-size: rem-calc(38);
+        line-height: 36px;
+        letter-spacing: 1px;
+        color: $color-gray5a5;
+        margin: rem-calc(-2) 0 0 0;
+        padding: 0 0 0 rem-calc(10);
+        width: rem-calc(400);
+        @media #{$Small} {
+          margin: rem-calc(0) 0 0 0;
+          font-size: rem-calc(20);
+          line-height: 20px;
+          width: rem-calc(200);
+        }
+      }
+    }
+    &.newsArchive {
+      .icon {
+        background: $SpriteSheet no-repeat -327px 0px;
+        width: rem-calc(56);
+        height: rem-calc(56);
+        float: left;
+        @media #{$Small} {
+          background: $SpriteSheet no-repeat -385px 0px;
+          width: rem-calc(38);
+          height: rem-calc(38);
+        }
+      }
+      & h1 {
+        display: inline-block;
+        font-family: 'ComeniaSansCondRegular';
+        font-size: rem-calc(48);
+        color: $color-gray5a5;
+        margin: rem-calc(-7) 0 0 0;
+        padding: 0 0 0 rem-calc(10);
+        @media #{$Small} {
+          margin: rem-calc(0) 0 0 0;
+          font-size: rem-calc(20);
+          line-height: 20px;
+          width: rem-calc(150);
+        }
+      }
+    }
+  }
+  .mission {
+    padding: 0 rem-calc(5) 0 rem-calc(5);
+    border-bottom: $thin-graye6e;
+    border-left: $medium-white;
+    border-top: $thin-graye6e;
+    border-right: $medium-white;
+    p {
+      font-size: $h2-font-size;
+      color: $color-gray404;
+      line-height: 23px;
+      
+      padding: rem-calc(30) 0 rem-calc(30) 0;
+      @media #{$medium} {
+        font-size: rem-calc(18);
+        line-height: 20px;
+        padding: rem-calc(20) rem-calc(15) rem-calc(20) rem-calc(15);
+      }
+    }
+  }
+  //.slider {
+  //  padding: rem-calc(40) 0 rem-calc(40) 0;
+  //}
+}
+
+
+
+
+
+
+
+
+.rowInside { // for overall padding for a row (can't use margins on rows)
+    .sectionObject { // insides of each column setup 
     }
   }
 
@@ -721,20 +810,6 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-	.rowInside { // for overall padding for a row (can't use margins on rows)
-		.sectionObject { // insides of each column setup 
-
-		}
-	}
 
 
 

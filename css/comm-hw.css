@@ -2950,48 +2950,46 @@ th.hide-for-touch {
   }
 }
 /* CSS Document */
-/* line 84, ../scss/_local_css.scss */
+/* line 85, ../scss/_local_css.scss */
 body {
   background-color: #fff;
 }
 
-/* line 88, ../scss/_local_css.scss */
-.row {
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
-}
-
-/* line 93, ../scss/_local_css.scss */
+/* line 94, ../scss/_local_css.scss */
 .full-width {
   width: 100%;
   max-width: 100%;
 }
+/* line 97, ../scss/_local_css.scss */
+.full-width.gray {
+  background-color: #ececec;
+}
 
 /* Header*/
-/* line 99, ../scss/_local_css.scss */
+/* line 103, ../scss/_local_css.scss */
 header {
   width: 100%;
   margin-bottom: 3.75rem;
   z-index: 1000;
 }
-/* line 110, ../scss/_local_css.scss */
+/* line 114, ../scss/_local_css.scss */
 header section {
   height: 3.75rem;
 }
 @media screen and (max-width: 848px) {
-  /* line 110, ../scss/_local_css.scss */
+  /* line 114, ../scss/_local_css.scss */
   header section {
     margin-bottom: 2.5rem;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 110, ../scss/_local_css.scss */
+  /* line 114, ../scss/_local_css.scss */
   header section {
     height: 2.8125rem;
     margin-bottom: 1.25rem;
   }
 }
-/* line 123, ../scss/_local_css.scss */
+/* line 127, ../scss/_local_css.scss */
 header section .BClogo {
   display: inline-block;
   margin: 0 0.3125rem 0 0.3125rem;
@@ -2999,7 +2997,7 @@ header section .BClogo {
   height: 60px;
 }
 @media screen and (max-width: 640px) {
-  /* line 123, ../scss/_local_css.scss */
+  /* line 127, ../scss/_local_css.scss */
   header section .BClogo {
     margin: 0;
     padding: 0;
@@ -3007,34 +3005,34 @@ header section .BClogo {
     height: 42px;
   }
 }
-/* line 140, ../scss/_local_css.scss */
+/* line 144, ../scss/_local_css.scss */
 header section .BClogo img {
   margin: 0;
   padding: 0;
 }
-/* line 145, ../scss/_local_css.scss */
+/* line 149, ../scss/_local_css.scss */
 header section .HWIlogo {
   display: inline-block;
   height: 60px;
 }
 @media screen and (max-width: 640px) {
-  /* line 145, ../scss/_local_css.scss */
+  /* line 149, ../scss/_local_css.scss */
   header section .HWIlogo {
     margin: 0;
     padding: 0;
     height: 42px;
   }
-  /* line 153, ../scss/_local_css.scss */
+  /* line 157, ../scss/_local_css.scss */
   header section .HWIlogo img {
     height: 42px;
   }
 }
-/* line 157, ../scss/_local_css.scss */
+/* line 161, ../scss/_local_css.scss */
 header section .HWIlogo img {
   margin: 0;
   padding: 0;
 }
-/* line 162, ../scss/_local_css.scss */
+/* line 166, ../scss/_local_css.scss */
 header section .showPushMenu {
   cursor: pointer;
   display: inline-block;
@@ -3044,21 +3042,21 @@ header section .showPushMenu {
   margin-right: 5px;
 }
 @media screen and (max-width: 640px) {
-  /* line 162, ../scss/_local_css.scss */
+  /* line 166, ../scss/_local_css.scss */
   header section .showPushMenu {
     background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -42px 8px;
     width: 30px;
     height: 45px;
   }
 }
-/* line 181, ../scss/_local_css.scss */
+/* line 185, ../scss/_local_css.scss */
 header section nav.topBar ul {
   list-style-type: none;
   text-transform: uppercase;
   margin: 0;
   padding: 1rem 0 1rem 0;
 }
-/* line 187, ../scss/_local_css.scss */
+/* line 191, ../scss/_local_css.scss */
 header section nav.topBar ul li {
   font-family: 'ComeniaSansCondRegular';
   font-size: 0.75rem;
@@ -3066,61 +3064,61 @@ header section nav.topBar ul li {
   margin: 0;
   padding: 0 1.875rem 0 0;
 }
-/* line 188, ../scss/_local_css.scss */
+/* line 192, ../scss/_local_css.scss */
 header section nav.topBar ul li:first-letter {
   font-weight: bold;
 }
 @media screen and (min-width: 850px) and (max-width: 849px) {
-  /* line 187, ../scss/_local_css.scss */
+  /* line 191, ../scss/_local_css.scss */
   header section nav.topBar ul li {
     padding-right: 1.5625rem;
   }
 }
-/* line 203, ../scss/_local_css.scss */
+/* line 207, ../scss/_local_css.scss */
 header section nav.topBar ul li:last-of-type {
   padding-right: 0.3125rem;
 }
-/* line 205, ../scss/_local_css.scss */
+/* line 209, ../scss/_local_css.scss */
 header section nav.topBar ul li:last-of-type:first-letter {
   font-weight: normal;
 }
-/* line 210, ../scss/_local_css.scss */
+/* line 214, ../scss/_local_css.scss */
 header section nav.topBar ul li:first-of-type:first-letter {
   font-weight: normal;
 }
-/* line 214, ../scss/_local_css.scss */
+/* line 218, ../scss/_local_css.scss */
 header section nav.topBar ul li a {
   color: #222;
   text-decoration: none;
   padding: 0;
   margin: 0;
 }
-/* line 220, ../scss/_local_css.scss */
+/* line 224, ../scss/_local_css.scss */
 header section nav.topBar ul li a:hover {
   color: #666;
 }
-/* line 224, ../scss/_local_css.scss */
+/* line 228, ../scss/_local_css.scss */
 header section nav.topBar ul li.healthy a:hover {
   color: #367ddb;
 }
-/* line 227, ../scss/_local_css.scss */
+/* line 231, ../scss/_local_css.scss */
 header section nav.topBar ul li.smart a:hover {
   color: #d30043;
 }
-/* line 230, ../scss/_local_css.scss */
+/* line 234, ../scss/_local_css.scss */
 header section nav.topBar ul li.green a:hover {
   color: #8fd300;
 }
-/* line 233, ../scss/_local_css.scss */
+/* line 237, ../scss/_local_css.scss */
 header section nav.topBar ul li.aware a:hover {
   color: #a060b6;
 }
-/* line 239, ../scss/_local_css.scss */
+/* line 243, ../scss/_local_css.scss */
 header section nav.cbp-spmenu {
   background: #fff;
   position: fixed;
 }
-/* line 242, ../scss/_local_css.scss */
+/* line 246, ../scss/_local_css.scss */
 header section nav.cbp-spmenu.cbp-spmenu-vertical {
   width: 240px;
   height: 100%;
@@ -3128,111 +3126,111 @@ header section nav.cbp-spmenu.cbp-spmenu-vertical {
   z-index: 1000;
 }
 @media screen and (max-width: 640px) {
-  /* line 242, ../scss/_local_css.scss */
+  /* line 246, ../scss/_local_css.scss */
   header section nav.cbp-spmenu.cbp-spmenu-vertical {
     top: 0px;
   }
 }
-/* line 251, ../scss/_local_css.scss */
+/* line 255, ../scss/_local_css.scss */
 header section nav.cbp-spmenu ul {
   list-style-type: none;
   text-transform: uppercase;
 }
-/* line 255, ../scss/_local_css.scss */
+/* line 259, ../scss/_local_css.scss */
 header section nav.cbp-spmenu ul li {
   font-family: 'ComeniaSansCondRegular';
   font-size: 1rem;
   display: block;
   padding: 1rem 2.0625rem 0 0;
 }
-/* line 256, ../scss/_local_css.scss */
+/* line 260, ../scss/_local_css.scss */
 header section nav.cbp-spmenu ul li:first-letter {
   font-weight: bold;
 }
-/* line 267, ../scss/_local_css.scss */
+/* line 271, ../scss/_local_css.scss */
 header section nav.cbp-spmenu ul li:last-of-type {
   padding-right: 1.25rem;
 }
-/* line 269, ../scss/_local_css.scss */
+/* line 273, ../scss/_local_css.scss */
 header section nav.cbp-spmenu ul li:last-of-type:first-letter {
   font-weight: normal;
 }
-/* line 274, ../scss/_local_css.scss */
+/* line 278, ../scss/_local_css.scss */
 header section nav.cbp-spmenu ul li:first-of-type:first-letter {
   font-weight: normal;
 }
-/* line 278, ../scss/_local_css.scss */
+/* line 282, ../scss/_local_css.scss */
 header section nav.cbp-spmenu ul li a {
   color: #222;
   text-decoration: none;
 }
-/* line 282, ../scss/_local_css.scss */
+/* line 286, ../scss/_local_css.scss */
 header section nav.cbp-spmenu ul li a:hover {
   color: #666;
 }
-/* line 286, ../scss/_local_css.scss */
+/* line 290, ../scss/_local_css.scss */
 header section nav.cbp-spmenu ul li.healthy a:hover {
   color: #367ddb;
 }
-/* line 289, ../scss/_local_css.scss */
+/* line 293, ../scss/_local_css.scss */
 header section nav.cbp-spmenu ul li.smart a:hover {
   color: #d30043;
 }
-/* line 292, ../scss/_local_css.scss */
+/* line 296, ../scss/_local_css.scss */
 header section nav.cbp-spmenu ul li.green a:hover {
   color: #8fd300;
 }
-/* line 295, ../scss/_local_css.scss */
+/* line 299, ../scss/_local_css.scss */
 header section nav.cbp-spmenu ul li.aware a:hover {
   color: #a060b6;
 }
 @media screen and (max-width: 640px) {
-  /* line 298, ../scss/_local_css.scss */
+  /* line 302, ../scss/_local_css.scss */
   header section nav.cbp-spmenu ul li.hideForSmallOnly {
     display: none;
   }
 }
-/* line 303, ../scss/_local_css.scss */
+/* line 307, ../scss/_local_css.scss */
 header section nav.cbp-spmenu ul li a {
   color: #222;
   text-decoration: none;
 }
-/* line 307, ../scss/_local_css.scss */
+/* line 311, ../scss/_local_css.scss */
 header section nav.cbp-spmenu ul li a:hover {
   color: #666;
 }
 
 /* Vertical menu that slides from the left or right */
-/* line 319, ../scss/_local_css.scss */
+/* line 323, ../scss/_local_css.scss */
 .cbp-spmenu-right {
   right: -240px;
 }
 
-/* line 323, ../scss/_local_css.scss */
+/* line 327, ../scss/_local_css.scss */
 .cbp-spmenu-right.cbp-spmenu-open {
   right: 0px;
 }
 
 /* Push classes applied to the body */
-/* line 329, ../scss/_local_css.scss */
+/* line 333, ../scss/_local_css.scss */
 .cbp-spmenu-push {
   overflow-x: hidden;
   position: relative;
   left: 0;
 }
 
-/* line 335, ../scss/_local_css.scss */
+/* line 339, ../scss/_local_css.scss */
 .cbp-spmenu-push-toright {
   left: 240px;
 }
 
-/* line 339, ../scss/_local_css.scss */
+/* line 343, ../scss/_local_css.scss */
 .cbp-spmenu-push-toleft {
   left: -240px;
 }
 
 /* Transitions */
-/* line 345, ../scss/_local_css.scss */
+/* line 349, ../scss/_local_css.scss */
 .cbp-spmenu,
 .cbp-spmenu-push {
   -webkit-transition: all 0.3s ease;
@@ -3240,7 +3238,7 @@ header section nav.cbp-spmenu ul li a:hover {
   transition: all 0.3s ease;
 }
 
-/* line 354, ../scss/_local_css.scss */
+/* line 358, ../scss/_local_css.scss */
 .anchor {
   position: relative;
   display: block;
@@ -3250,22 +3248,22 @@ header section nav.cbp-spmenu ul li a:hover {
   visibility: hidden;
 }
 
-/* line 379, ../scss/_local_css.scss */
+/* line 383, ../scss/_local_css.scss */
 .content .breadcrumbs {
   font-size: 0.9375rem;
   padding: 0 0 0 0.3125rem;
   margin-bottom: 2.5rem;
 }
-/* line 383, ../scss/_local_css.scss */
+/* line 387, ../scss/_local_css.scss */
 .content .breadcrumbs a {
   color: #000;
   text-decoration: none;
 }
-/* line 386, ../scss/_local_css.scss */
+/* line 390, ../scss/_local_css.scss */
 .content .breadcrumbs a:hover {
   color: #ccc;
 }
-/* line 390, ../scss/_local_css.scss */
+/* line 394, ../scss/_local_css.scss */
 .content .breadcrumbs .news {
   display: inline;
   font-family: "ComeniaSansCondBold";
@@ -3273,7 +3271,7 @@ header section nav.cbp-spmenu ul li a:hover {
   padding: 0 0.625rem 0 0;
   border-right: 1px solid #ccc;
 }
-/* line 397, ../scss/_local_css.scss */
+/* line 401, ../scss/_local_css.scss */
 .content .breadcrumbs .category {
   display: inline;
   font-family: "ComeniaSansCondBold";
@@ -3281,56 +3279,56 @@ header section nav.cbp-spmenu ul li a:hover {
   padding: 0 0.625rem 0 0.625rem;
   border-right: 1px solid #ccc;
 }
-/* line 403, ../scss/_local_css.scss */
+/* line 407, ../scss/_local_css.scss */
 .content .breadcrumbs .category.healthy a {
   color: #367ddb;
 }
-/* line 405, ../scss/_local_css.scss */
+/* line 409, ../scss/_local_css.scss */
 .content .breadcrumbs .category.healthy a:hover {
   color: #ccc;
 }
-/* line 409, ../scss/_local_css.scss */
+/* line 413, ../scss/_local_css.scss */
 .content .breadcrumbs .category.smart a {
   color: #d30043;
 }
-/* line 411, ../scss/_local_css.scss */
+/* line 415, ../scss/_local_css.scss */
 .content .breadcrumbs .category.smart a:hover {
   color: #ccc;
 }
-/* line 415, ../scss/_local_css.scss */
+/* line 419, ../scss/_local_css.scss */
 .content .breadcrumbs .category.green a {
   color: #8fd300;
 }
-/* line 417, ../scss/_local_css.scss */
+/* line 421, ../scss/_local_css.scss */
 .content .breadcrumbs .category.green a:hover {
   color: #ccc;
 }
-/* line 421, ../scss/_local_css.scss */
+/* line 425, ../scss/_local_css.scss */
 .content .breadcrumbs .category.aware a {
   color: #a060b6;
 }
-/* line 423, ../scss/_local_css.scss */
+/* line 427, ../scss/_local_css.scss */
 .content .breadcrumbs .category.aware a:hover {
   color: #ccc;
 }
-/* line 428, ../scss/_local_css.scss */
+/* line 432, ../scss/_local_css.scss */
 .content .breadcrumbs .storytitle {
   font-family: "ComeniaSansCondRegular";
   display: inline;
   padding: 0 0 0 0.625rem;
 }
 @media screen and (max-width: 640px) {
-  /* line 428, ../scss/_local_css.scss */
+  /* line 432, ../scss/_local_css.scss */
   .content .breadcrumbs .storytitle {
     display: none;
   }
 }
-/* line 437, ../scss/_local_css.scss */
+/* line 441, ../scss/_local_css.scss */
 .content .title {
   padding: 0 0 0 0.3125rem;
   margin-bottom: 1.875rem;
 }
-/* line 440, ../scss/_local_css.scss */
+/* line 444, ../scss/_local_css.scss */
 .content .title h1 {
   margin: 0;
   font-family: "ComeniaSansCondBold";
@@ -3338,59 +3336,59 @@ header section nav.cbp-spmenu ul li a:hover {
   color: #000;
   line-height: 38px;
 }
-/* line 448, ../scss/_local_css.scss */
+/* line 452, ../scss/_local_css.scss */
 .content .socialIcons {
   padding: 0;
 }
 @media screen and (max-width: 848px) {
-  /* line 448, ../scss/_local_css.scss */
+  /* line 452, ../scss/_local_css.scss */
   .content .socialIcons {
     padding: 0;
   }
 }
-/* line 455, ../scss/_local_css.scss */
+/* line 459, ../scss/_local_css.scss */
 .content .icons {
   height: 2.1875rem;
   margin: 0 0 1.875rem 0.3125rem;
 }
-/* line 458, ../scss/_local_css.scss */
+/* line 462, ../scss/_local_css.scss */
 .content .icons a {
   display: inline-block;
   margin-right: 1.4375rem;
   width: 2.1875rem;
   height: 2.1875rem;
 }
-/* line 463, ../scss/_local_css.scss */
+/* line 467, ../scss/_local_css.scss */
 .content .icons a.facebook {
   background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -74px 0px;
 }
-/* line 466, ../scss/_local_css.scss */
+/* line 470, ../scss/_local_css.scss */
 .content .icons a.twitter {
   background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -111px 0px;
 }
-/* line 469, ../scss/_local_css.scss */
+/* line 473, ../scss/_local_css.scss */
 .content .icons a.pinterest {
   background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -148px 0px;
 }
-/* line 472, ../scss/_local_css.scss */
+/* line 476, ../scss/_local_css.scss */
 .content .icons a.googleplus {
   background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -185px 0px;
 }
-/* line 475, ../scss/_local_css.scss */
+/* line 479, ../scss/_local_css.scss */
 .content .icons a.email {
   background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -222px 0px;
 }
-/* line 482, ../scss/_local_css.scss */
+/* line 486, ../scss/_local_css.scss */
 .content article {
   margin: 0 0.3125rem 3.75rem 0.3125rem;
 }
-/* line 486, ../scss/_local_css.scss */
+/* line 490, ../scss/_local_css.scss */
 .content article .caption {
   background-color: #222;
   padding: 1rem 0.625rem 1rem 0.625rem;
   margin-bottom: 2.5rem;
 }
-/* line 490, ../scss/_local_css.scss */
+/* line 494, ../scss/_local_css.scss */
 .content article .caption p {
   font-size: 0.75rem;
   line-height: 14px;
@@ -3398,69 +3396,69 @@ header section nav.cbp-spmenu ul li a:hover {
   padding: 0;
   margin: 0;
 }
-/* line 498, ../scss/_local_css.scss */
+/* line 502, ../scss/_local_css.scss */
 .content article h1 {
   display: none;
 }
 @media print {
-  /* line 498, ../scss/_local_css.scss */
+  /* line 502, ../scss/_local_css.scss */
   .content article h1 {
     display: inline;
   }
 }
-/* line 504, ../scss/_local_css.scss */
+/* line 508, ../scss/_local_css.scss */
 .content article p {
   font-size: 1rem;
   line-height: 19px;
   color: #404040;
 }
-/* line 509, ../scss/_local_css.scss */
+/* line 513, ../scss/_local_css.scss */
 .content article ul {
   margin-bottom: 1.875rem;
 }
-/* line 511, ../scss/_local_css.scss */
+/* line 515, ../scss/_local_css.scss */
 .content article ul li {
   font-size: 1rem;
   color: #404040;
   line-height: 19px;
 }
-/* line 518, ../scss/_local_css.scss */
+/* line 522, ../scss/_local_css.scss */
 .content .articleButtons {
   padding: 0 0.3125rem 0 0.3125rem;
   margin-bottom: 3.75rem;
 }
-/* line 521, ../scss/_local_css.scss */
+/* line 525, ../scss/_local_css.scss */
 .content .articleButtons a {
   text-decoration: none;
 }
-/* line 524, ../scss/_local_css.scss */
+/* line 528, ../scss/_local_css.scss */
 .content .articleButtons .articleButton {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   height: 2.5rem;
 }
-/* line 531, ../scss/_local_css.scss */
+/* line 535, ../scss/_local_css.scss */
 .content .articleButtons .articleButton.abLeft {
   margin-right: 2.125rem;
 }
 @media screen and (max-width: 640px) {
-  /* line 531, ../scss/_local_css.scss */
+  /* line 535, ../scss/_local_css.scss */
   .content .articleButtons .articleButton.abLeft {
     margin-right: 0;
   }
 }
-/* line 537, ../scss/_local_css.scss */
+/* line 541, ../scss/_local_css.scss */
 .content .articleButtons .articleButton.abRight {
   margin-left: 2.125rem;
 }
 @media screen and (max-width: 640px) {
-  /* line 537, ../scss/_local_css.scss */
+  /* line 541, ../scss/_local_css.scss */
   .content .articleButtons .articleButton.abRight {
     margin-left: 0;
   }
 }
-/* line 543, ../scss/_local_css.scss */
+/* line 547, ../scss/_local_css.scss */
 .content .articleButtons .articleButton p {
   color: #fff;
   font-size: 1.25rem;
@@ -3468,64 +3466,63 @@ header section nav.cbp-spmenu ul li a:hover {
   text-transform: uppercase;
   padding-top: 0.3125rem;
 }
-/* line 550, ../scss/_local_css.scss */
+/* line 554, ../scss/_local_css.scss */
 .content .articleButtons .articleButton.healthy {
   background-color: #367ddb;
 }
-/* line 552, ../scss/_local_css.scss */
+/* line 556, ../scss/_local_css.scss */
 .content .articleButtons .articleButton.healthy:hover {
   background-color: #666;
 }
-/* line 556, ../scss/_local_css.scss */
+/* line 560, ../scss/_local_css.scss */
 .content .articleButtons .articleButton.smart {
   background-color: #d30043;
 }
-/* line 558, ../scss/_local_css.scss */
+/* line 562, ../scss/_local_css.scss */
 .content .articleButtons .articleButton.smart:hover {
   background-color: #666;
 }
-/* line 562, ../scss/_local_css.scss */
+/* line 566, ../scss/_local_css.scss */
 .content .articleButtons .articleButton.green {
   background-color: #8fd300;
 }
-/* line 564, ../scss/_local_css.scss */
+/* line 568, ../scss/_local_css.scss */
 .content .articleButtons .articleButton.green:hover {
   background-color: #666;
 }
-/* line 568, ../scss/_local_css.scss */
+/* line 572, ../scss/_local_css.scss */
 .content .articleButtons .articleButton.aware {
   background-color: #a060b6;
 }
-/* line 570, ../scss/_local_css.scss */
+/* line 574, ../scss/_local_css.scss */
 .content .articleButtons .articleButton.aware:hover {
   background-color: #666;
 }
-
-/* line 579, ../scss/_local_css.scss */
-section .articles-wrapper {
+/* line 582, ../scss/_local_css.scss */
+.content section .articles-wrapper {
   padding: 0 0.3125rem 3.75rem 0.3125rem;
 }
-/* line 588, ../scss/_local_css.scss */
-section .articles-wrapper ul {
+/* line 591, ../scss/_local_css.scss */
+.content section .articles-wrapper ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-/* line 592, ../scss/_local_css.scss */
-section .articles-wrapper ul li {
+/* line 595, ../scss/_local_css.scss */
+.content section .articles-wrapper ul li {
   margin: 0 0 3.125rem 0;
   padding: 0;
 }
-/* line 594, ../scss/_local_css.scss */
-section .articles-wrapper ul li:last-of-type {
+/* line 597, ../scss/_local_css.scss */
+.content section .articles-wrapper ul li:last-of-type {
   margin: 0;
 }
-/* line 597, ../scss/_local_css.scss */
-section .articles-wrapper ul li:nth-child(odd) {
+/* line 600, ../scss/_local_css.scss */
+.content section .articles-wrapper ul li:nth-child(odd) {
   background-color: #efefef;
 }
-/* line 603, ../scss/_local_css.scss */
-section .articles-wrapper ul li .listed-article .article-image {
+/* line 606, ../scss/_local_css.scss */
+.content section .articles-wrapper ul li .listed-article .article-image {
   float: left;
   overflow: hidden;
   position: relative;
@@ -3533,138 +3530,223 @@ section .articles-wrapper ul li .listed-article .article-image {
   height: 140px;
 }
 @media screen and (max-width: 640px) {
-  /* line 603, ../scss/_local_css.scss */
-  section .articles-wrapper ul li .listed-article .article-image {
+  /* line 606, ../scss/_local_css.scss */
+  .content section .articles-wrapper ul li .listed-article .article-image {
     display: none;
   }
 }
-/* line 612, ../scss/_local_css.scss */
-section .articles-wrapper ul li .listed-article .article-image img {
+/* line 615, ../scss/_local_css.scss */
+.content section .articles-wrapper ul li .listed-article .article-image img {
   position: absolute;
   max-width: 250px;
   height: 140px;
   left: -25px;
 }
 @media screen and (max-width: 640px) {
-  /* line 612, ../scss/_local_css.scss */
-  section .articles-wrapper ul li .listed-article .article-image img {
+  /* line 615, ../scss/_local_css.scss */
+  .content section .articles-wrapper ul li .listed-article .article-image img {
     position: relative;
     left: 0px;
   }
 }
-/* line 625, ../scss/_local_css.scss */
-section .articles-wrapper ul li .listed-article .article-image2 {
+/* line 628, ../scss/_local_css.scss */
+.content section .articles-wrapper ul li .listed-article .article-image2 {
   display: none;
 }
 @media screen and (max-width: 640px) {
-  /* line 625, ../scss/_local_css.scss */
-  section .articles-wrapper ul li .listed-article .article-image2 {
+  /* line 628, ../scss/_local_css.scss */
+  .content section .articles-wrapper ul li .listed-article .article-image2 {
     display: block;
   }
 }
-/* line 631, ../scss/_local_css.scss */
-section .articles-wrapper ul li .listed-article .text-elements {
+/* line 634, ../scss/_local_css.scss */
+.content section .articles-wrapper ul li .listed-article .text-elements {
   margin-left: 12.25rem;
   padding: 0;
 }
 @media screen and (max-width: 640px) {
-  /* line 631, ../scss/_local_css.scss */
-  section .articles-wrapper ul li .listed-article .text-elements {
+  /* line 634, ../scss/_local_css.scss */
+  .content section .articles-wrapper ul li .listed-article .text-elements {
     margin-left: 0;
   }
 }
-/* line 638, ../scss/_local_css.scss */
-section .articles-wrapper ul li .listed-article .article-tag {
-  margin: 0 0 0 0.625rem;
+/* line 641, ../scss/_local_css.scss */
+.content section .articles-wrapper ul li .listed-article .article-tag {
+  margin: -0.625rem 0 0 0.625rem;
   text-transform: uppercase;
   font-size: 0.875rem;
   display: inline-block;
   width: 6.25rem;
 }
-/* line 646, ../scss/_local_css.scss */
-section .articles-wrapper ul li .listed-article .article-tag p {
+/* line 649, ../scss/_local_css.scss */
+.content section .articles-wrapper ul li .listed-article .article-tag p {
+  margin: 0;
   font-family: 'ComeniaSansCondRegular';
   padding: 0 0 0 0.625rem;
   color: #fff;
   text-decoration: none;
 }
-/* line 651, ../scss/_local_css.scss */
-section .articles-wrapper ul li .listed-article .article-tag p.healthy {
+/* line 655, ../scss/_local_css.scss */
+.content section .articles-wrapper ul li .listed-article .article-tag p.healthy {
   background-color: #367ddb;
 }
-/* line 654, ../scss/_local_css.scss */
-section .articles-wrapper ul li .listed-article .article-tag p.smart {
+/* line 658, ../scss/_local_css.scss */
+.content section .articles-wrapper ul li .listed-article .article-tag p.smart {
   background-color: #d30043;
 }
-/* line 657, ../scss/_local_css.scss */
-section .articles-wrapper ul li .listed-article .article-tag p.green {
+/* line 661, ../scss/_local_css.scss */
+.content section .articles-wrapper ul li .listed-article .article-tag p.green {
   background-color: #8fd300;
 }
-/* line 660, ../scss/_local_css.scss */
-section .articles-wrapper ul li .listed-article .article-tag p.aware {
+/* line 664, ../scss/_local_css.scss */
+.content section .articles-wrapper ul li .listed-article .article-tag p.aware {
   background-color: #a060b6;
 }
-/* line 668, ../scss/_local_css.scss */
-section .articles-wrapper ul li .listed-article .article-date {
+/* line 669, ../scss/_local_css.scss */
+.content section .articles-wrapper ul li .listed-article .article-date {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
   font-size: 0.875rem;
   margin-left: 0.625rem;
   display: inline-block;
   color: #666;
 }
-/* line 675, ../scss/_local_css.scss */
-section .articles-wrapper ul li .listed-article .article-title {
-  margin: -1.5625rem 0 0.75rem 0.625rem;
-}
-/* line 677, ../scss/_local_css.scss */
-section .articles-wrapper ul li .listed-article .article-title h2 {
+/* line 678, ../scss/_local_css.scss */
+.content section .articles-wrapper ul li .listed-article .article-title h2 {
+  margin: -0.3125rem 0 0 0.625rem;
   font-family: 'ComeniaSansCondRegular';
   font-size: 1.5rem;
   line-height: 25px;
 }
 @media screen and (max-width: 499px) {
-  /* line 677, ../scss/_local_css.scss */
-  section .articles-wrapper ul li .listed-article .article-title h2 {
-    font-size: 1.125rem;
-    line-height: 19px;
+  /* line 678, ../scss/_local_css.scss */
+  .content section .articles-wrapper ul li .listed-article .article-title h2 {
+    font-size: 1.25rem;
+    line-height: 20px;
   }
 }
-/* line 685, ../scss/_local_css.scss */
-section .articles-wrapper ul li .listed-article .article-title h2 a {
+/* line 687, ../scss/_local_css.scss */
+.content section .articles-wrapper ul li .listed-article .article-title h2 a {
   color: #222;
   text-decoration: none;
 }
-@media screen and (max-width: 767px) {
-  /* line 685, ../scss/_local_css.scss */
-  section .articles-wrapper ul li .listed-article .article-title h2 a {
-    color: #781a42;
-  }
-}
-/* line 691, ../scss/_local_css.scss */
-section .articles-wrapper ul li .listed-article .article-title h2 a:hover {
+/* line 690, ../scss/_local_css.scss */
+.content section .articles-wrapper ul li .listed-article .article-title h2 a:hover {
   text-decoration: underline;
 }
-/* line 699, ../scss/_local_css.scss */
-section .articles-wrapper ul li .listed-article .article-teaser p {
-  margin-left: 0.625rem;
+/* line 696, ../scss/_local_css.scss */
+.content section .articles-wrapper ul li .listed-article .article-teaser p {
+  margin: 0 0 0 0.625rem;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
   font-size: 1rem;
   color: #404040;
   line-height: 19px;
 }
-@media screen and (max-width: 499px) {
-  /* line 699, ../scss/_local_css.scss */
-  section .articles-wrapper ul li .listed-article .article-teaser p {
-    font-size: 0.875rem;
-    line-height: 16px;
+/* line 707, ../scss/_local_css.scss */
+.content .titleIcon {
+  padding: 0 0.3125rem 1.875rem 0.3125rem;
+}
+/* line 711, ../scss/_local_css.scss */
+.content .titleIcon.homePage .icon {
+  background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -258px 0px;
+  width: 4.1875rem;
+  height: 4.1875rem;
+  float: left;
+}
+@media screen and (max-width: 640px) {
+  /* line 711, ../scss/_local_css.scss */
+  .content .titleIcon.homePage .icon {
+    background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -385px 0px;
+    width: 2.3125rem;
+    height: 2.3125rem;
   }
 }
+/* line 722, ../scss/_local_css.scss */
+.content .titleIcon.homePage h1 {
+  display: inline-block;
+  font-family: 'ComeniaSansCondRegular';
+  font-size: 2.375rem;
+  line-height: 36px;
+  letter-spacing: 1px;
+  color: #5a5a5a;
+  margin: -0.125rem 0 0 0;
+  padding: 0 0 0 0.625rem;
+  width: 25rem;
+}
+@media screen and (max-width: 640px) {
+  /* line 722, ../scss/_local_css.scss */
+  .content .titleIcon.homePage h1 {
+    margin: 0 0 0 0;
+    font-size: 1.25rem;
+    line-height: 20px;
+    width: 12.5rem;
+  }
+}
+/* line 741, ../scss/_local_css.scss */
+.content .titleIcon.newsArchive .icon {
+  background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -327px 0px;
+  width: 3.5rem;
+  height: 3.5rem;
+  float: left;
+}
+@media screen and (max-width: 640px) {
+  /* line 741, ../scss/_local_css.scss */
+  .content .titleIcon.newsArchive .icon {
+    background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -385px 0px;
+    width: 2.375rem;
+    height: 2.375rem;
+  }
+}
+/* line 752, ../scss/_local_css.scss */
+.content .titleIcon.newsArchive h1 {
+  display: inline-block;
+  font-family: 'ComeniaSansCondRegular';
+  font-size: 3rem;
+  color: #5a5a5a;
+  margin: -0.4375rem 0 0 0;
+  padding: 0 0 0 0.625rem;
+}
+@media screen and (max-width: 640px) {
+  /* line 752, ../scss/_local_css.scss */
+  .content .titleIcon.newsArchive h1 {
+    margin: 0 0 0 0;
+    font-size: 1.25rem;
+    line-height: 20px;
+    width: 9.375rem;
+  }
+}
+/* line 768, ../scss/_local_css.scss */
+.content .mission {
+  padding: 0 0.3125rem 0 0.3125rem;
+  border-bottom: 1px solid #e6e6e6;
+  border-left: 6px solid #fff;
+  border-top: 1px solid #e6e6e6;
+  border-right: 6px solid #fff;
+}
+/* line 774, ../scss/_local_css.scss */
+.content .mission p {
+  font-size: 1.25rem;
+  color: #404040;
+  line-height: 23px;
+  padding: 1.875rem 0 1.875rem 0;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 774, ../scss/_local_css.scss */
+  .content .mission p {
+    font-size: 1.125rem;
+    line-height: 20px;
+    padding: 1.25rem 0.9375rem 1.25rem 0.9375rem;
+  }
+}
+/* line 787, ../scss/_local_css.scss */
+.content .slider {
+  padding: 2.5rem 0 2.5rem 0;
+}
 
-/* line 749, ../scss/_local_css.scss */
+/* line 824, ../scss/_local_css.scss */
 footer {
   background-color: #ececec;
 }
-/* line 752, ../scss/_local_css.scss */
+/* line 827, ../scss/_local_css.scss */
 footer .footerNav {
   text-align: center;
   margin-top: 1.875rem;
@@ -3672,42 +3754,42 @@ footer .footerNav {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 758, ../scss/_local_css.scss */
+/* line 833, ../scss/_local_css.scss */
 footer .footerNav ul {
   font-size: 0.9375rem;
   list-style-type: none;
   text-transform: uppercase;
 }
-/* line 762, ../scss/_local_css.scss */
+/* line 837, ../scss/_local_css.scss */
 footer .footerNav ul li {
   display: inline-block;
   padding: 0 0.9375rem 0 0.9375rem;
 }
-/* line 769, ../scss/_local_css.scss */
+/* line 844, ../scss/_local_css.scss */
 footer .footerNav ul li a {
   color: #666;
   text-decoration: none;
 }
-/* line 772, ../scss/_local_css.scss */
+/* line 847, ../scss/_local_css.scss */
 footer .footerNav ul li a:hover {
   color: #999;
 }
-/* line 779, ../scss/_local_css.scss */
+/* line 854, ../scss/_local_css.scss */
 footer .copyright {
   margin: 0 0 2.5rem 0.3125rem;
 }
-/* line 782, ../scss/_local_css.scss */
+/* line 857, ../scss/_local_css.scss */
 footer .copyright p {
   font-size: 0.75rem;
   color: #666;
 }
-/* line 785, ../scss/_local_css.scss */
+/* line 860, ../scss/_local_css.scss */
 footer .copyright p a {
   color: #781a42;
   font-weight: bold;
   text-decoration: none;
 }
-/* line 789, ../scss/_local_css.scss */
+/* line 864, ../scss/_local_css.scss */
 footer .copyright p a:hover {
   color: #999;
 }
