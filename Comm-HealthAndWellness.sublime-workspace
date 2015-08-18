@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"b-",
+				"b-healthy"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
 				"color-graye",
 				"color-grayece"
 			],
@@ -30,14 +42,6 @@
 			[
 				"gr",
 				"color-gray404"
-			],
-			[
-				"b-",
-				"b-green"
-			],
-			[
-				"text-",
-				"text-decoration"
 			],
 			[
 				"sm",
@@ -72,10 +76,6 @@
 				"healthy"
 			],
 			[
-				"font-",
-				"font-size"
-			],
-			[
 				"margin-",
 				"margin-right"
 			],
@@ -95,7 +95,7 @@
 			"file": "scss/_local_css.scss",
 			"settings":
 			{
-				"buffer_size": 19777,
+				"buffer_size": 23700,
 				"line_ending": "Windows"
 			}
 		},
@@ -103,7 +103,7 @@
 			"file": "working.html",
 			"settings":
 			{
-				"buffer_size": 18676,
+				"buffer_size": 20035,
 				"line_ending": "Windows"
 			}
 		},
@@ -120,7 +120,7 @@
 			"file": "css/comm-hw.css",
 			"settings":
 			{
-				"buffer_size": 125204,
+				"buffer_size": 130899,
 				"line_ending": "Windows"
 			}
 		},
@@ -306,6 +306,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"display: none",
+			"none",
 			"hide",
 			"show",
 			"sprite",
@@ -350,15 +352,15 @@
 					"file": "scss/_local_css.scss",
 					"settings":
 					{
-						"buffer_size": 19777,
+						"buffer_size": 23700,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17360,
-								17360
+								21960,
+								21960
 							]
 						],
 						"settings":
@@ -368,7 +370,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 10932.0,
+						"translation.y": 13271.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -378,15 +380,15 @@
 					"file": "working.html",
 					"settings":
 					{
-						"buffer_size": 18676,
+						"buffer_size": 20035,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6302,
-								6302
+								7674,
+								7674
 							]
 						],
 						"settings":
@@ -396,7 +398,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1778.0,
+						"translation.y": 2652.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -432,15 +434,15 @@
 					"file": "css/comm-hw.css",
 					"settings":
 					{
-						"buffer_size": 125204,
+						"buffer_size": 130899,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								122657,
-								122657
+								0,
+								0
 							]
 						],
 						"settings":
@@ -543,7 +545,7 @@
 		[
 			[
 				"",
-				"/Z/Public/$BCF_Website/Development/003-Production5/BrooklynCollegeFoundation.sublime-project"
+				"/Z/Public/webDevelopment/master/MASTER.sublime-project"
 			]
 		],
 		"width": 380.0

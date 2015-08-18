@@ -784,13 +784,168 @@ header {
       }
     }
   }
+  .bigBs {
+    .sectionObject{
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex; 
+      -webkit-justify-content: space-between;
+      -moz-justify-content: space-between;
+      -ms-justify-content: space-between;
+      justify-content: space-between;
+    }
+    padding: rem-calc(35) rem-calc(5) rem-calc(60) rem-calc(5);
+    a {
+      //border: 1px solid #f00;
+      text-decoration: none;
+      .bigB {
+        width: rem-calc(130);
+        height: rem-calc(130);
+        &.healthy {
+          background: $SpriteSheet no-repeat 0px -69px;
+
+        }
+        &.smart {
+          background: $SpriteSheet no-repeat -132px -69px;
+        }
+        &.green {
+          background: $SpriteSheet no-repeat -264px -69px;
+        }
+        &.aware {
+          background: $SpriteSheet no-repeat -396px -69px;
+        }
+      }
+      h2 {
+        padding: 0;
+        line-height: 25px;
+        margin: rem-calc(10) 0 0 0;
+        text-align: center;
+        font-size: rem-calc(29);
+        font-family: 'ComeniaSansCondRegular';
+        color: $color-gray222;
+        &:first-letter {
+          font-weight: $bold;
+        }
+      }
+      &:hover {
+        .bigB {
+          &.healthy {
+            background: $SpriteSheet no-repeat 0px -201px;
+          }
+          &.smart {
+            background: $SpriteSheet no-repeat -132px -201px;
+          }
+          &.green {
+            background: $SpriteSheet no-repeat -264px -201px;
+          }
+          &.aware {
+            background: $SpriteSheet no-repeat -396px -201px;
+          }
+        }
+        h2 {
+          color: $color-gray666;
+        }
+      }
+    }
+  }
+  .homePageCategory {
+    a {
+      display: block;
+      width: rem-calc(300);
+      //border: 1px solid #f00;
+      margin-top: rem-calc(40);
+      text-decoration: none;
+      color: $color-gray222;
+      .bigB {
+        //margin-top: rem-calc(40);
+        float: left;
+        width: rem-calc(60);
+        height: rem-calc(60);
+        margin: 0 rem-calc(10) 0 0;
+        &.healthy {
+          background: $SpriteSheet no-repeat 0px -32px;
+          background-size:277px;
+        }
+        &.smart {
+          background: $SpriteSheet no-repeat -61px -32px;
+          background-size:277px;
+        }
+        &.green {
+          background: $SpriteSheet no-repeat -122px -32px;
+          background-size:277px;
+        } 
+        &.aware {
+          background: $SpriteSheet no-repeat -183px -32px;
+          background-size:277px;
+        } 
+      }
+      h2 {
+        //margin-top: rem-calc(40);
+        font-size: rem-calc(48);
+        font-family: 'ComeniaSansCondRegular';
+        padding: 0;
+        margin: 0;
+        line-height: 53px;
+        text-transform: uppercase;
+      }
+      &:hover {
+        text-decoration: underline;
+        .bigB {
+          &.healthy {
+            background: $SpriteSheet no-repeat 0px -93px;
+            background-size:276px;
+          }
+          &.smart {
+            background: $SpriteSheet no-repeat -61px -93px;
+            background-size:276px;
+          }
+          &.green {
+            background: $SpriteSheet no-repeat -122px -93px;
+            background-size:276px;
+          }
+          &.aware {
+            background: $SpriteSheet no-repeat -183px -93px;
+            background-size:276px;
+          }
+        }
+      }
+    }
+    p {
+      font-size: rem-calc(18);
+      line-height: 22px;
+      color: $color-gray404;
+    }
+    &.healthy {
+      p a {
+        display: inline;
+        color: $b-healthy;
+        font-weight: $bold;
+        &:hover {
+          color: $color-gray666;
+          text-decoration: none;
+        }
+      }
+    }
+    &.smart {
+      p a {
+        display: inline;
+        color: $b-smart;
+        font-weight: $bold;
+        &:hover {
+          color: $color-gray666;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+
   //.slider {
   //  padding: rem-calc(40) 0 rem-calc(40) 0;
   //}
 }
-
-
-
 
 
 

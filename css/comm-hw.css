@@ -20,6 +20,11 @@ p {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
 }
 
+/* line 58, ../../../master/scss/_master_css.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
 /*
 
 // Fonts Sizes
@@ -3738,15 +3743,182 @@ header section nav.cbp-spmenu ul li a:hover {
   }
 }
 /* line 787, ../scss/_local_css.scss */
-.content .slider {
-  padding: 2.5rem 0 2.5rem 0;
+.content .bigBs {
+  padding: 2.1875rem 0.3125rem 3.75rem 0.3125rem;
+}
+/* line 788, ../scss/_local_css.scss */
+.content .bigBs .sectionObject {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+}
+/* line 800, ../scss/_local_css.scss */
+.content .bigBs a {
+  text-decoration: none;
+}
+/* line 803, ../scss/_local_css.scss */
+.content .bigBs a .bigB {
+  width: 8.125rem;
+  height: 8.125rem;
+}
+/* line 806, ../scss/_local_css.scss */
+.content .bigBs a .bigB.healthy {
+  background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat 0px -69px;
+}
+/* line 810, ../scss/_local_css.scss */
+.content .bigBs a .bigB.smart {
+  background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -132px -69px;
+}
+/* line 813, ../scss/_local_css.scss */
+.content .bigBs a .bigB.green {
+  background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -264px -69px;
+}
+/* line 816, ../scss/_local_css.scss */
+.content .bigBs a .bigB.aware {
+  background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -396px -69px;
+}
+/* line 820, ../scss/_local_css.scss */
+.content .bigBs a h2 {
+  padding: 0;
+  line-height: 25px;
+  margin: 0.625rem 0 0 0;
+  text-align: center;
+  font-size: 1.8125rem;
+  font-family: 'ComeniaSansCondRegular';
+  color: #222;
+}
+/* line 828, ../scss/_local_css.scss */
+.content .bigBs a h2:first-letter {
+  font-weight: bold;
+}
+/* line 834, ../scss/_local_css.scss */
+.content .bigBs a:hover .bigB.healthy {
+  background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat 0px -201px;
+}
+/* line 837, ../scss/_local_css.scss */
+.content .bigBs a:hover .bigB.smart {
+  background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -132px -201px;
+}
+/* line 840, ../scss/_local_css.scss */
+.content .bigBs a:hover .bigB.green {
+  background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -264px -201px;
+}
+/* line 843, ../scss/_local_css.scss */
+.content .bigBs a:hover .bigB.aware {
+  background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -396px -201px;
+}
+/* line 847, ../scss/_local_css.scss */
+.content .bigBs a:hover h2 {
+  color: #666;
+}
+/* line 854, ../scss/_local_css.scss */
+.content .homePageCategory a {
+  display: block;
+  width: 18.75rem;
+  margin-top: 2.5rem;
+  text-decoration: none;
+  color: #222;
+}
+/* line 861, ../scss/_local_css.scss */
+.content .homePageCategory a .bigB {
+  float: left;
+  width: 3.75rem;
+  height: 3.75rem;
+  margin: 0 0.625rem 0 0;
+}
+/* line 867, ../scss/_local_css.scss */
+.content .homePageCategory a .bigB.healthy {
+  background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat 0px -32px;
+  background-size: 277px;
+}
+/* line 871, ../scss/_local_css.scss */
+.content .homePageCategory a .bigB.smart {
+  background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -61px -32px;
+  background-size: 277px;
+}
+/* line 875, ../scss/_local_css.scss */
+.content .homePageCategory a .bigB.green {
+  background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -122px -32px;
+  background-size: 277px;
+}
+/* line 879, ../scss/_local_css.scss */
+.content .homePageCategory a .bigB.aware {
+  background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -183px -32px;
+  background-size: 277px;
+}
+/* line 884, ../scss/_local_css.scss */
+.content .homePageCategory a h2 {
+  font-size: 3rem;
+  font-family: 'ComeniaSansCondRegular';
+  padding: 0;
+  margin: 0;
+  line-height: 53px;
+  text-transform: uppercase;
+}
+/* line 893, ../scss/_local_css.scss */
+.content .homePageCategory a:hover {
+  text-decoration: underline;
+}
+/* line 896, ../scss/_local_css.scss */
+.content .homePageCategory a:hover .bigB.healthy {
+  background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat 0px -93px;
+  background-size: 276px;
+}
+/* line 900, ../scss/_local_css.scss */
+.content .homePageCategory a:hover .bigB.smart {
+  background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -61px -93px;
+  background-size: 276px;
+}
+/* line 904, ../scss/_local_css.scss */
+.content .homePageCategory a:hover .bigB.green {
+  background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -122px -93px;
+  background-size: 276px;
+}
+/* line 908, ../scss/_local_css.scss */
+.content .homePageCategory a:hover .bigB.aware {
+  background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -183px -93px;
+  background-size: 276px;
+}
+/* line 915, ../scss/_local_css.scss */
+.content .homePageCategory p {
+  font-size: 1.125rem;
+  line-height: 22px;
+  color: #404040;
+}
+/* line 921, ../scss/_local_css.scss */
+.content .homePageCategory.healthy p a {
+  display: inline;
+  color: #367ddb;
+  font-weight: bold;
+}
+/* line 925, ../scss/_local_css.scss */
+.content .homePageCategory.healthy p a:hover {
+  color: #666;
+  text-decoration: none;
+}
+/* line 932, ../scss/_local_css.scss */
+.content .homePageCategory.smart p a {
+  display: inline;
+  color: #d30043;
+  font-weight: bold;
+}
+/* line 936, ../scss/_local_css.scss */
+.content .homePageCategory.smart p a:hover {
+  color: #666;
+  text-decoration: none;
 }
 
-/* line 824, ../scss/_local_css.scss */
+/* line 979, ../scss/_local_css.scss */
 footer {
   background-color: #ececec;
 }
-/* line 827, ../scss/_local_css.scss */
+/* line 982, ../scss/_local_css.scss */
 footer .footerNav {
   text-align: center;
   margin-top: 1.875rem;
@@ -3754,42 +3926,42 @@ footer .footerNav {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 833, ../scss/_local_css.scss */
+/* line 988, ../scss/_local_css.scss */
 footer .footerNav ul {
   font-size: 0.9375rem;
   list-style-type: none;
   text-transform: uppercase;
 }
-/* line 837, ../scss/_local_css.scss */
+/* line 992, ../scss/_local_css.scss */
 footer .footerNav ul li {
   display: inline-block;
   padding: 0 0.9375rem 0 0.9375rem;
 }
-/* line 844, ../scss/_local_css.scss */
+/* line 999, ../scss/_local_css.scss */
 footer .footerNav ul li a {
   color: #666;
   text-decoration: none;
 }
-/* line 847, ../scss/_local_css.scss */
+/* line 1002, ../scss/_local_css.scss */
 footer .footerNav ul li a:hover {
   color: #999;
 }
-/* line 854, ../scss/_local_css.scss */
+/* line 1009, ../scss/_local_css.scss */
 footer .copyright {
   margin: 0 0 2.5rem 0.3125rem;
 }
-/* line 857, ../scss/_local_css.scss */
+/* line 1012, ../scss/_local_css.scss */
 footer .copyright p {
   font-size: 0.75rem;
   color: #666;
 }
-/* line 860, ../scss/_local_css.scss */
+/* line 1015, ../scss/_local_css.scss */
 footer .copyright p a {
   color: #781a42;
   font-weight: bold;
   text-decoration: none;
 }
-/* line 864, ../scss/_local_css.scss */
+/* line 1019, ../scss/_local_css.scss */
 footer .copyright p a:hover {
   color: #999;
 }
