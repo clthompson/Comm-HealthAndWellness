@@ -8,12 +8,20 @@
 				"text-decoration"
 			],
 			[
-				"b-",
-				"b-healthy"
+				"color-",
+				"color-white"
+			],
+			[
+				"u",
+				"uppercase"
 			],
 			[
 				"font-",
-				"font-weight"
+				"font-size"
+			],
+			[
+				"b-",
+				"b-healthy"
 			],
 			[
 				"color-graye",
@@ -95,7 +103,7 @@
 			"file": "scss/_local_css.scss",
 			"settings":
 			{
-				"buffer_size": 23700,
+				"buffer_size": 30522,
 				"line_ending": "Windows"
 			}
 		},
@@ -103,7 +111,7 @@
 			"file": "working.html",
 			"settings":
 			{
-				"buffer_size": 20035,
+				"buffer_size": 21742,
 				"line_ending": "Windows"
 			}
 		},
@@ -120,7 +128,7 @@
 			"file": "css/comm-hw.css",
 			"settings":
 			{
-				"buffer_size": 130899,
+				"buffer_size": 131625,
 				"line_ending": "Windows"
 			}
 		},
@@ -306,6 +314,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"topLine",
+			"btt",
+			"footer-wrapper",
+			"btt",
 			"display: none",
 			"none",
 			"hide",
@@ -352,15 +364,15 @@
 					"file": "scss/_local_css.scss",
 					"settings":
 					{
-						"buffer_size": 23700,
+						"buffer_size": 30522,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								21960,
-								21960
+								27321,
+								27321
 							]
 						],
 						"settings":
@@ -370,7 +382,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 13271.0,
+						"translation.y": 10265.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -380,15 +392,15 @@
 					"file": "working.html",
 					"settings":
 					{
-						"buffer_size": 20035,
+						"buffer_size": 21742,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7674,
-								7674
+								10803,
+								10813
 							]
 						],
 						"settings":
@@ -398,7 +410,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2652.0,
+						"translation.y": 3376.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -434,7 +446,7 @@
 					"file": "css/comm-hw.css",
 					"settings":
 					{
-						"buffer_size": 130899,
+						"buffer_size": 131625,
 						"regions":
 						{
 						},

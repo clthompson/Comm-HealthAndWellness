@@ -56,7 +56,7 @@
 
   </head>
 
-  <body data-responsejs='{"create" : {"mode" : "src", "prefix" : "src"}}' class="cbp-spmenu-push">
+  <body id="top" data-responsejs='{"create" : {"mode" : "src", "prefix" : "src"}}' class="cbp-spmenu-push">
     
 <!-- Header -->
 <header class="">
@@ -105,7 +105,7 @@
 
 
 <!-- Homepage Content -->
-<section class="content">
+<section class="content" >
 
   <span class="anchor" id=""></span>
     <section class="row rowInside titleIcon homePage">
@@ -194,11 +194,9 @@
       </div>
       <div class="medium-5 columns">
         <div class="sectionObject">
-          <ul> <!-- con_visuals -->
-            <a href="#"><li>Events</li></a>
-            <a href="#"><li>Programs</li></a>
-            <a href="#"><li>Resources</li></a>
-          </ul>
+          <a class="buttonList" href="#"><p>Events</p></a>
+          <a class="buttonList" href="#"><p>Events</p></a>
+          <a class="buttonList" href="#"><p>Events</p></a>
         </div>
       </div>
     </section>
@@ -215,11 +213,9 @@
       </div>
       <div class="medium-5 columns">
         <div class="sectionObject">
-          <ul> <!-- con_visuals -->
-            <a href="#"><li>Events</li></a>
-            <a href="#"><li>Programs</li></a>
-            <a href="#"><li>Resources</li></a>
-          </ul>
+          <a class="buttonList" href="#"><p>Events</p></a>
+          <a class="buttonList" href="#"><p>Events</p></a>
+          <a class="buttonList" href="#"><p>Events</p></a>
         </div>
       </div>
     </section>
@@ -229,26 +225,42 @@
 </section>
 
 <!-- Category Content -->
-<section class="content">
-    <section class="row">
-      <div class="medium-12 columns">
-        <img class="right" src="URL" alt="" title"">
-        <div><a href="anc_URL"><img class="logo" src="img_image" alt="" title""></a><h2>Aware</h2></div>
-        <p>text text text</p>
-      </div>
-    </section>
+<section class="healthy content">
 
-    <section class="row">
-      <div class="medium-4 columns">
-        <a href="#"><div><p>Events</p></div></a>
-      </div>
-      <div class="medium-4 columns">
-        <a href="#"><div><p>Programs</p></div></a>
-      </div>
-      <div class="medium-4 columns">
-        <a href="#"><div><p>Resources</p></div></a>
+  <div class="full-width">
+    <span class="anchor" id=""></span>
+    <section class="row rowInside hero">
+      <div class="medium-12 columns">
+        <div class="sectionObject">
+          <div class="categoryTitle"><div class="bigB"></div><h1>Healthy</h1></div>
+          
+          <div class="image-content">
+            <img src="http://www.brooklyn.cuny.edu/web/adm_2013marketing/trans.gif"
+              data-src0="images/test_375x210.jpg"
+              data-src500="images/test_750x420.jpg"
+              data-src768="images/test_1000x560.jpg"/>
+              <!--<div class="caption">text text text</div>-->
+          </div>
+
+          <!-- <div class="clearfix"></div>-->
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </section>
+  </div>
+
+  <div class="full-width">
+    <span class="anchor" id=""></span>
+    <section class="row buttonRow hide-for-small-only">
+      <div class="medium-12 columns">
+        <div class="sectionObject">
+          <a class="buttonList" href="#"><p>Events</p></a>
+          <a class="buttonList" href="#"><p>Events</p></a>
+          <a class="buttonList" href="#"><p>Events</p></a>
+        </div>
+      </div>
+    </section>
+  </div>
 
     <section class="row">
       <div class="large-1 visible-for-large-up columns">
@@ -325,9 +337,9 @@
 
 <!-- News Content - All Conditional-->
 <section class="content">
-    <section class="row rowInside">
+    <section class="row rowInside breadcrumbs">
       <div class="large-12 columns">
-        <div class="sectionObject breadcrumbs">
+        <div class="sectionObject">
           <p class="news"><a href="anc_news">HWI News</a></p>
           <p class="category green"><a href="#">B Category</a></p>
           <p class="storytitle">Page Title</p>
@@ -335,9 +347,9 @@
       </div>
     </section>
 
-    <section class="row rowInside">
+    <section class="row rowInside title">
       <div class="large-12 columns">
-        <div class="sectionObject title">
+        <div class="sectionObject">
           <h1 class="hide-for-print">Story title</h1>
         </div>
       </div>
@@ -403,11 +415,19 @@
 </section>
 
 <!-- Back To Top -->
-  <div class="full-width btt">
+  <div class="full-width gray2">
+    <span class="anchor" id=""></span>
+    <section class="row rowInside btt">
+      <div class="large-12 columns">
+        <div class="sectionObject">
+            <a href="#top"><div class="arrow"></div><p>Back to Top</p></a>
+        </div>
+      </div>
+    </section>
   </div>
 
 <!-- Footer -->
-  <div class="full-width footer-wrapper">
+  <div class="full-width gray">
     <footer>
         <section class="row topLine">
           <div class="large-12 medium-12 columns footerNav">
