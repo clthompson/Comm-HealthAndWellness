@@ -5,7 +5,11 @@
 		[
 			[
 				"text-",
-				"text-decoration"
+				"text-align"
+			],
+			[
+				"background",
+				"background-color"
 			],
 			[
 				"color-",
@@ -34,10 +38,6 @@
 			[
 				"co",
 				"color-gray666"
-			],
-			[
-				"background",
-				"background-image"
 			],
 			[
 				"color-gray",
@@ -103,7 +103,7 @@
 			"file": "scss/_local_css.scss",
 			"settings":
 			{
-				"buffer_size": 30522,
+				"buffer_size": 35461,
 				"line_ending": "Windows"
 			}
 		},
@@ -111,7 +111,7 @@
 			"file": "working.html",
 			"settings":
 			{
-				"buffer_size": 21742,
+				"buffer_size": 21902,
 				"line_ending": "Windows"
 			}
 		},
@@ -128,7 +128,7 @@
 			"file": "css/comm-hw.css",
 			"settings":
 			{
-				"buffer_size": 131625,
+				"buffer_size": 11760,
 				"line_ending": "Windows"
 			}
 		},
@@ -314,6 +314,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			":after",
 			"topLine",
 			"btt",
 			"footer-wrapper",
@@ -364,15 +365,15 @@
 					"file": "scss/_local_css.scss",
 					"settings":
 					{
-						"buffer_size": 30522,
+						"buffer_size": 35461,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								27321,
-								27321
+								8356,
+								8356
 							]
 						],
 						"settings":
@@ -382,7 +383,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 10265.0,
+						"translation.y": 18943.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -392,15 +393,15 @@
 					"file": "working.html",
 					"settings":
 					{
-						"buffer_size": 21742,
+						"buffer_size": 21902,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10803,
-								10813
+								11522,
+								11212
 							]
 						],
 						"settings":
@@ -410,7 +411,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3376.0,
+						"translation.y": 3717.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -446,7 +447,7 @@
 					"file": "css/comm-hw.css",
 					"settings":
 					{
-						"buffer_size": 131625,
+						"buffer_size": 11760,
 						"regions":
 						{
 						},
@@ -464,7 +465,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 54566.0,
+						"translation.y": 1590.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

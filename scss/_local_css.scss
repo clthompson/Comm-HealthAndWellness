@@ -45,6 +45,7 @@
   $color-gray444: #444;
   $color-gray555: #555;
   $color-gray666: #666;
+  $color-gray777: #777;
   $color-gray999: #999;
   $color-grayccc: #ccc;
   $color-gray404: #404040;
@@ -365,7 +366,7 @@ header {
 .anchor {
   position: relative;
   display: block;
-  top: -78px;
+  top: -5px;
   height: 0;
   width: 0;
   visibility: hidden;
@@ -773,7 +774,8 @@ header {
       font-size: $h2-font-size;
       color: $color-gray404;
       line-height: 23px;
-      
+      text-align: center;
+      font-style: italic;
       padding: rem-calc(30) 0 rem-calc(30) 0;
       @media #{$medium} {
         font-size: rem-calc(18);
@@ -1108,19 +1110,20 @@ header {
     background-size: 350px;
   }
   &.smart .hero .bigB {
-    background: $SpriteSheet no-repeat -61px -40px;
+    background: $SpriteSheet no-repeat -77px -40px;
     background-size: 350px;
   }
   &.green .hero .bigB {
-    background: $SpriteSheet no-repeat -122px -40px;
+    background: $SpriteSheet no-repeat -153px -39px;
     background-size: 350px;
   }
   &.aware .hero .bigB {
-    background: $SpriteSheet no-repeat -183px -40px;
+    background: $SpriteSheet no-repeat -230px -39px;
     background-size: 350px;
   }
 
   .buttonRow {
+    padding: 0 rem-calc(5) 0 rem-calc(5);
     .sectionObject {
       display: -webkit-box;
       display: -moz-box;
@@ -1150,19 +1153,9 @@ header {
             font-size: rem-calc(32);
             text-transform: uppercase;
             color: $color-white;
-            padding: rem-calc(15) 0 0 rem-calc(20);
+            padding: rem-calc(15) 0 0 0;
             margin: 0;
-          }
-          &:hover {
-            &:nth-child(1) {
-              background-color: $color-gray444;
-            }
-            &:nth-child(2) {
-              background-color: $color-gray555;
-            }
-            &:nth-child(3) {
-              background-color: $color-gray666;
-            }
+            text-align: center;
           }
         }
       }
@@ -1170,20 +1163,224 @@ header {
   }
   &.healthy .buttonRow .sectionObject a.buttonList {
     &:nth-child(1) {
-          background-color: $b-healthy-dark;
-        }
-        &:nth-child(2) {
-          background-color: $b-healthy-medium;
-        }
-        &:nth-child(3) {
-          background-color: $b-healthy-light;
-        }
-        &:hover {
-          text-decoration: none;
-        }
+      background-color: $b-healthy-dark;
+      &:hover {
+        background-color: $color-gray444;
+      }
+    }
+    &:nth-child(2) {
+      background-color: $b-healthy-medium;
+      &:hover {
+        background-color: $color-gray555;
+      }
+    }
+    &:nth-child(3) {
+      background-color: $b-healthy-light;
+      &:hover {
+        background-color: $color-gray666;
+      }
+    }
+    &:hover {
+      text-decoration: none;
+    }
   }
-  .sectionHeader {
+  &.smart .buttonRow .sectionObject a.buttonList {
+    &:nth-child(1) {
+      background-color: $b-smart-dark;
+      &:hover {
+        background-color: $color-gray444;
+      }
+    }
+    &:nth-child(2) {
+      background-color: $b-smart-medium;
+      &:hover {
+        background-color: $color-gray555;
+      }
+    }
+    &:nth-child(3) {
+      background-color: $b-smart-light;
+      &:hover {
+        background-color: $color-gray666;
+      }
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  &.green .buttonRow .sectionObject a.buttonList {
+    &:nth-child(1) {
+      background-color: $b-green-dark;
+      &:hover {
+        background-color: $color-gray444;
+      }
+    }
+    &:nth-child(2) {
+      background-color: $b-green-medium;
+      &:hover {
+        background-color: $color-gray555;
+      }
+    }
+    &:nth-child(3) {
+      background-color: $b-green-light;
+      &:hover {
+        background-color: $color-gray666;
+      }
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  &.aware .buttonRow .sectionObject a.buttonList {
+    &:nth-child(1) {
+      background-color: $b-aware-dark;
+      &:hover {
+        background-color: $color-gray444;
+      }
+    }
+    &:nth-child(2) {
+      background-color: $b-aware-medium;
+      &:hover {
+        background-color: $color-gray555;
+      }
+    }
+    &:nth-child(3) {
+      background-color: $b-aware-light;
+      &:hover {
+        background-color: $color-gray666;
+      }
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
 
+/*
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex; 
+      -webkit-justify-content: space-between;
+      -moz-justify-content: space-between;
+      -ms-justify-content: space-between;
+      justify-content: space-between;
+*/
+
+  .sectionHeader {
+    padding: rem-calc(28) rem-calc(5) rem-calc(28) rem-calc(5);
+    //border: 1px solid #f00;
+    .bar {
+      //border: 1px solid #f00;
+      padding: rem-calc(10) 0 rem-calc(10) 0;
+      position: relative;
+      .colorBar {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        -moz-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        -ms-justify-content: center;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        //border: 1px solid #f00;
+        h2 {
+          //border: 1px solid #ff0;
+          //display: block;
+          //text-align: center;
+          font-family: 'ComeniaSansCondRegular';
+          height: rem-calc(30);
+          font-size: rem-calc(41);
+          line-height: 21px;
+          text-transform: uppercase;
+          background-color: $color-white;
+          padding: rem-calc(5) rem-calc(20) 0 rem-calc(20);
+          margin: 0;
+          @media #{$Small} {
+            font-size: rem-calc(24);
+            line-height: 20px;
+          }
+        }
+      }
+      .arrows {
+        position: absolute;
+        top: 0;
+        left: 0;
+        //border: 1px solid #f00;
+        background-color: $color-white;
+        padding: 0 rem-calc(10) 0 0;
+        @media #{$Medium} {
+            display: none;
+        }
+        a {
+          display: block;
+          width: rem-calc(50);
+          height: rem-calc(17);
+          padding: 0;
+          margin: 0;
+          &.arrowUp {
+            //border: 1px solid #f00;
+            background: $SpriteSheet no-repeat -488px 0px;
+            &:hover {
+              background: $SpriteSheet no-repeat -540px 0px;
+            }
+          }
+          &.arrowDown {
+            //border: 1px solid #f00;
+            background: $SpriteSheet no-repeat -488px -19px;
+            &:hover {
+              background: $SpriteSheet no-repeat -540px -19px;
+            }
+          }
+        }
+        p {
+          font-size: rem-calc(13);
+          line-height: 16px;
+          //border: 1px solid #f00;
+          color: $color-gray777;
+          text-transform: uppercase;
+          text-align: center;
+          padding: 0;
+          margin: 0 0 0 0;
+        }
+      }
+    }
+  }
+  &.healthy .sectionHeader .bar .colorBar {
+    background-color: $b-healthy;
+    h2 {
+      color: $b-healthy;
+      @media #{$Small} {
+        color: $color-white;
+        background-color: $b-healthy;
+      }
+    }
+  }
+  &.smart .sectionHeader .bar .colorBar {
+    background-color: $b-healthy;
+    h2 {
+      color: $b-smart;
+    }
+  }
+  &.green .sectionHeader .bar .colorBar {
+    background-color: $b-healthy;
+    h2 {
+      color: $b-green;
+    }
+  }
+  &.aware .sectionHeader .bar .colorBar {
+    background-color: $b-healthy;
+    h2 {
+      color: $b-aware;
+    }
   }
   .events {
 
@@ -1226,6 +1423,9 @@ header {
       background: $SpriteSheet no-repeat -424px 0px;
       width: rem-calc(60);
       height: rem-calc(21);
+      &:hover {
+        background: $SpriteSheet no-repeat -424px -24px;
+      }
     }
     p {
       margin: 0;
