@@ -83,6 +83,33 @@
   $thin-graye6e: 1px solid $color-graye6e;
   $medium-white: 6px solid $color-white;
 
+// Via BCF
+  $color-grayApollo: #222;      //the God of the Sun and the Music
+  $color-grayBoreas: #333;      //the Wind of the North
+  $color-grayChiron: #555;      //the Wise and Gentle Tutor
+  $color-grayDanae: #606060;    //the mother of Perseus
+  $color-grayErato: #666;       //the Muse of Love Poetry
+  $color-grayFates: #7a7a7a;    //the Spinners of the Thread of Life
+  $color-grayGaea: #7e7e7e;     //Mother Earth
+  $color-grayHermes: #939393;   //the Messenger of the gods
+  $color-grayIris: #b7b7b7;     //the personification of the rainbow
+  $color-grayJason: #c3c3c3;    //the leader of the Argonauts
+  $color-grayKallipygos: #ccc;  //title of the Greek god Aphrodite
+  $color-grayLinus: #e2e2e2;    //the Music teacher of Heracles
+  $color-grayMinotaur: #f0f0f0; //the creature with the head of a bull
+  $color-graySara: #e2e2e2;     //additional gray
+
+  $thick-maroon: 8px solid $color-maroon;
+  $medium-grayJason: 4px solid $color-grayJason;
+  $thin-maroon: 1px solid $color-maroon;
+  $thin-grayApollo: 1px solid $color-grayApollo;
+  $thin-grayIris: 1px solid $color-grayIris;
+  $thin-grayJason: 1px solid $color-grayJason;
+  $thin-grayKallipygos: 1px solid $color-grayKallipygos;
+  $thin-grayLinus: 1px solid $color-grayLinus;
+  $thin-grayMinotaur: 1px solid $color-grayMinotaur; 
+  $thin-graySara: 1px solid $color-graySara;
+
 body {
   background-color: $color-white;
 }
@@ -372,10 +399,11 @@ header {
   visibility: hidden;
 }
 
-
-
 // Content
 .content {
+  .rowInside .sectionObject {
+    padding: 0 rem-calc(5) 0 rem-calc(5);
+  }
   .breadcrumbs {
     font-size: $paragraph-font-size;
     padding: 0 0 0 rem-calc(5);
@@ -701,6 +729,229 @@ header {
     }
   }
 
+// Orbit Styles
+  .highlights {
+    border: 1px solid #f00;
+    //padding-top: rem-calc(5);
+    ul {
+      li { //(each highlight)
+        padding: 0 rem-calc(40) 0 rem-calc(40);
+        @media #{$iPadPortrait} {
+          padding: 0 rem-calc(16) 0 rem-calc(16);
+        }
+        @media #{$Phone} {
+          padding: 0 0 0 0;
+        }
+        .hightlighted-article { //(content) 
+          .article-image {
+            max-width:70%;
+            float: left;
+            padding-right: rem-calc(20);
+            @media #{$iPadPortrait} {
+              max-width:65%;
+              padding-right: rem-calc(16);
+            }
+            @media #{$Phone} {
+              max-width:100%;
+              float: none;
+              padding-right: 0;
+            }
+          }
+          .article-text-elements {
+            background-color: #fff;
+            padding: rem-calc(16) rem-calc(25) 0 0;
+            @media #{$iPadPortrait} {
+              padding: rem-calc(16) rem-calc(0) 0 0;
+            }
+            @media #{$Phone} {
+              padding: rem-calc(16) rem-calc(16) 0 rem-calc(16);
+            }
+            .article-title {
+              h2 {
+                font-family: 'ComeniaSansCondRegular'; //B
+                text-transform: uppercase;
+                font-size: rem-calc(30);
+                line-height: 30px;
+                padding-bottom: rem-calc(10);
+                @media #{$iPadPortrait} {
+                  font-size: rem-calc(22);
+                  line-height: 22px;
+                  padding-bottom: rem-calc(8);
+                }
+                @media #{$Phone} {
+                  font-size: rem-calc(30);
+                  line-height: 30px;
+                  padding-bottom: rem-calc(4);
+                }
+                a {
+                  color: $color-black;
+                  &:hover {
+                    color: $color-black;
+                  }
+                }
+              }
+            }
+            .article-teaser {
+              p {
+                font-family: 'ComeniaSansCondRegular';
+                padding-top: 2px; 
+                font-size: rem-calc(18);
+                color: $color-grayApollo;
+                line-height: 21px;
+                @media #{$iPadPortrait} {
+                  font-size: rem-calc(13);
+                  line-height: 14px;
+                  padding-right: rem-calc(40);
+                }
+                @media #{$Phone} {
+                  padding-top: 1px; 
+                  font-size: rem-calc(19);
+                  line-height: 21px;
+                }
+              }
+            }
+            .article-readmore {
+              p {
+                a {
+                  font-family: 'ComeniaSansCondRegular';
+                  background-color: $color-maroon;
+                  color: $color-white;
+                  font-weight: normal;
+                  font-size: rem-calc(15);
+                  padding: rem-calc(7) rem-calc(10) rem-calc(7) rem-calc(10);
+                  &:hover {
+                    background-color: $color-grayApollo;
+                    color: $color-white;
+                  }
+                  @media #{$iPadPortrait} {
+                    font-size: rem-calc(12);
+                    padding: rem-calc(6) rem-calc(9) rem-calc(6) rem-calc(9);
+                  }
+                  @media #{$Phone} {
+                    font-size: rem-calc(15);
+                    padding: rem-calc(7) rem-calc(10) rem-calc(7) rem-calc(10);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Orbit buttons culled from _orbit.scss
+  .orbit-container {
+    background-color: transparent;
+    .orbit-prev {
+      position: absolute;
+      //top: 50%;
+      margin-top: -25px;
+      background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-LeftArrow.png) no-repeat 3px 10px;
+      background-color: $orbit-nav-bg;
+      width: 35px;
+      height: 65px;
+      line-height: 50px;
+      color: white;
+      text-indent: -9999px !important;
+      z-index: 10;
+      &:hover {
+        background-color: $orbit-nav-bg;
+        opacity:0.6; 
+      }
+
+      & > span {
+        position: absolute;
+        top: 50%;
+        margin-top: -16px;
+        display: block;
+        width: 0;
+        height: 0;
+        //border: inset 16px;
+      }
+      @media #{$iPadPortrait} {
+        left: 16px;
+        background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-LeftArrow-Rev.png) no-repeat 5px 12px;
+        background-color: $color-grayErato;
+        opacity: 0.8;
+        //&:hover {
+        //  background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-LeftArrow.png) no-repeat 5px 12px;
+        //  background-color: $color-darkGray;
+        //  opacity:0.6;
+        //}
+      }
+      @media #{$Phone} { //had to turn this on in _orbit.scss
+        top: 100px;
+        background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-LeftArrow-Rev.png) no-repeat 6px 12px;
+        background-color: $color-grayBoreas;
+        opacity:0.8;
+      }
+    }
+    .orbit-next {
+      position: absolute;
+      top: 50%;
+      margin-top: -25px;
+      background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-RightArrow.png) no-repeat -10px 10px;
+      background-color: $orbit-nav-bg;
+      width: 35px;
+      height: 65px;
+      line-height: 50px;
+      color: white;
+      text-indent: -9999px !important;
+      z-index: 10;
+      @media #{$iPadPortrait} {
+        right: -16px;
+      }
+      &:hover {
+        background-color: $orbit-nav-bg;
+        opacity:0.6;  
+      }
+      & > span {
+        position: absolute;
+        top: 50%;
+        margin-top: -16px;
+        display: block;
+        width: 0;
+        height: 0;
+        //border: inset 16px;
+      }
+      @media #{$iPadPortrait} {
+        right: 16px;
+        background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-RightArrow-Rev.png) no-repeat 6px 12px;
+        background-color: $color-grayErato;
+        opacity:0.8;
+        //&:hover {
+        //  background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-RightArrow.png) no-repeat -12px 12px;
+        //  background-color: $color-white;
+        //  opacity:0.6;
+        //}
+      }
+      @media #{$Phone} {  //had to turn this on in _orbit.scss
+        top: 100px;
+        background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-RightArrow-Rev.png) no-repeat 6px 12px;
+        background-color: $color-grayBoreas;
+        opacity:0.8;
+      }
+    }
+    .orbit-bullets {
+        margin: 0 0 20px 0;
+        padding: 0 0 0 0; 
+        li {
+        margin: 0 rem-calc(7) 0 rem-calc(7);
+        border: $thin-grayIris;
+        background-color: $color-white;
+        height: rem-calc(12);
+        width: rem-calc(12);
+        &.active {
+          border: $thin-grayApollo;
+          background-color: $color-grayApollo;
+        }
+      }
+    }
+  }
+
+
+
 
 // Home Page elements
   .titleIcon {
@@ -765,7 +1016,7 @@ header {
     }
   }
   .mission {
-    padding: 0 rem-calc(5) 0 rem-calc(5);
+    //padding: 0 rem-calc(5) 0 rem-calc(5);
     border-bottom: $thin-graye6e;
     border-left: $medium-white;
     border-top: $thin-graye6e;
@@ -777,10 +1028,29 @@ header {
       text-align: center;
       font-style: italic;
       padding: rem-calc(30) 0 rem-calc(30) 0;
-      @media #{$medium} {
+      @media #{$Medium} {
         font-size: rem-calc(18);
         line-height: 20px;
         padding: rem-calc(20) rem-calc(15) rem-calc(20) rem-calc(15);
+      }
+    }
+  }
+  .downArrow {
+    @media #{$Small} {
+      display: none;
+    }
+    .arrow {
+      //border: 1px solid #f00;
+      display: block;
+      width: rem-calc(184);
+      height: rem-calc(57);
+      margin-left: auto;
+      margin-right: auto;
+      background: $SpriteSheet no-repeat 0px -332px;
+      @media #{$Medium} {
+        width: rem-calc(142);
+        height: rem-calc(45);
+        background: $SpriteSheet no-repeat -186px -332px;
       }
     }
   }
@@ -796,7 +1066,7 @@ header {
       -ms-justify-content: space-between;
       justify-content: space-between;
     }
-    padding: rem-calc(35) rem-calc(5) rem-calc(60) rem-calc(5);
+    padding: rem-calc(35) 0 rem-calc(60) 0;
     a {
       //border: 1px solid #f00;
       text-decoration: none;
@@ -852,7 +1122,7 @@ header {
   }
   .homePageCategory {
     //border: 1px solid #f00;
-    padding: rem-calc(40) rem-calc(5) rem-calc(40) rem-calc(5);
+    padding: rem-calc(40) 0 rem-calc(40) 0;
     a {
       display: block;
       width: rem-calc(300);
@@ -1051,12 +1321,12 @@ header {
     }
   }
   .slider {
-  //  padding: rem-calc(40) 0 rem-calc(40) 0;
+    //padding: rem-calc(40) 0 rem-calc(40) 0;
   }
 
 // Category Pages
   .hero {
-    padding: 0 rem-calc(5) rem-calc(30) rem-calc(5);
+    padding: 0 0 rem-calc(30) 0;
     //border: 1px solid #f00;
     .categoryTitle {
       float: left;
@@ -1123,7 +1393,7 @@ header {
   }
 
   .buttonRow {
-    padding: 0 rem-calc(5) 0 rem-calc(5);
+    padding: 0 0 0 0;
     .sectionObject {
       display: -webkit-box;
       display: -moz-box;
@@ -1267,7 +1537,7 @@ header {
 */
 
   .sectionHeader {
-    padding: rem-calc(28) rem-calc(5) rem-calc(28) rem-calc(5);
+    padding: rem-calc(28) 0 rem-calc(28) 0;
     //border: 1px solid #f00;
     .bar {
       //border: 1px solid #f00;
@@ -1320,24 +1590,31 @@ header {
         @media #{$Medium} {
             display: none;
         }
-        a {
+        .arrow {
           display: block;
           width: rem-calc(50);
           height: rem-calc(17);
           padding: 0;
           margin: 0;
-          &.arrowUp {
-            //border: 1px solid #f00;
-            background: $SpriteSheet no-repeat -488px 0px;
-            &:hover {
-              background: $SpriteSheet no-repeat -540px 0px;
+          a {
+            display: block;
+            width: rem-calc(50);
+            height: rem-calc(17);
+            padding: 0;
+            margin: 0;
+            &.arrowUp {
+              //border: 1px solid #f00;
+              background: $SpriteSheet no-repeat -488px 0px;
+              &:hover {
+                background: $SpriteSheet no-repeat -540px 0px;
+              }
             }
-          }
-          &.arrowDown {
-            //border: 1px solid #f00;
-            background: $SpriteSheet no-repeat -488px -19px;
-            &:hover {
-              background: $SpriteSheet no-repeat -540px -19px;
+            &.arrowDown {
+              //border: 1px solid #f00;
+              background: $SpriteSheet no-repeat -488px -19px;
+              &:hover {
+                background: $SpriteSheet no-repeat -540px -19px;
+              }
             }
           }
         }
@@ -1365,43 +1642,42 @@ header {
     }
   }
   &.smart .sectionHeader .bar .colorBar {
-    background-color: $b-healthy;
+    background-color: $b-smart;
     h2 {
       color: $b-smart;
+      @media #{$Small} {
+        color: $color-white;
+        background-color: $b-smart;
+      }
     }
   }
   &.green .sectionHeader .bar .colorBar {
-    background-color: $b-healthy;
+    background-color: $b-green;
     h2 {
       color: $b-green;
+      @media #{$Small} {
+        color: $color-white;
+        background-color: $b-green;
+      }
     }
   }
   &.aware .sectionHeader .bar .colorBar {
-    background-color: $b-healthy;
+    background-color: $b-aware;
     h2 {
       color: $b-aware;
+      @media #{$Small} {
+        color: $color-white;
+        background-color: $b-aware;
+      }
     }
   }
   .events {
-
+    //might need for the calendar widget?
   }
-  .programs {
-
-  }
-  .resources {
-
-  }
-
 } // Content End
 
 
 
-
-
-.rowInside { // for overall padding for a row (can't use margins on rows)
-    .sectionObject { // insides of each column setup 
-    }
-  }
 
 // Footer
 .btt {

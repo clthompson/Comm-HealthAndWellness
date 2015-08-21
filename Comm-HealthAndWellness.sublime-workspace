@@ -103,7 +103,7 @@
 			"file": "scss/_local_css.scss",
 			"settings":
 			{
-				"buffer_size": 35461,
+				"buffer_size": 44549,
 				"line_ending": "Windows"
 			}
 		},
@@ -111,7 +111,7 @@
 			"file": "working.html",
 			"settings":
 			{
-				"buffer_size": 21902,
+				"buffer_size": 24345,
 				"line_ending": "Windows"
 			}
 		},
@@ -128,7 +128,7 @@
 			"file": "css/comm-hw.css",
 			"settings":
 			{
-				"buffer_size": 11760,
+				"buffer_size": 11578,
 				"line_ending": "Windows"
 			}
 		},
@@ -357,7 +357,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -365,15 +365,15 @@
 					"file": "scss/_local_css.scss",
 					"settings":
 					{
-						"buffer_size": 35461,
+						"buffer_size": 44549,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8356,
-								8356
+								21392,
+								17841
 							]
 						],
 						"settings":
@@ -383,7 +383,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 18943.0,
+						"translation.y": 10680.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -393,15 +393,15 @@
 					"file": "working.html",
 					"settings":
 					{
-						"buffer_size": 21902,
+						"buffer_size": 24345,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11522,
-								11212
+								6047,
+								6047
 							]
 						],
 						"settings":
@@ -411,7 +411,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3717.0,
+						"translation.y": 1747.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -447,7 +447,7 @@
 					"file": "css/comm-hw.css",
 					"settings":
 					{
-						"buffer_size": 11760,
+						"buffer_size": 11578,
 						"regions":
 						{
 						},
@@ -465,7 +465,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1590.0,
+						"translation.y": 1575.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -558,7 +558,7 @@
 		[
 			[
 				"",
-				"/Z/Public/webDevelopment/master/MASTER.sublime-project"
+				"/Z/Public/$BCF_Website/Development/003-Production5/BrooklynCollegeFoundation.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -567,6 +567,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 326.0,
+	"side_bar_width": 218.0,
 	"status_bar_visible": true
 }
