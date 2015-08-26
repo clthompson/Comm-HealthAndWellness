@@ -42,6 +42,7 @@
   $color-white: #fff;
 
   $color-gray222: #222;
+  $color-gray333: #333;
   $color-gray444: #444;
   $color-gray555: #555;
   $color-gray666: #666;
@@ -79,6 +80,7 @@
 
 // Line Styles
   $thin-grayccc: 1px solid $color-grayccc;
+  $thin-gray222: 1px solid $color-gray222;
   $thin-maroon2: 2px solid $color-maroon2;
   $thin-graye6e: 1px solid $color-graye6e;
   $medium-white: 6px solid $color-white;
@@ -568,7 +570,7 @@ header {
           margin-left: 0;
         }
       }
-      p {
+      a{
         color: $color-white;
         font-size: $h2-font-size;
         font-family: 'ComeniaSansCondRegular';
@@ -730,106 +732,125 @@ header {
   }
 
 // Orbit Styles
-  .highlights {
-    border: 1px solid #f00;
-    //padding-top: rem-calc(5);
+  .slider {
+    padding-top: 40px;
+    //border: 1px solid #f00;
     ul {
       li { //(each highlight)
-        padding: 0 rem-calc(40) 0 rem-calc(40);
+        padding: 0 rem-calc(55) 0 rem-calc(55);
         @media #{$iPadPortrait} {
-          padding: 0 rem-calc(16) 0 rem-calc(16);
+          padding: 0 rem-calc(40) 0 rem-calc(40);
         }
         @media #{$Phone} {
           padding: 0 0 0 0;
         }
         .hightlighted-article { //(content) 
           .article-image {
-            max-width:70%;
+            //border: 1px solid #f00;
+            max-width: 60%;
             float: left;
             padding-right: rem-calc(20);
             @media #{$iPadPortrait} {
-              max-width:65%;
+              //max-width:65%;
               padding-right: rem-calc(16);
             }
             @media #{$Phone} {
-              max-width:100%;
+              max-width: 100%;
               float: none;
               padding-right: 0;
             }
           }
           .article-text-elements {
+            //border: 1px solid #f00;
             background-color: #fff;
-            padding: rem-calc(16) rem-calc(25) 0 0;
+            padding: 0;
             @media #{$iPadPortrait} {
-              padding: rem-calc(16) rem-calc(0) 0 0;
+              padding: 0;
             }
             @media #{$Phone} {
-              padding: rem-calc(16) rem-calc(16) 0 rem-calc(16);
+              padding: rem-calc(17) rem-calc(10) 0 rem-calc(10);
             }
             .article-title {
               h2 {
-                font-family: 'ComeniaSansCondRegular'; //B
+                margin: rem-calc(-4) 0 0 0;
+                //border: 1px solid #f00;
+                font-family: 'ComeniaSansCondBold'; //B
                 text-transform: uppercase;
-                font-size: rem-calc(30);
-                line-height: 30px;
-                padding-bottom: rem-calc(10);
+                font-size: rem-calc(28);
+                line-height: 29px;
+                padding-bottom: rem-calc(16);
                 @media #{$iPadPortrait} {
-                  font-size: rem-calc(22);
-                  line-height: 22px;
-                  padding-bottom: rem-calc(8);
+                  margin: rem-calc(-2) 0 0 0;
+                  font-size: rem-calc(19);
+                  line-height: 20px;
+                  padding-bottom: rem-calc(12);
                 }
                 @media #{$Phone} {
-                  font-size: rem-calc(30);
-                  line-height: 30px;
-                  padding-bottom: rem-calc(4);
+                  margin: 0;
+                  font-size: rem-calc(20);
+                  line-height: 22px;
+                  padding-bottom: rem-calc(16);
                 }
                 a {
-                  color: $color-black;
+                  color: $color-gray222;
+                  text-decoration: none;
                   &:hover {
-                    color: $color-black;
+                    text-decoration: underline;
                   }
                 }
               }
             }
             .article-teaser {
               p {
+                margin: 0;
+                //border: 1px solid #f00;
                 font-family: 'ComeniaSansCondRegular';
-                padding-top: 2px; 
                 font-size: rem-calc(18);
-                color: $color-grayApollo;
-                line-height: 21px;
+                color: $color-gray404;
+                line-height: 20px;
+                //padding-bottom: rem-calc(20);
                 @media #{$iPadPortrait} {
-                  font-size: rem-calc(13);
-                  line-height: 14px;
-                  padding-right: rem-calc(40);
+                  font-size: rem-calc(16);
+                  line-height: 19px;
                 }
                 @media #{$Phone} {
-                  padding-top: 1px; 
                   font-size: rem-calc(19);
                   line-height: 21px;
                 }
               }
             }
-            .article-readmore {
+            .article-tag {
               p {
+                margin: 0;
+                padding-top: rem-calc(40);
+                //border: 1px solid #f00;
+                color: $color-gray7c7;
+                font-size: rem-calc(16);
+                font-family: 'ComeniaSansCondRegular';
+                @media #{$Medium} {
+                  padding-top: rem-calc(30);
+                }
+                @media #{$iPadPortrait} {
+                  padding: rem-calc(30) 0 rem-calc(30) 0;
+                }
                 a {
-                  font-family: 'ComeniaSansCondRegular';
-                  background-color: $color-maroon;
-                  color: $color-white;
-                  font-weight: normal;
-                  font-size: rem-calc(15);
-                  padding: rem-calc(7) rem-calc(10) rem-calc(7) rem-calc(10);
+                  font-family: 'ComeniaSansCondBold';
+                  text-decoration: none;               
+                  //padding: rem-calc(0) rem-calc(0) rem-calc(0) rem-calc(0);
+                  &.healthy {
+                    color: $b-healthy;
+                  }
+                  &.smart {
+                    color: $b-smart;
+                  }
+                  &.green {
+                    color: $b-green;
+                  }
+                  &.aware {
+                    color: $b-aware;
+                  }
                   &:hover {
-                    background-color: $color-grayApollo;
-                    color: $color-white;
-                  }
-                  @media #{$iPadPortrait} {
-                    font-size: rem-calc(12);
-                    padding: rem-calc(6) rem-calc(9) rem-calc(6) rem-calc(9);
-                  }
-                  @media #{$Phone} {
-                    font-size: rem-calc(15);
-                    padding: rem-calc(7) rem-calc(10) rem-calc(7) rem-calc(10);
+                    color: $color-gray666;
                   }
                 }
               }
@@ -864,16 +885,17 @@ header {
         position: absolute;
         top: 50%;
         margin-top: -16px;
-        display: block;
+        display: none;
         width: 0;
         height: 0;
         //border: inset 16px;
       }
       @media #{$iPadPortrait} {
-        left: 16px;
-        background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-LeftArrow-Rev.png) no-repeat 5px 12px;
-        background-color: $color-grayErato;
-        opacity: 0.8;
+        left: 0px;
+        margin-top: -35px;
+        //background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-LeftArrow-Rev.png) no-repeat 5px 12px;
+        //background-color: $color-grayErato;
+        //opacity: 0.8;
         //&:hover {
         //  background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-LeftArrow.png) no-repeat 5px 12px;
         //  background-color: $color-darkGray;
@@ -881,15 +903,23 @@ header {
         //}
       }
       @media #{$Phone} { //had to turn this on in _orbit.scss
-        top: 100px;
+        display: block;
+        top: 30%;
         background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-LeftArrow-Rev.png) no-repeat 6px 12px;
-        background-color: $color-grayBoreas;
+        background-color: $color-gray333;
         opacity:0.8;
+        &:hover {
+          display: block;
+          top: 30%;
+          background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-LeftArrow-Rev.png) no-repeat 6px 12px;
+          background-color: $color-gray333;
+          opacity:0.6;
+        }
       }
     }
     .orbit-next {
       position: absolute;
-      top: 50%;
+      //top: 50%;
       margin-top: -25px;
       background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-RightArrow.png) no-repeat -10px 10px;
       background-color: $orbit-nav-bg;
@@ -899,9 +929,6 @@ header {
       color: white;
       text-indent: -9999px !important;
       z-index: 10;
-      @media #{$iPadPortrait} {
-        right: -16px;
-      }
       &:hover {
         background-color: $orbit-nav-bg;
         opacity:0.6;  
@@ -910,16 +937,17 @@ header {
         position: absolute;
         top: 50%;
         margin-top: -16px;
-        display: block;
+        display: none;
         width: 0;
         height: 0;
         //border: inset 16px;
       }
       @media #{$iPadPortrait} {
-        right: 16px;
-        background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-RightArrow-Rev.png) no-repeat 6px 12px;
-        background-color: $color-grayErato;
-        opacity:0.8;
+        right: 0px;
+        margin-top: -35px;
+        //background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-RightArrow-Rev.png) no-repeat 6px 12px;
+        //background-color: $color-grayErato;
+        //opacity:0.8;
         //&:hover {
         //  background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-RightArrow.png) no-repeat -12px 12px;
         //  background-color: $color-white;
@@ -927,10 +955,18 @@ header {
         //}
       }
       @media #{$Phone} {  //had to turn this on in _orbit.scss
-        top: 100px;
+        display: block;
+        top: 30%;
         background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-RightArrow-Rev.png) no-repeat 6px 12px;
-        background-color: $color-grayBoreas;
-        opacity:0.8;
+        background-color: $color-gray333;
+        opacity: 0.8;
+        &:hover {
+          display: block;
+          top: 30%;
+          background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-RightArrow-Rev.png) no-repeat 6px 12px;
+          background-color: $color-gray333;
+          opacity: 0.6;
+        }
       }
     }
     .orbit-bullets {
@@ -943,8 +979,8 @@ header {
         height: rem-calc(12);
         width: rem-calc(12);
         &.active {
-          border: $thin-grayApollo;
-          background-color: $color-grayApollo;
+          border: $thin-gray222;
+          background-color: $color-gray222;
         }
       }
     }

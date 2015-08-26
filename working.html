@@ -138,7 +138,7 @@
 
   <div class="full-width">
     <span class="anchor" id=""></span>
-    <section class="row rowInside highlights">
+    <section class="row rowInside slider">
       <div class="large-12 columns">
         <div class="sectionObject">
           <div class="">
@@ -152,9 +152,9 @@
                   data-src768="images/test_750x420.jpg"/></a>
               </div>
               <div class="article-text-elements">
-                <div class="article-title"><a href="#"><h2>Lorem ipsum dolor sit amet, consectetur adipisicing</h2></a></div>
+                <div class="article-title"><h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing</a></h2></div>
                 <div class="article-teaser"><p>ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</p></div>
-                <div class="article-readmore"><p class=""><a href="#">Read More</a></p></div>
+                <div class="article-tag"><p>tags: <a href="#" class="healthy">B Healthy</a></p></div>
               </div>
               </div>
             </li>
@@ -167,9 +167,9 @@
                   data-src768="images/test_750x420.jpg"/></a>
               </div>
               <div class="article-text-elements">
-                <div class="article-title"><a href="#"><h2>Lorem ipsum dolor sit amet, consectetur adipisicing</h2></a></div>
+                <div class="article-title"><h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing</a></h2></div>
                 <div class="article-teaser"><p>ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</p></div>
-                <div class="article-readmore"><p class=""><a href="#">Read More</a></p></div>
+                <div class="article-tag"><p>tags: <a href="#" class="smart">B Healthy</a></p></div>
               </div>
               </div>
             </li>
@@ -388,17 +388,20 @@
 </section>
 
 
+
 <!-- News Content - All Conditional-->
 <section class="content">
     <section class="row rowInside breadcrumbs">
       <div class="large-12 columns">
         <div class="sectionObject">
           <p class="news"><a href="anc_news">HWI News</a></p>
-          <p class="category green"><a href="#">B Category</a></p>
+          <p class="category smart"></p>
           <p class="storytitle">Page Title</p>
         </div>
       </div>
     </section>
+
+
 
     <section class="row rowInside title">
       <div class="large-12 columns">
@@ -456,12 +459,12 @@
     <section class="row rowInside articleButtons">
       <div class="large-5 large-offset-1 medium-6 columns">
         <div class="sectionObject">
-          <a href="#"><div class="articleButton abLeft green"><p>Read More "B Healthy" News</p></div></a>
+          <div class="articleButton abLeft green"></div>
         </div>
       </div>
       <div class="large-5 medium-6 end columns">
         <div class="sectionObject">
-          <a href="#"><div class="articleButton abRight green"><p>Read All News</p></div></a>
+          <div class="articleButton abRight green"><p><a href="#">Read All News</a></p></div>
         </div>
       </div>
     </section>
@@ -539,7 +542,22 @@
         </script>
 
         <script>$(document).foundation();</script>
+
+        <script>
+          $("p.category.healthy").html("<a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/healthy.php'>B Healthy</a>");
+          $("p.category.smart").html("<a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/smart.php'>B Smart</a>");
+          $("p.category.green").html("<a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/green.php'>B Green</a>");
+          $("p.category.aware").html("<a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/aware.php'>B Aware</a>");
+
+          $(".articleButton.abLeft.healthy").html("<p><a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/healthy.php'>Read More 'B Healthy' News</a></p>");
+          $(".articleButton.abLeft.smart").html("<p><a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/smart.php'>Read More 'B Smart' News</a></p>");
+          $(".articleButton.abLeft.green").html("<p><a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/green.php'>Read More 'B Green' News</a></p>");
+          $(".articleButton.abLeft.aware").html("<p><a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/aware.php'>Read More 'B Aware' News</a></p>");
+        </script>
+
+
     <!-- End Footer Elements -->
+
 
   </body>
 </html>

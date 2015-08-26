@@ -5,15 +5,15 @@
 		[
 			[
 				"text-",
-				"text-align"
+				"text-decoration"
+			],
+			[
+				"color-",
+				"color-gray222"
 			],
 			[
 				"background",
 				"background-color"
-			],
-			[
-				"color-",
-				"color-white"
 			],
 			[
 				"u",
@@ -103,7 +103,7 @@
 			"file": "scss/_local_css.scss",
 			"settings":
 			{
-				"buffer_size": 44549,
+				"buffer_size": 45027,
 				"line_ending": "Windows"
 			}
 		},
@@ -111,7 +111,7 @@
 			"file": "working.html",
 			"settings":
 			{
-				"buffer_size": 24345,
+				"buffer_size": 24355,
 				"line_ending": "Windows"
 			}
 		},
@@ -128,7 +128,7 @@
 			"file": "css/comm-hw.css",
 			"settings":
 			{
-				"buffer_size": 11578,
+				"buffer_size": 157196,
 				"line_ending": "Windows"
 			}
 		},
@@ -357,7 +357,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -365,15 +365,15 @@
 					"file": "scss/_local_css.scss",
 					"settings":
 					{
-						"buffer_size": 44549,
+						"buffer_size": 45027,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								21392,
-								17841
+								22211,
+								22211
 							]
 						],
 						"settings":
@@ -383,7 +383,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 10680.0,
+						"translation.y": 12518.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -393,15 +393,15 @@
 					"file": "working.html",
 					"settings":
 					{
-						"buffer_size": 24345,
+						"buffer_size": 24355,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6047,
-								6047
+								7085,
+								7085
 							]
 						],
 						"settings":
@@ -411,7 +411,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1747.0,
+						"translation.y": 1905.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -447,7 +447,7 @@
 					"file": "css/comm-hw.css",
 					"settings":
 					{
-						"buffer_size": 11578,
+						"buffer_size": 157196,
 						"regions":
 						{
 						},
