@@ -154,7 +154,7 @@
               <div class="article-text-elements">
                 <div class="article-title"><h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing</a></h2></div>
                 <div class="article-teaser"><p>ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</p></div>
-                <div class="article-tag"><p>tags: <a href="#" class="healthy">B Healthy</a></p></div>
+                <div class="article-tag healthy"><p>tags: <a href="#">B Healthy</a></p></div>
               </div>
               </div>
             </li>
@@ -169,7 +169,7 @@
               <div class="article-text-elements">
                 <div class="article-title"><h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing</a></h2></div>
                 <div class="article-teaser"><p>ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</p></div>
-                <div class="article-tag"><p>tags: <a href="#" class="smart">B Healthy</a></p></div>
+                <div class="article-tag smart"><p>tags: <a href="#">B Smart</a></p></div>
               </div>
               </div>
             </li>
@@ -180,6 +180,12 @@
     </section>
   </div>
     
+    <script>
+      $(".article-tag.healthy").replaceWith("<div class='article-tag healthy'><p>tags: <a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/healthy.php'>B Healthy</a></p></div>");
+      $(".article-tag.smart").replaceWith("<div class='article-tag smart'><p>tags: <a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/smart.php'>B Smart</a></p></div>");
+      $(".article-tag.green").replaceWith("<div class='article-tag green'><p>tags: <a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/green.php'>B Green</a></p></div>");
+      $(".article-tag.aware").replaceWith("<div class='article-tag aware'><p>tags: <a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/aware.php'>B Aware</a></p></div>");
+    </script>
 
   <div class="full-width">
     <span class="anchor" id=""></span>
@@ -365,7 +371,7 @@
                     data-src768="images/test_375x210.jpg"/>
                 </a></div>
                 <div class="text-elements">
-                  <a href="#"><div class="article-tag"><p class="green">B Green</p></div></a>
+                  <a href="#"><div class="article-tag"><p class="healthy">B Healthy</p></div></a>
                   <div class="article-date"><p>July 1, 2015</p></div>
                   <div class="article-title"><h2><a href="#">Title</a></h2></div>
                   <div class="article-teaser"><p>Teaser</p></div>
@@ -375,10 +381,12 @@
             <li>
               <div class="listed-article clearfix">
                 <!--<div class="article-image left"><a href="#"><img src="images/test_1000x560.jpg" alt="" title=""></a></div>-->
-                <div class="article-tag"><p class="healthy"><a href="#">B Healthy</a></p></div>
-                <div class="article-date"><p>July 1, 2015</p></div>
-                <div class="article-title"><h2><a href="#">Title</a></h2></div>
-                <div class="article-teaser"><p>Teaser</p></div>
+                <div class="text-elements">
+                  <a href="#"><div class="article-tag"><p class="smart">B Smart</p></div></a>
+                  <div class="article-date"><p>July 1, 2015</p></div>
+                  <div class="article-title"><h2><a href="#">Title</a></h2></div>
+                  <div class="article-teaser"><p>Teaser</p></div>
+                </div>
               </div>
             </li>
           </ul>
@@ -386,6 +394,13 @@
       </div>
     </section>
 </section>
+
+<script>
+  $("a .article-tag p.healthy").replaceWith("<a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/healthy.php''><div class='article-tag'><p class='healthy'>B Healthy</p></div></a>");
+  $("a .article-tag p.smart").replaceWith("<a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/smart.php''><div class='article-tag'><p class='smart'>B Smart</p></div></a>");
+  $("a .article-tag p.green").replaceWith("<a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/green.php''><div class='article-tag'><p class='green'>B Green</p></div></a>");
+  $("a .article-tag p.aware").replaceWith("<a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/aware.php''><div class='article-tag'><p class='aware'>B Aware</p></div></a>");
+</script>
 
 
 
@@ -459,12 +474,12 @@
     <section class="row rowInside articleButtons">
       <div class="large-5 large-offset-1 medium-6 columns">
         <div class="sectionObject">
-          <div class="articleButton abLeft green"></div>
+          <div class="articleButton abLeft healthy"></div>
         </div>
       </div>
       <div class="large-5 medium-6 end columns">
         <div class="sectionObject">
-          <div class="articleButton abRight green"><p><a href="#">Read All News</a></p></div>
+          <a href="#"><div class="articleButton abRight healthy"><p>Read All News</p></div></a>
         </div>
       </div>
     </section>
@@ -483,17 +498,17 @@
   </div>
 
 <!-- Footer -->
-  <div class="full-width gray">
+  <div class="full-width grayfooter">
     <footer>
         <section class="row topLine">
-          <div class="large-12 medium-12 columns footerNav">
+          <div class="large-12 columns footerNav">
             <ul>
-              <li class=""><a href="URL" STF_GA>Home</a></li>
-              <li class=""><a href="URL" STF_GA>B Healthy</a></li>
-              <li class=""><a href="URL" STF_GA>B Smart</a></li>
-              <li class=""><a href="URL" STF_GA>B Green</a></li>
-              <li class=""><a href="URL" STF_GA>B Aware</a></li>
-              <li class=""><a href="URL" STF_GA>News</a></li>
+              <li class=""><a href="URL">Home</a></li>
+              <li class=""><a href="URL">B Healthy</a></li>
+              <li class=""><a href="URL">B Smart</a></li>
+              <li class=""><a href="URL">B Green</a></li>
+              <li class=""><a href="URL">B Aware</a></li>
+              <li class=""><a href="URL">News</a></li>
             </ul>
           </div>
         </section>
@@ -549,10 +564,10 @@
           $("p.category.green").html("<a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/green.php'>B Green</a>");
           $("p.category.aware").html("<a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/aware.php'>B Aware</a>");
 
-          $(".articleButton.abLeft.healthy").html("<p><a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/healthy.php'>Read More 'B Healthy' News</a></p>");
-          $(".articleButton.abLeft.smart").html("<p><a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/smart.php'>Read More 'B Smart' News</a></p>");
-          $(".articleButton.abLeft.green").html("<p><a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/green.php'>Read More 'B Green' News</a></p>");
-          $(".articleButton.abLeft.aware").html("<p><a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/aware.php'>Read More 'B Aware' News</a></p>");
+          $(".articleButton.abLeft.healthy").replaceWith("<a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/healthy.php'><div class='articleButton abLeft healthy'><p>Read More 'B Healthy' News</p></div></a>");
+          $(".articleButton.abLeft.smart").replaceWith("<a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/smart.php'><div class='articleButton abLeft smart'><p>Read More 'B Smart' News</p></div></a>");
+          $(".articleButton.abLeft.green").replaceWith("<a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/green.php'><div class='articleButton abLeft green'><p>Read More 'B Green' News</p></div></a>");
+          $(".articleButton.abLeft.aware").replaceWith("<a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/aware.php'><div class='articleButton abLeft aware'><p>Read More 'B Aware' News</p></div></a>");
         </script>
 
 

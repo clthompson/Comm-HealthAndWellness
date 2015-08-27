@@ -103,7 +103,7 @@
 			"file": "scss/_local_css.scss",
 			"settings":
 			{
-				"buffer_size": 45027,
+				"buffer_size": 46754,
 				"line_ending": "Windows"
 			}
 		},
@@ -111,7 +111,7 @@
 			"file": "working.html",
 			"settings":
 			{
-				"buffer_size": 24355,
+				"buffer_size": 27539,
 				"line_ending": "Windows"
 			}
 		},
@@ -128,7 +128,7 @@
 			"file": "css/comm-hw.css",
 			"settings":
 			{
-				"buffer_size": 157196,
+				"buffer_size": 157896,
 				"line_ending": "Windows"
 			}
 		},
@@ -138,6 +138,14 @@
 			{
 				"buffer_size": 2124,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bower_components/foundation/scss/foundation/components/_orbit.scss",
+			"settings":
+			{
+				"buffer_size": 9451,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -314,6 +322,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"titleicon",
+			"sectionobj",
+			"header",
+			"slider",
+			"bigB",
+			"rem-calc(60)",
+			"bread",
+			"orbit",
 			":after",
 			"topLine",
 			"btt",
@@ -357,7 +373,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -365,15 +381,15 @@
 					"file": "scss/_local_css.scss",
 					"settings":
 					{
-						"buffer_size": 45027,
+						"buffer_size": 46754,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								22211,
-								22211
+								25414,
+								25414
 							]
 						],
 						"settings":
@@ -383,7 +399,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 12518.0,
+						"translation.y": 14293.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -393,15 +409,15 @@
 					"file": "working.html",
 					"settings":
 					{
-						"buffer_size": 24355,
+						"buffer_size": 27539,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7085,
-								7085
+								4869,
+								4882
 							]
 						],
 						"settings":
@@ -411,7 +427,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1905.0,
+						"translation.y": 1138.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -427,8 +443,8 @@
 						"selection":
 						[
 							[
-								446,
-								0
+								0,
+								446
 							]
 						],
 						"settings":
@@ -447,7 +463,7 @@
 					"file": "css/comm-hw.css",
 					"settings":
 					{
-						"buffer_size": 157196,
+						"buffer_size": 157896,
 						"regions":
 						{
 						},
@@ -489,6 +505,34 @@
 						"settings":
 						{
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "bower_components/foundation/scss/foundation/components/_orbit.scss",
+					"settings":
+					{
+						"buffer_size": 9451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

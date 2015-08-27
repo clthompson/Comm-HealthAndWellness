@@ -27,8 +27,8 @@
   $h6-font-size: rem-calc(16); // $h6-font-size: 1rem;          // not used yet
 
 // Typical Paragraphs
-  $article-font-size: rem-calc(16); // 15 good
   $paragraph-font-size: rem-calc(15); // 15 good
+  $article-font-size: rem-calc(15); // 15 good
   $small-font-size: rem-calc(12); //12 good
 
 // Backgrounds and Sprite Sheets - ?????
@@ -85,33 +85,6 @@
   $thin-graye6e: 1px solid $color-graye6e;
   $medium-white: 6px solid $color-white;
 
-// Via BCF
-  $color-grayApollo: #222;      //the God of the Sun and the Music
-  $color-grayBoreas: #333;      //the Wind of the North
-  $color-grayChiron: #555;      //the Wise and Gentle Tutor
-  $color-grayDanae: #606060;    //the mother of Perseus
-  $color-grayErato: #666;       //the Muse of Love Poetry
-  $color-grayFates: #7a7a7a;    //the Spinners of the Thread of Life
-  $color-grayGaea: #7e7e7e;     //Mother Earth
-  $color-grayHermes: #939393;   //the Messenger of the gods
-  $color-grayIris: #b7b7b7;     //the personification of the rainbow
-  $color-grayJason: #c3c3c3;    //the leader of the Argonauts
-  $color-grayKallipygos: #ccc;  //title of the Greek god Aphrodite
-  $color-grayLinus: #e2e2e2;    //the Music teacher of Heracles
-  $color-grayMinotaur: #f0f0f0; //the creature with the head of a bull
-  $color-graySara: #e2e2e2;     //additional gray
-
-  $thick-maroon: 8px solid $color-maroon;
-  $medium-grayJason: 4px solid $color-grayJason;
-  $thin-maroon: 1px solid $color-maroon;
-  $thin-grayApollo: 1px solid $color-grayApollo;
-  $thin-grayIris: 1px solid $color-grayIris;
-  $thin-grayJason: 1px solid $color-grayJason;
-  $thin-grayKallipygos: 1px solid $color-grayKallipygos;
-  $thin-grayLinus: 1px solid $color-grayLinus;
-  $thin-grayMinotaur: 1px solid $color-grayMinotaur; 
-  $thin-graySara: 1px solid $color-graySara;
-
 body {
   background-color: $color-white;
 }
@@ -128,6 +101,10 @@ body {
     background-color: $color-grayece;
     margin-bottom: 50px;
   }
+  &.grayfooter {
+    background-color: $color-grayece;
+    margin-bottom: 0;
+  }
   &.gray2 {
     background-color: $color-graya2a;
   }
@@ -141,6 +118,12 @@ header {
   //border-bottom: 1px solid #000;
   width: 100%;
   margin-bottom: rem-calc(60);
+  @media #{$Medium} {
+    margin-bottom: rem-calc(43);
+  }
+  @media #{$Small} {
+    margin-bottom: rem-calc(20);
+  }
   //background-image: $background-d;
   //height: rem-calc(55);
   //top:0px; 
@@ -230,11 +213,8 @@ header {
             font-weight: $bold;
           }
           font-family: 'ComeniaSansCondRegular';
-          font-size: $small-font-size;
-          //color: $color-maroon;
-
+          font-size: rem-calc(15);
           display: inline-block;
-          margin: 0;
           padding: 0 rem-calc(30) 0 0;
           //display: table-cell;
           //vertical-align: middle;
@@ -242,7 +222,7 @@ header {
             padding-right: rem-calc(25); 
           }
           &:last-of-type {
-            padding-right: rem-calc(5);
+            padding-right: rem-calc(20);
             &:first-letter {
               font-weight: normal;
             }
@@ -255,8 +235,6 @@ header {
           a {
             color: $color-gray222;
             text-decoration:none;
-            padding: 0;
-            margin: 0;
             //font-weight: $bold;
             &:hover {
               color: $color-gray666;
@@ -390,8 +368,6 @@ header {
   transition: all 0.3s ease;
 }
 
-
-// will need this later for in page stuff
 .anchor {
   position: relative;
   display: block;
@@ -552,6 +528,7 @@ header {
       text-decoration: none;
     }
     .articleButton {
+
       //border: $thin-maroon2;
       //padding: 17px 0px 17px 0;
       text-align: center;
@@ -570,12 +547,12 @@ header {
           margin-left: 0;
         }
       }
-      a{
+      p {
+        padding-top: rem-calc(6);
         color: $color-white;
         font-size: $h2-font-size;
         font-family: 'ComeniaSansCondRegular';
         text-transform: uppercase;
-        padding-top: rem-calc(5);
       }
       &.healthy {
         background-color: $b-healthy;
@@ -619,6 +596,7 @@ header {
       padding: 0; 
       margin: 0;
       li {
+
         margin: 0 0 rem-calc(50) 0;
         &:last-of-type{
           margin: 0;
@@ -628,6 +606,7 @@ header {
         }
         padding:0;
         .listed-article {
+          min-height: 140px;
           //border: 1px solid #000;
           .article-image {
             float: left;
@@ -635,6 +614,7 @@ header {
             position: relative; // this is important too
             width: 196px;
             height: 140px;
+            margin-right: 10px;
             @media #{$Small} {
               display: none;
             }
@@ -658,14 +638,15 @@ header {
             }
           }
           .text-elements {
-            margin-left: rem-calc(196);
-            padding: 0;
+            //border: 1px solid #f00;
+            margin-left: rem-calc(10);
+            //padding: 10px;
             @media #{$Small} {
-              margin-left: 0;
+              margin-left: 5px;
             }
           }
           .article-tag {
-            margin: rem-calc(-10) 0 0 rem-calc(10);
+            //margin: rem-calc(-10) 0 0 rem-calc(0);
             text-transform: uppercase;
             font-size: $h4-font-size;
             display: inline-block;
@@ -693,16 +674,17 @@ header {
             }
           }
           .article-date {
+            display: inline-block;
             font-family: $font-lucida;
             font-size: $h4-font-size;
             margin-left: rem-calc(10);
-            display: inline-block;
             color: $color-gray666;
           }
           .article-title {
-
+            //border: 1px solid #f00;
+            //margin: 0 0 0 rem-calc(10);
             h2 {
-              margin: rem-calc(-5) 0 0 rem-calc(10);
+              margin: rem-calc(-5) 0 0 rem-calc(0);
               font-family: 'ComeniaSansCondRegular'; //B
               font-size: $h2-news-archive-font-size;
               line-height: 25px;
@@ -719,12 +701,16 @@ header {
               }
             }
           }
-          .article-teaser p {
-            margin: 0 0 0 rem-calc(10);
-            font-family: $font-lucida;
-            font-size: rem-calc(16);
-            color: $color-gray404;
-            line-height: 19px;
+          .article-teaser{ 
+            margin: 0 0 0 rem-calc(0);
+            padding-bottom: 10px;
+            p {
+              margin: 0 0 0 rem-calc(0);
+              font-family: $font-lucida;
+              font-size: rem-calc(16);
+              color: $color-gray404;
+              line-height: 19px;
+            }
           }
         }        
       }
@@ -733,7 +719,10 @@ header {
 
 // Orbit Styles
   .slider {
-    padding-top: 40px;
+    padding-top: rem-calc(40);
+    @media #{$Small} {
+      padding-top: rem-calc(0);
+    }
     //border: 1px solid #f00;
     ul {
       li { //(each highlight)
@@ -820,6 +809,21 @@ header {
               }
             }
             .article-tag {
+              &.healthy p a {
+                color: $b-healthy;
+              }
+              &.smart p a {
+                color: $b-smart;
+              }
+              &.green p a {
+                color: $b-green;
+              }
+              &.aware p a {
+                color: $b-aware;
+              }
+              &:hover {
+                color: $color-gray666;
+                }
               p {
                 margin: 0;
                 padding-top: rem-calc(40);
@@ -837,21 +841,7 @@ header {
                   font-family: 'ComeniaSansCondBold';
                   text-decoration: none;               
                   //padding: rem-calc(0) rem-calc(0) rem-calc(0) rem-calc(0);
-                  &.healthy {
-                    color: $b-healthy;
-                  }
-                  &.smart {
-                    color: $b-smart;
-                  }
-                  &.green {
-                    color: $b-green;
-                  }
-                  &.aware {
-                    color: $b-aware;
-                  }
-                  &:hover {
-                    color: $color-gray666;
-                  }
+                  
                 }
               }
             }
@@ -868,11 +858,12 @@ header {
       position: absolute;
       //top: 50%;
       margin-top: -25px;
-      background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-LeftArrow.png) no-repeat 3px 10px;
+      //background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-LeftArrow.png) no-repeat 3px 10px;
+      background: $SpriteSheet no-repeat -333px -333px;
       background-color: $orbit-nav-bg;
       width: 35px;
       height: 65px;
-      line-height: 50px;
+      //line-height: 50px;
       color: white;
       text-indent: -9999px !important;
       z-index: 10;
@@ -905,13 +896,15 @@ header {
       @media #{$Phone} { //had to turn this on in _orbit.scss
         display: block;
         top: 30%;
-        background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-LeftArrow-Rev.png) no-repeat 6px 12px;
+        //background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-LeftArrow-Rev.png) no-repeat 6px 12px;
+        background: $SpriteSheet no-repeat -368px -333px;
         background-color: $color-gray333;
         opacity:0.8;
         &:hover {
           display: block;
           top: 30%;
-          background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-LeftArrow-Rev.png) no-repeat 6px 12px;
+          //background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-LeftArrow-Rev.png) no-repeat 6px 12px;
+          background: $SpriteSheet no-repeat -368px -333px;
           background-color: $color-gray333;
           opacity:0.6;
         }
@@ -921,7 +914,8 @@ header {
       position: absolute;
       //top: 50%;
       margin-top: -25px;
-      background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-RightArrow.png) no-repeat -10px 10px;
+      //background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-RightArrow.png) no-repeat -10px 10px;
+      background: $SpriteSheet no-repeat -403px -333px;
       background-color: $orbit-nav-bg;
       width: 35px;
       height: 65px;
@@ -957,13 +951,15 @@ header {
       @media #{$Phone} {  //had to turn this on in _orbit.scss
         display: block;
         top: 30%;
-        background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-RightArrow-Rev.png) no-repeat 6px 12px;
+        //background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-RightArrow-Rev.png) no-repeat 6px 12px;
+        background: $SpriteSheet no-repeat -438px -333px;
         background-color: $color-gray333;
         opacity: 0.8;
         &:hover {
           display: block;
           top: 30%;
-          background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-RightArrow-Rev.png) no-repeat 6px 12px;
+          //background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-RightArrow-Rev.png) no-repeat 6px 12px;
+          background: $SpriteSheet no-repeat -438px -333px;
           background-color: $color-gray333;
           opacity: 0.6;
         }
@@ -974,7 +970,7 @@ header {
         padding: 0 0 0 0; 
         li {
         margin: 0 rem-calc(7) 0 rem-calc(7);
-        border: $thin-grayIris;
+        border: $thin-gray222;
         background-color: $color-white;
         height: rem-calc(12);
         width: rem-calc(12);
@@ -992,7 +988,10 @@ header {
 // Home Page elements
   .titleIcon {
     //border: 1px solid #000;
-    padding: 0 rem-calc(5) rem-calc(30) rem-calc(5);
+    padding: 0 rem-calc(5) rem-calc(36) 0;
+    @media #{$Small} {
+      padding-bottom: rem-calc(20);
+    }
     &.homePage {
       .icon {
         background: $SpriteSheet no-repeat -258px 0px;
@@ -1058,6 +1057,7 @@ header {
     border-top: $thin-graye6e;
     border-right: $medium-white;
     p {
+      margin: 0;
       font-size: $h2-font-size;
       color: $color-gray404;
       line-height: 23px;
@@ -1072,6 +1072,7 @@ header {
     }
   }
   .downArrow {
+    padding-bottom: rem-calc(20);
     @media #{$Small} {
       display: none;
     }
@@ -1080,6 +1081,7 @@ header {
       display: block;
       width: rem-calc(184);
       height: rem-calc(57);
+
       margin-left: auto;
       margin-right: auto;
       background: $SpriteSheet no-repeat 0px -332px;
@@ -1169,25 +1171,45 @@ header {
       .bigB {
         //margin-top: rem-calc(40);
         float: left;
-        width: rem-calc(60);
-        height: rem-calc(60);
+        width: rem-calc(77);
+        height: rem-calc(77);
         margin: 0 rem-calc(10) 0 0;
         &.healthy {
-          background: $SpriteSheet no-repeat 0px -32px;
-          background-size:277px;
+          background: $SpriteSheet no-repeat 0px -39px;
+          background-size:350px;
         }
         &.smart {
-          background: $SpriteSheet no-repeat -61px -32px;
-          background-size:277px;
+          background: $SpriteSheet no-repeat -76px -39px;
+          background-size:350px;
         }
         &.green {
-          background: $SpriteSheet no-repeat -122px -32px;
-          background-size:277px;
+          background: $SpriteSheet no-repeat -153px -39px;
+          background-size:350px;
         } 
         &.aware {
-          background: $SpriteSheet no-repeat -183px -32px;
-          background-size:277px;
-        } 
+          background: $SpriteSheet no-repeat -230px -39px;
+          background-size:350px;
+        }
+        @media #{$Small} {
+          width: rem-calc(65);
+          height: rem-calc(65); //need to add the 4 variants with position and scale
+          &.healthy {
+            background: $SpriteSheet no-repeat 0px -34px;
+            background-size:297px;
+          }
+          &.smart {
+            background: $SpriteSheet no-repeat -65px -34px;
+            background-size:297px;
+          }
+          &.green {
+            background: $SpriteSheet no-repeat -130px -34px;
+            background-size:297px;
+          } 
+          &.aware {
+            background: $SpriteSheet no-repeat -195px -34px;
+            background-size:297px;
+          }
+        }
       }
       h2 {
         //margin-top: rem-calc(40);
@@ -1195,27 +1217,45 @@ header {
         font-family: 'ComeniaSansCondRegular';
         padding: 0;
         margin: 0;
-        line-height: 53px;
+        line-height: 72px;
         text-transform: uppercase;
       }
       &:hover {
         text-decoration: underline;
         .bigB {
           &.healthy {
-            background: $SpriteSheet no-repeat 0px -93px;
-            background-size:276px;
+            background: $SpriteSheet no-repeat 0px -116px;
+            background-size:350px;
           }
           &.smart {
-            background: $SpriteSheet no-repeat -61px -93px;
-            background-size:276px;
+            background: $SpriteSheet no-repeat -76px -116px;
+            background-size:350px;
           }
           &.green {
-            background: $SpriteSheet no-repeat -122px -93px;
-            background-size:276px;
+            background: $SpriteSheet no-repeat -153px -116px;
+            background-size:350px;
           }
           &.aware {
-            background: $SpriteSheet no-repeat -183px -93px;
-            background-size:276px;
+            background: $SpriteSheet no-repeat -230px -116px;
+            background-size:350px;
+          }
+          @media #{$Small} { //need to add the 4 variants with position and scale
+            &.healthy {
+              background: $SpriteSheet no-repeat 0px -99px;
+              background-size:297px;
+            }
+            &.smart {
+              background: $SpriteSheet no-repeat -65px -99px;
+              background-size:297px;
+            }
+            &.green {
+              background: $SpriteSheet no-repeat -130px -99px;
+              background-size:297px;
+            } 
+            &.aware {
+              background: $SpriteSheet no-repeat -195px -99px;
+              background-size:297px;
+            }
           }
         }
       }
@@ -1224,13 +1264,21 @@ header {
         height: rem-calc(75);
         width: 100%;
         margin-bottom: rem-calc(25);
+        &:last-of-type{
+          margin-bottom: 0;
+        }
+        @media #{$Medium} {
+          &:first-of-type{
+            margin-top: rem-calc(15);
+          }
+        }
         p {
           //border: 1px solid #f00;
           font-family: 'ComeniaSansCondRegular';
           font-size: rem-calc(32);
           text-transform: uppercase;
           color: $color-white;
-          padding: rem-calc(15) 0 0 rem-calc(20);
+          padding: rem-calc(28) 0 0 rem-calc(20);
           margin: 0;
         }
         &:hover {
@@ -1247,10 +1295,11 @@ header {
       }
     }
     p {
+      margin: 0;
       font-size: rem-calc(18);
       line-height: 22px;
       color: $color-gray404;
-      padding: 0 rem-calc(45) 0 0;
+      padding: rem-calc(38) rem-calc(45) 0 0;
       @media #{$Small} {
         padding: 0;
       }
@@ -1355,9 +1404,6 @@ header {
         }
       }
     }
-  }
-  .slider {
-    //padding: rem-calc(40) 0 rem-calc(40) 0;
   }
 
 // Category Pages
@@ -1721,7 +1767,7 @@ header {
   a {
     //border: 1px solid #f00;
     display: block;
-    width: rem-calc(100);
+    width: rem-calc(200);
     margin-left: auto;
     margin-right: auto;
     height: rem-calc(55);
@@ -1742,10 +1788,10 @@ header {
     p {
       margin: 0;
       //border: 1px solid #f00;
-      padding-top: rem-calc(8);
+      padding-top: rem-calc(10);
       text-align: center;
       text-transform: uppercase;
-      font-size: rem-calc(11);
+      font-size: rem-calc(15);
       line-height: 11px;
       color: $color-white;
     }
@@ -1756,12 +1802,14 @@ footer {
   //margin-top: rem-calc(60);
   //background-color: $color-grayece;
   .footerNav {
-    text-align: center;
-    margin-top: rem-calc(30);
+    padding: 0 rem-calc(5) 0 rem-calc(5);
+    margin-top: rem-calc(19);
     margin-bottom: rem-calc(20);
-    margin-left: auto;
-    margin-right: auto;
+    //margin-left: auto;
+    //margin-right: auto;
     ul {
+      padding: 0;
+      text-align: center;
       font-size: $paragraph-font-size;
       list-style-type: none;
       text-transform: uppercase;
@@ -1788,6 +1836,8 @@ footer {
     p {
       font-size: $small-font-size;
       color: $color-gray666;
+      padding-top: rem-calc(13);
+      line-height: rem-calc(15);
       a {
         color: $color-maroon;
         font-weight: $bold;
