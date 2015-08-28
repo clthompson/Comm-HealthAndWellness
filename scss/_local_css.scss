@@ -117,12 +117,12 @@ body {
 header {
   //border-bottom: 1px solid #000;
   width: 100%;
-  margin-bottom: rem-calc(60);
+  margin-bottom: rem-calc(0); //60
   @media #{$Medium} {
-    margin-bottom: rem-calc(43);
+    margin-bottom: rem-calc(0); //43
   }
   @media #{$Small} {
-    margin-bottom: rem-calc(20);
+    margin-bottom: rem-calc(0); //20
   }
   //background-image: $background-d;
   //height: rem-calc(55);
@@ -152,7 +152,6 @@ header {
       //z-index: 2;
       //overflow: visible;
       margin: rem-calc(0) rem-calc(5) 0 rem-calc(5);
-
       width: 129px;
       height: 60px;
       @media #{$Small} {
@@ -383,9 +382,17 @@ header {
     padding: 0 rem-calc(5) 0 rem-calc(5);
   }
   .breadcrumbs {
+    .sectionObject {
+      padding: 0;
+    }
     font-size: $paragraph-font-size;
-    padding: 0 0 0 rem-calc(5);
-    margin-bottom: rem-calc(40);
+    padding: rem-calc(35) 0 rem-calc(32) rem-calc(5);
+    @media #{$Small} {
+      padding: rem-calc(40) 0 rem-calc(30) rem-calc(5);
+    }
+    @media #{$Small} {
+      padding: rem-calc(20) 0 rem-calc(20) rem-calc(5);
+    }
     a {
       color: $color-black;
       text-decoration: none;
@@ -397,15 +404,15 @@ header {
       display: inline;
       font-family: "ComeniaSansCondBold";
       text-transform: uppercase;
-      padding: 0 rem-calc(10) 0 0;
+      padding: 0 rem-calc(5) 0 0;
       border-right: $thin-grayccc;
     }
     .category {
       display: inline;
       font-family: "ComeniaSansCondBold";
       text-transform: uppercase;
-      padding: 0 rem-calc(10) 0 rem-calc(10);
-      border-right: $thin-grayccc;
+      padding: 0 rem-calc(0) 0 rem-calc(0);
+      
       &.healthy a{
         color: $b-healthy;
         &:hover {
@@ -432,9 +439,10 @@ header {
       }
     }
     .storytitle {
+      border-left: $thin-grayccc;
       font-family: "ComeniaSansCondRegular";
       display: inline;
-      padding: 0 0 0 rem-calc(10);
+      padding: 0 0 0 rem-calc(5);
       @media #{$Small} {
         display: none;
       }
@@ -443,6 +451,9 @@ header {
   .title {
     padding: 0 0 0 rem-calc(5);
     margin-bottom: rem-calc(30);
+    .sectionObject {
+      padding: 0;
+    }
     h1 {
       margin: 0;
       font-family: "ComeniaSansCondBold";
@@ -452,15 +463,24 @@ header {
     }
   }
   .socialIcons {
-    padding: 0;
+    padding: 0 rem-calc(5) 0 rem-calc(0);
     //border: 1px solid #000;
+    .sectionObject {
+      padding: 0;
+    }
     @media #{$Medium} {
       padding: 0;
+    }
+    @media #{$Small} {
+      //border: 1px solid #f00;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
   .icons {
     height: rem-calc(35);
-    margin: 0 0 rem-calc(30) rem-calc(5);
+    margin: 0 0 rem-calc(40) rem-calc(5);
     a {
       display: inline-block;
       margin-right: rem-calc(23);
@@ -482,24 +502,18 @@ header {
       background: $SpriteSheet no-repeat -222px 0px;
       }
     }
+    @media #{$Medium} {
+      margin-bottom: rem-calc(30);
+    }
+    @media #{$Small} {
+      margin-bottom: rem-calc(20);
+    }
   }
 
   // Article Styles
   article {
-    margin: 0 rem-calc(5) rem-calc(60) rem-calc(5);
+    margin: 0 rem-calc(5) rem-calc(30) rem-calc(5);
     .image-content {
-    }
-    .caption {
-      background-color: $color-gray222;
-      padding: rem-calc(16) rem-calc(10) rem-calc(16) rem-calc(10);
-      margin-bottom: rem-calc(40);
-      p {
-        font-size: $small-font-size;
-        line-height: 14px;
-        color: $color-white;
-        padding: 0;
-        margin: 0;
-      }
     }
     h1 {
       display: none;
@@ -511,9 +525,50 @@ header {
       font-size: $article-font-size;
       line-height: 19px;
       color: $color-gray404;
+      a {
+        font-weight: $bold;
+        text-decoration: none;
+        &:hover {
+          color: $color-gray666;
+        }
+      }
+    }
+    .caption {
+      background-color: $color-gray222;
+      padding: rem-calc(12) rem-calc(16) rem-calc(12) rem-calc(16);
+      margin-bottom: rem-calc(40);
+      @media #{$medium} {
+        margin-bottom: rem-calc(20);
+      }
+      @media #{$Small} {
+        padding: rem-calc(5) rem-calc(8) rem-calc(5) rem-calc(8);
+        margin-bottom: rem-calc(20);
+      }
+      p {
+        font-size: $small-font-size;
+        line-height: 14px;
+        color: $color-white;
+        padding: 0;
+        margin: 0;
+        @media #{$Small} {
+          font-size: rem-calc(11);
+          line-height: 12px;
+        }
+        a {
+          font-weight: $bold;
+          color: $color-white !important;
+          text-decoration: underline;
+          &:hover {
+            color: $color-grayccc !important;
+          }
+        }
+      }
     }
     ul {
       margin-bottom: rem-calc(30);
+      @media #{$Small} {
+        margin-bottom: rem-calc(20);
+      }
       li {
         font-size: $article-font-size;
         color: $color-gray404;
@@ -521,14 +576,40 @@ header {
       }
     }
   }
+  &.healthy article p a {
+    color: $b-healthy;
+    &:hover {
+      color: $color-gray666;
+    }
+  }
+  &.smart article p a {
+    color: $b-smart;
+    &:hover {
+      color: $color-gray666;
+    }
+  }
+  &.green article p a {
+    color: $b-green;
+    &:hover {
+      color: $color-gray666;
+    }
+  }
+  &.aware article p a {
+    color: $b-aware;
+    &:hover {
+      color: $color-gray666;
+    }
+  }
   .articleButtons {
     padding: 0 rem-calc(5) 0 rem-calc(5);
     margin-bottom: rem-calc(60);
+    .sectionObject {
+      padding: 0;
+    }
     a {
       text-decoration: none;
     }
     .articleButton {
-
       //border: $thin-maroon2;
       //padding: 17px 0px 17px 0;
       text-align: center;
@@ -539,6 +620,7 @@ header {
         margin-right: rem-calc(34);
         @media #{$Small} {
           margin-right: 0;
+          margin-bottom: rem-calc(20);
         }
       }
       &.abRight {
@@ -548,6 +630,7 @@ header {
         }
       }
       p {
+        margin: 0;
         padding-top: rem-calc(6);
         color: $color-white;
         font-size: $h2-font-size;
@@ -639,7 +722,7 @@ header {
           }
           .text-elements {
             //border: 1px solid #f00;
-            margin-left: rem-calc(10);
+            margin-left: rem-calc(20);
             //padding: 10px;
             @media #{$Small} {
               margin-left: 5px;
@@ -677,15 +760,18 @@ header {
             display: inline-block;
             font-family: $font-lucida;
             font-size: $h4-font-size;
-            margin-left: rem-calc(10);
+            //margin-left: rem-calc(10);
             color: $color-gray666;
+            p{
+              margin: rem-calc(10) 0 rem-calc(14) rem-calc(10);
+            }
           }
           .article-title {
             //border: 1px solid #f00;
             //margin: 0 0 0 rem-calc(10);
             h2 {
               margin: rem-calc(-5) 0 0 rem-calc(0);
-              font-family: 'ComeniaSansCondRegular'; //B
+              font-family: 'ComeniaSansCondBold'; //B
               font-size: $h2-news-archive-font-size;
               line-height: 25px;
               @media #{$Five00} {
@@ -702,14 +788,17 @@ header {
             }
           }
           .article-teaser{ 
-            margin: 0 0 0 rem-calc(0);
+            margin: 0 0 0 0;
             padding-bottom: 10px;
             p {
-              margin: 0 0 0 rem-calc(0);
+              margin: 0;
               font-family: $font-lucida;
               font-size: rem-calc(16);
               color: $color-gray404;
               line-height: 19px;
+              @media #{$Five00} {
+                margin: rem-calc(7) 0 0 0;
+              }
             }
           }
         }        
@@ -988,9 +1077,12 @@ header {
 // Home Page elements
   .titleIcon {
     //border: 1px solid #000;
-    padding: 0 rem-calc(5) rem-calc(36) 0;
+    padding: rem-calc(60) rem-calc(5) rem-calc(20) 0;
+    @media #{$Medium} {
+      padding: rem-calc(43) rem-calc(5) rem-calc(20) 0;
+    }
     @media #{$Small} {
-      padding-bottom: rem-calc(20);
+      padding: rem-calc(20) 0 rem-calc(16) 0;
     }
     &.homePage {
       .icon {
@@ -1408,8 +1500,11 @@ header {
 
 // Category Pages
   .hero {
-    padding: 0 0 rem-calc(30) 0;
+    padding: rem-calc(40) 0 rem-calc(30) 0;
     //border: 1px solid #f00;
+    @media #{$Small} {
+      padding: rem-calc(20) 0 rem-calc(30) 0;
+    }
     .categoryTitle {
       float: left;
       //border: 1px solid #f00;
