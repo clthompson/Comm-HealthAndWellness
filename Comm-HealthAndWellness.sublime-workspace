@@ -4,16 +4,24 @@
 		"selected_items":
 		[
 			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
 				"b-",
-				"b-green"
+				"b-healthy"
+			],
+			[
+				"color-gray",
+				"color-gray222"
 			],
 			[
 				"color",
 				"color-gray666"
-			],
-			[
-				"text-",
-				"text-decoration"
 			],
 			[
 				"color-",
@@ -28,10 +36,6 @@
 				"uppercase"
 			],
 			[
-				"font-",
-				"font-size"
-			],
-			[
 				"color-graye",
 				"color-grayece"
 			],
@@ -41,10 +45,6 @@
 			],
 			[
 				"co",
-				"color-gray666"
-			],
-			[
-				"color-gray",
 				"color-gray666"
 			],
 			[
@@ -107,7 +107,7 @@
 			"file": "scss/_local_css.scss",
 			"settings":
 			{
-				"buffer_size": 48930,
+				"buffer_size": 49756,
 				"line_ending": "Windows"
 			}
 		},
@@ -132,7 +132,7 @@
 			"file": "css/comm-hw.css",
 			"settings":
 			{
-				"buffer_size": 162904,
+				"buffer_size": 164941,
 				"line_ending": "Windows"
 			}
 		},
@@ -326,6 +326,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"content",
+			"p {",
+			"article",
+			"category",
+			".programs",
+			"content",
 			"hero",
 			"header",
 			"titleicon",
@@ -387,15 +393,15 @@
 					"file": "scss/_local_css.scss",
 					"settings":
 					{
-						"buffer_size": 48930,
+						"buffer_size": 49756,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								38380,
-								38380
+								47747,
+								47747
 							]
 						],
 						"settings":
@@ -405,7 +411,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 21808.0,
+						"translation.y": 27959.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -449,8 +455,8 @@
 						"selection":
 						[
 							[
-								0,
-								446
+								21,
+								179
 							]
 						],
 						"settings":
@@ -469,7 +475,7 @@
 					"file": "css/comm-hw.css",
 					"settings":
 					{
-						"buffer_size": 162904,
+						"buffer_size": 164941,
 						"regions":
 						{
 						},

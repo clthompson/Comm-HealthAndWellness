@@ -451,6 +451,9 @@ header {
   .title {
     padding: 0 0 0 rem-calc(5);
     margin-bottom: rem-calc(30);
+    @media #{$Small} {
+      margin-bottom: rem-calc(20);
+    }
     .sectionObject {
       padding: 0;
     }
@@ -460,6 +463,11 @@ header {
       font-size: $h1-font-size;
       color: $color-black;
       line-height: 38px;
+    }
+    p {
+      font-size: $paragraph-font-size;
+      color: $color-gray222;
+      margin: rem-calc(5) 0 0 0;
     }
   }
   .socialIcons {
@@ -523,8 +531,10 @@ header {
     }
     p {
       font-size: $article-font-size;
-      line-height: 19px;
+      line-height: 18px;
+      font-kerning: 0;
       color: $color-gray404;
+      margin: rem-calc(14) 0 rem-calc(14) 0;
       a {
         font-weight: $bold;
         text-decoration: none;
@@ -536,13 +546,13 @@ header {
     .caption {
       background-color: $color-gray222;
       padding: rem-calc(12) rem-calc(16) rem-calc(12) rem-calc(16);
-      margin-bottom: rem-calc(40);
+      margin-bottom: rem-calc(26);
       @media #{$medium} {
-        margin-bottom: rem-calc(20);
+        margin-bottom: rem-calc(6);
       }
       @media #{$Small} {
         padding: rem-calc(5) rem-calc(8) rem-calc(5) rem-calc(8);
-        margin-bottom: rem-calc(20);
+        margin-bottom: rem-calc(6);
       }
       p {
         font-size: $small-font-size;
@@ -1547,7 +1557,7 @@ header {
       }
     }
     p {
-      margin: 0;
+      margin: 0 0 rem-calc(32) 0;
       padding: 0;
     } 
   }
@@ -1568,9 +1578,8 @@ header {
     background: $SpriteSheet no-repeat -230px -39px;
     background-size: 350px;
   }
-
   .buttonRow {
-    padding: 0 0 0 0;
+    padding: 0 0 rem-calc(43) 0;
     .sectionObject {
       display: -webkit-box;
       display: -moz-box;
@@ -1591,16 +1600,16 @@ header {
         }
         &.buttonList {
           //border: 1px solid #f00;
-          height: rem-calc(75);
+          height: rem-calc(60);
           //width: 100%;
-          margin-bottom: rem-calc(25);
+          margin-bottom: rem-calc(0);
           p {
             //border: 1px solid #f00;
             font-family: 'ComeniaSansCondRegular';
             font-size: rem-calc(32);
             text-transform: uppercase;
             color: $color-white;
-            padding: rem-calc(15) 0 0 0;
+            padding: rem-calc(8) 0 0 0;
             margin: 0;
             text-align: center;
           }
@@ -1700,21 +1709,8 @@ header {
       text-decoration: none;
     }
   }
-
-/*
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex; 
-      -webkit-justify-content: space-between;
-      -moz-justify-content: space-between;
-      -ms-justify-content: space-between;
-      justify-content: space-between;
-*/
-
   .sectionHeader {
-    padding: rem-calc(28) 0 rem-calc(28) 0;
+    padding: rem-calc(20) 0 rem-calc(8) 0;
     //border: 1px solid #f00;
     .bar {
       //border: 1px solid #f00;
@@ -1848,8 +1844,43 @@ header {
       }
     }
   }
-  .events {
+  .events, .programs, .resources {
     //might need for the calendar widget?
+    h2 {
+      font-family: 'ComeniaSansCondRegular';
+      font-size: rem-calc(24);
+      text-transform: uppercase;
+      line-height: 12px;
+      padding: rem-calc(20) 0 rem-calc(6) 0;
+      margin: 0;
+    }
+    ul li a, p a {
+      font-weight: $bold;
+      text-decoration: none;
+      &:hover {
+        color: $color-gray666;
+      }
+    }
+  }
+  &.healthy .events,&.healthy .programs, &.healthy .resources{
+    ul li a, p a, {
+      color: $b-healthy;
+    } 
+  }
+  &.smart .events,&.smart .programs, &.smart .resources{
+    ul li a, p a, {
+      color: $b-smart;
+    } 
+  }
+  &.green .events,&.green .programs, &.green .resources{
+    ul li a, p a, {
+      color: $b-green;
+    } 
+  }
+  &.aware .events,&.aware .programs, &.aware .resources{
+    ul li a, p a, {
+      color: $b-aware;
+    } 
   }
 } // Content End
 
@@ -1857,6 +1888,9 @@ header {
 
 
 // Footer
+.abovebtt {
+  padding: 0 0 rem-calc(30) 0;
+}
 .btt {
   //border: 1px solid #f00;
   a {

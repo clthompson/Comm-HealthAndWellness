@@ -1,0 +1,38 @@
+	Breadcrumb JS rewrite - based on the class category for a news story, we need to:
+1. rewrite the B portion of the breadcrumb text 
+2. rewrite the B portion of the breadcrumb URL
+3. rewrite the button label 
+4. rewrite the button URL
+
+<p class="category smart"></p>
+$("p.category.healthy").html("<a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/healthy.php'>B Healthy</a>");
+
+<a href="#"><div class="articleButton abLeft <%opt_category%>"><p>Read More B Category News</p></div></a>
+$(".articleButton.abLeft.healthy").replaceWith("<a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/healthy.php'><div class='articleButton abLeft healthy'><p>Read More 'B Healthy' News</p></div></a>");
+
+	News archive JS rewrite
+1. rewrite the B portion of the tag text 
+2. rewrite the B portion of the tag URL
+
+<a href="#"><div class="article-tag"><p class="smart">B Smart</p></div></a>
+$("a .article-tag p.healthy").replaceWith("<a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/healthy.php''><div class='article-tag'><p class='healthy'>B Healthy</p></div></a>");
+
+	Slider
+1. rewrite the B portion of the tag text 
+2. rewrite the B portion of the tag URL
+
+<div class="article-tag smart"><p>tags: <a href="#">B Smart</a></p></div>
+$(".article-tag.healthy").replaceWith("<div class='article-tag healthy'><p>tags: <a href='http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/news/healthy.php'>B Healthy</a></p></div>");
+
+http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi.php
+http://www.brooklyn.cuny.edu/web/about/initiatives/initiatives/hwi/samplenews.php
+
+Fonts in PS
+Lucida Sans
+helvetica
+Museo Sans
+helvetica Bold
+Helvatica BoldOblique
+Helvatica Oblique
+Helvatica LightOblique
+ModernPictograms
