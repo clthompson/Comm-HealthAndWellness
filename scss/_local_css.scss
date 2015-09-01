@@ -99,7 +99,10 @@ body {
   max-width: 100%;
   &.gray {
     background-color: $color-grayece;
-    margin-bottom: 50px;
+    margin-bottom: rem-calc(50);
+    @media #{$Small} {
+      margin-bottom: rem-calc(20); //20
+    }
   }
   &.grayfooter {
     background-color: $color-grayece;
@@ -109,7 +112,10 @@ body {
     background-color: $color-graya2a;
   }
   &.white {
-    margin-bottom: 50px;
+    margin-bottom: rem-calc(50);
+    @media #{$Small} {
+      margin-bottom: rem-calc(20); //20
+    }
   }
 }
 
@@ -151,7 +157,7 @@ header {
       //border: 1px solid #000;
       //z-index: 2;
       //overflow: visible;
-      margin: rem-calc(0) rem-calc(5) 0 rem-calc(5);
+      margin: rem-calc(0) rem-calc(5) 0 rem-calc(10);
       width: 129px;
       height: 60px;
       @media #{$Small} {
@@ -379,19 +385,19 @@ header {
 // Content
 .content {
   .rowInside .sectionObject {
-    padding: 0 rem-calc(5) 0 rem-calc(5);
+    padding: 0 rem-calc(10) 0 rem-calc(10);
   }
   .breadcrumbs {
     .sectionObject {
       padding: 0;
     }
     font-size: $paragraph-font-size;
-    padding: rem-calc(35) 0 rem-calc(32) rem-calc(5);
+    padding: rem-calc(35) 0 rem-calc(32) rem-calc(10);
     @media #{$Small} {
-      padding: rem-calc(40) 0 rem-calc(30) rem-calc(5);
+      padding: rem-calc(40) 0 rem-calc(30) rem-calc(10);
     }
     @media #{$Small} {
-      padding: rem-calc(20) 0 rem-calc(20) rem-calc(5);
+      padding: rem-calc(20) 0 rem-calc(20) rem-calc(10);
     }
     a {
       color: $color-black;
@@ -449,7 +455,7 @@ header {
     }
   }
   .title {
-    padding: 0 0 0 rem-calc(5);
+    padding: 0 0 0 rem-calc(10);
     margin-bottom: rem-calc(30);
     @media #{$Small} {
       margin-bottom: rem-calc(20);
@@ -471,7 +477,7 @@ header {
     }
   }
   .socialIcons {
-    padding: 0 rem-calc(5) 0 rem-calc(0);
+    padding: 0 rem-calc(5) 0 rem-calc(5);
     //border: 1px solid #000;
     .sectionObject {
       padding: 0;
@@ -489,6 +495,9 @@ header {
   .icons {
     height: rem-calc(35);
     margin: 0 0 rem-calc(40) rem-calc(5);
+    @media #{$Medium} {
+      margin: 0 0 rem-calc(40) rem-calc(10);
+    }
     a {
       display: inline-block;
       margin-right: rem-calc(23);
@@ -520,7 +529,7 @@ header {
 
   // Article Styles
   article {
-    margin: 0 rem-calc(5) rem-calc(30) rem-calc(5);
+    margin: 0 rem-calc(10) rem-calc(30) rem-calc(10);
     .image-content {
     }
     h1 {
@@ -611,7 +620,7 @@ header {
     }
   }
   .articleButtons {
-    padding: 0 rem-calc(5) 0 rem-calc(5);
+    padding: 0 rem-calc(10) 0 rem-calc(10);
     margin-bottom: rem-calc(60);
     .sectionObject {
       padding: 0;
@@ -677,25 +686,29 @@ header {
 // Article Section Styles for News Landing Page
   section .articles-wrapper {
     //border: 1px solid #000;
-    padding: 0 rem-calc(5) rem-calc(60) rem-calc(5);
-    @media #{$iPadPortrait} {
+    margin-top: rem-calc(-10);
+    padding: 0 rem-calc(0) rem-calc(60) rem-calc(0);
+    @media #{$Medium} {
       //padding: rem-calc(32) rem-calc(8) rem-calc(90) rem-calc(16);
     }
-    @media #{$Phone} {
+    @media #{$Small} {
       //padding: rem-calc(20) rem-calc(16) rem-calc(16) rem-calc(16);
+      margin-top: 0;
     }
     ul {
       list-style-type: none;
       padding: 0; 
       margin: 0;
       li {
-
         margin: 0 0 rem-calc(50) 0;
         &:last-of-type{
           margin: 0;
         }
         &:nth-child(odd){
           background-color: $color-grayefe; // for JS rewrite
+        }
+        @media #{$Medium} {
+          margin: 0 0 rem-calc(40) 0;
         }
         padding:0;
         .listed-article {
@@ -1065,7 +1078,7 @@ header {
       }
     }
     .orbit-bullets {
-        margin: 0 0 20px 0;
+        margin: 0 0 rem-calc(15) 0;
         padding: 0 0 0 0; 
         li {
         margin: 0 rem-calc(7) 0 rem-calc(7);
@@ -1078,6 +1091,9 @@ header {
           background-color: $color-gray222;
         }
       }
+      @media #{$Medium} {
+        display: none;
+      }
     }
   }
 
@@ -1087,12 +1103,12 @@ header {
 // Home Page elements
   .titleIcon {
     //border: 1px solid #000;
-    padding: rem-calc(60) rem-calc(5) rem-calc(20) 0;
+    padding: rem-calc(60) rem-calc(5) rem-calc(40) 0;
     @media #{$Medium} {
-      padding: rem-calc(43) rem-calc(5) rem-calc(20) 0;
+      padding: rem-calc(40) rem-calc(5) rem-calc(40) 0;
     }
     @media #{$Small} {
-      padding: rem-calc(20) 0 rem-calc(16) 0;
+      padding: rem-calc(20) 0 rem-calc(20) 0;
     }
     &.homePage {
       .icon {
@@ -1174,7 +1190,10 @@ header {
     }
   }
   .downArrow {
-    padding-bottom: rem-calc(20);
+    padding: 0 0 rem-calc(20) 0;
+    @media #{$Medium} {
+      padding: 0 0 rem-calc(40) 0;
+    }
     @media #{$Small} {
       display: none;
     }
@@ -1206,7 +1225,10 @@ header {
       -ms-justify-content: space-between;
       justify-content: space-between;
     }
-    padding: rem-calc(35) 0 rem-calc(60) 0;
+    padding: rem-calc(40) 0 rem-calc(60) 0;
+    @media #{$Medium} {
+      padding: rem-calc(40) 0 rem-calc(40) 0;
+    }
     a {
       //border: 1px solid #f00;
       text-decoration: none;
@@ -1215,7 +1237,6 @@ header {
         height: rem-calc(130);
         &.healthy {
           background: $SpriteSheet no-repeat 0px -69px;
-
         }
         &.smart {
           background: $SpriteSheet no-repeat -132px -69px;
@@ -1263,6 +1284,9 @@ header {
   .homePageCategory {
     //border: 1px solid #f00;
     padding: rem-calc(40) 0 rem-calc(40) 0;
+    @media #{$Small} {
+      padding: rem-calc(20) 0 rem-calc(20) 0;
+    }
     a {
       display: block;
       width: rem-calc(300);
@@ -1512,8 +1536,11 @@ header {
   .hero {
     padding: rem-calc(40) 0 rem-calc(30) 0;
     //border: 1px solid #f00;
+    @media #{$Medium} {
+      padding: rem-calc(40) 0 rem-calc(8) 0;
+    }
     @media #{$Small} {
-      padding: rem-calc(20) 0 rem-calc(30) 0;
+      padding: rem-calc(20) 0 rem-calc(0) 0;
     }
     .categoryTitle {
       float: left;
@@ -1712,6 +1739,9 @@ header {
   .sectionHeader {
     padding: rem-calc(20) 0 rem-calc(8) 0;
     //border: 1px solid #f00;
+    @media #{$Small} {
+      padding: rem-calc(0) 0 rem-calc(8) 0;
+    }
     .bar {
       //border: 1px solid #f00;
       padding: rem-calc(10) 0 rem-calc(10) 0;
@@ -1854,6 +1884,11 @@ header {
       padding: rem-calc(20) 0 rem-calc(6) 0;
       margin: 0;
     }
+    p:first-of-type {
+      @media #{$Small} {
+        margin-top: 0px;
+      }
+    }
     ul li a, p a {
       font-weight: $bold;
       text-decoration: none;
@@ -1862,24 +1897,36 @@ header {
       }
     }
   }
-  &.healthy .events,&.healthy .programs, &.healthy .resources{
+  &.healthy .events, &.healthy .programs, &.healthy .resources{
     ul li a, p a, {
       color: $b-healthy;
+      &:hover {
+        color: $color-gray666;
+      }
     } 
   }
-  &.smart .events,&.smart .programs, &.smart .resources{
+  &.smart .events, &.smart .programs, &.smart .resources{
     ul li a, p a, {
       color: $b-smart;
+      &:hover {
+        color: $color-gray666;
+      }
     } 
   }
-  &.green .events,&.green .programs, &.green .resources{
+  &.green .events, &.green .programs, &.green .resources{
     ul li a, p a, {
       color: $b-green;
+      &:hover {
+        color: $color-gray666;
+      }
     } 
   }
-  &.aware .events,&.aware .programs, &.aware .resources{
+  &.aware .events, &.aware .programs, &.aware .resources{
     ul li a, p a, {
       color: $b-aware;
+      &:hover {
+        color: $color-gray666;
+      }
     } 
   }
 } // Content End
@@ -1931,7 +1978,7 @@ footer {
   //margin-top: rem-calc(60);
   //background-color: $color-grayece;
   .footerNav {
-    padding: 0 rem-calc(5) 0 rem-calc(5);
+    padding: 0 rem-calc(10) 0 rem-calc(10);
     margin-top: rem-calc(19);
     margin-bottom: rem-calc(20);
     //margin-left: auto;
@@ -1960,7 +2007,7 @@ footer {
     }
   }
   .copyright {
-    margin: rem-calc(0) rem-calc(0) rem-calc(40) rem-calc(5);
+    margin: rem-calc(0) rem-calc(0) rem-calc(40) rem-calc(10);
     //border: 1px solid #000;
     p {
       font-size: $small-font-size;

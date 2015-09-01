@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"first-",
+				"first-of-type"
+			],
+			[
 				"text-",
 				"text-transform"
 			],
@@ -107,7 +111,7 @@
 			"file": "scss/_local_css.scss",
 			"settings":
 			{
-				"buffer_size": 49756,
+				"buffer_size": 50856,
 				"line_ending": "Windows"
 			}
 		},
@@ -115,7 +119,7 @@
 			"file": "working.html",
 			"settings":
 			{
-				"buffer_size": 27539,
+				"buffer_size": 27532,
 				"line_ending": "Windows"
 			}
 		},
@@ -132,7 +136,7 @@
 			"file": "css/comm-hw.css",
 			"settings":
 			{
-				"buffer_size": 164941,
+				"buffer_size": 166748,
 				"line_ending": "Windows"
 			}
 		},
@@ -326,6 +330,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"article-tag",
+			"article",
 			"content",
 			"p {",
 			"article",
@@ -385,7 +391,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -393,15 +399,15 @@
 					"file": "scss/_local_css.scss",
 					"settings":
 					{
-						"buffer_size": 49756,
+						"buffer_size": 50856,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								47747,
-								47747
+								47949,
+								47949
 							]
 						],
 						"settings":
@@ -411,7 +417,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 27959.0,
+						"translation.y": 27523.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -421,15 +427,15 @@
 					"file": "working.html",
 					"settings":
 					{
-						"buffer_size": 27539,
+						"buffer_size": 27532,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16491,
-								16504
+								14755,
+								14755
 							]
 						],
 						"settings":
@@ -439,7 +445,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5231.0,
+						"translation.y": 4528.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -475,7 +481,7 @@
 					"file": "css/comm-hw.css",
 					"settings":
 					{
-						"buffer_size": 164941,
+						"buffer_size": 166748,
 						"regions":
 						{
 						},
