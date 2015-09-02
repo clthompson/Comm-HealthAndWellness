@@ -83,7 +83,7 @@
   $thin-gray222: 1px solid $color-gray222;
   $thin-maroon2: 2px solid $color-maroon2;
   $thin-graye6e: 1px solid $color-graye6e;
-  $medium-white: 6px solid $color-white;
+  $medium-white: 20px solid $color-white;
 
 body {
   background-color: $color-white;
@@ -477,7 +477,7 @@ header {
     }
   }
   .socialIcons {
-    padding: 0 rem-calc(5) 0 rem-calc(5);
+    padding: 0 rem-calc(5) 0 rem-calc(0);
     //border: 1px solid #000;
     .sectionObject {
       padding: 0;
@@ -486,6 +486,7 @@ header {
       padding: 0;
     }
     @media #{$Small} {
+      padding: 0;
       //border: 1px solid #f00;
       text-align: center;
       margin-left: auto;
@@ -494,7 +495,10 @@ header {
   }
   .icons {
     height: rem-calc(35);
-    margin: 0 0 rem-calc(40) rem-calc(5);
+    margin: 0 0 rem-calc(40) rem-calc(10);
+    @media #{$Medium} {
+      margin: 0 0 rem-calc(40) rem-calc(10);
+    }
     @media #{$Medium} {
       margin: 0 0 rem-calc(40) rem-calc(10);
     }
@@ -1007,7 +1011,7 @@ header {
       }
       @media #{$Phone} { //had to turn this on in _orbit.scss
         display: block;
-        top: 30%;
+        top: 20%;
         //background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-LeftArrow-Rev.png) no-repeat 6px 12px;
         background: $SpriteSheet no-repeat -368px -333px;
         background-color: $color-gray333;
@@ -1062,7 +1066,7 @@ header {
       }
       @media #{$Phone} {  //had to turn this on in _orbit.scss
         display: block;
-        top: 30%;
+        top: 20%;
         //background: url(http://www.brooklyn.cuny.edu/web/sup_foundation/slideshow-RightArrow-Rev.png) no-repeat 6px 12px;
         background: $SpriteSheet no-repeat -438px -333px;
         background-color: $color-gray333;
@@ -1289,7 +1293,7 @@ header {
     }
     a {
       display: block;
-      width: rem-calc(300);
+      //width: rem-calc(300);
       //border: 1px solid #f00;
       //margin-top: rem-calc(40);
       text-decoration: none;
@@ -1345,6 +1349,10 @@ header {
         margin: 0;
         line-height: 72px;
         text-transform: uppercase;
+        @media #{$Small} {
+          font-size: rem-calc(38);
+          line-height: 65px;
+        }
       }
       &:hover {
         text-decoration: underline;
@@ -1394,6 +1402,15 @@ header {
           margin-bottom: 0;
         }
         @media #{$Medium} {
+          height: rem-calc(55);
+          margin-bottom: rem-calc(20);
+          &:first-of-type{
+            margin-top: rem-calc(0);
+          }
+        }
+        @media #{$Small} {
+          height: rem-calc(50);
+          margin-bottom: rem-calc(18);
           &:first-of-type{
             margin-top: rem-calc(15);
           }
@@ -1406,6 +1423,14 @@ header {
           color: $color-white;
           padding: rem-calc(28) 0 0 rem-calc(20);
           margin: 0;
+          @media #{$Medium} {
+            font-size: rem-calc(28);
+            padding: rem-calc(18) 0 0 rem-calc(20);
+          }
+          @media #{$Small} {
+            font-size: rem-calc(22);
+            padding: rem-calc(15) 0 0 rem-calc(20);
+          }
         }
         &:hover {
           &:nth-child(1) {
@@ -1952,7 +1977,7 @@ header {
       //border: 1px solid #f00;
       margin-left: auto;
       margin-right: auto;
-      margin-top: rem-calc(8);
+      margin-top: rem-calc(9);
       margin-bottom: 0;
       background: $SpriteSheet no-repeat -424px 0px;
       width: rem-calc(60);
@@ -1964,7 +1989,7 @@ header {
     p {
       margin: 0;
       //border: 1px solid #f00;
-      padding-top: rem-calc(10);
+      padding-top: rem-calc(11);
       text-align: center;
       text-transform: uppercase;
       font-size: rem-calc(15);
@@ -1996,6 +2021,9 @@ footer {
         //  @media #{$Small} {
         //    display: none;
         //  }
+        @media #{$Small} {
+          padding: 0 rem-calc(5) 0 rem-calc(5);
+        }
         a {
           color: $color-gray666;
           text-decoration: none;
