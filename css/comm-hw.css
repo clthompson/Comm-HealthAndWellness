@@ -3080,9 +3080,9 @@ header section .showPushMenu {
   cursor: pointer;
   display: inline-block;
   background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat 0px 11px;
-  width: 42px;
-  height: 60px;
-  margin-right: 5px;
+  width: 2.625rem;
+  height: 3.75rem;
+  margin-right: 0.625rem;
 }
 @media screen and (max-width: 640px) {
   /* line 191, ../scss/_local_css.scss */
@@ -4712,7 +4712,7 @@ header section nav.cbp-spmenu ul li a:hover {
 }
 /* line 1561, ../scss/_local_css.scss */
 .content .hero {
-  padding: 2.5rem 0 1.875rem 0;
+  padding: 3.75rem 0 1.875rem 0;
 }
 @media screen and (max-width: 848px) {
   /* line 1561, ../scss/_local_css.scss */
@@ -4723,23 +4723,24 @@ header section nav.cbp-spmenu ul li a:hover {
 @media screen and (max-width: 640px) {
   /* line 1561, ../scss/_local_css.scss */
   .content .hero {
-    padding: 1.25rem 0 0 0;
+    padding: 1.125rem 0 0 0;
   }
 }
 /* line 1570, ../scss/_local_css.scss */
 .content .hero .categoryTitle {
   float: left;
   width: 50%;
-  margin-bottom: 20px;
+  margin-bottom: 0.9375rem;
   height: 4.8125rem;
 }
 @media screen and (max-width: 640px) {
   /* line 1570, ../scss/_local_css.scss */
   .content .hero .categoryTitle {
     width: 100%;
+    height: 3.125rem;
   }
 }
-/* line 1579, ../scss/_local_css.scss */
+/* line 1580, ../scss/_local_css.scss */
 .content .hero .categoryTitle .bigB {
   float: left;
   display: inline-block;
@@ -4747,60 +4748,150 @@ header section nav.cbp-spmenu ul li a:hover {
   height: 4.8125rem;
   margin: 0 0.625rem 0 0;
 }
-/* line 1587, ../scss/_local_css.scss */
+@media screen and (max-width: 848px) {
+  /* line 1580, ../scss/_local_css.scss */
+  .content .hero .categoryTitle .bigB {
+    width: 3.75rem;
+    height: 3.75rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 1580, ../scss/_local_css.scss */
+  .content .hero .categoryTitle .bigB {
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+}
+/* line 1596, ../scss/_local_css.scss */
 .content .hero .categoryTitle h1 {
   display: inline-block;
-  vertical-align: text-top;
   font-family: 'ComeniaSansCondRegular';
   font-size: 3rem;
+  text-transform: uppercase;
   color: #222;
-  margin: -0.125rem 0 0 0;
+  margin: 0.125rem 0 0 0;
   padding: 0;
 }
-/* line 1599, ../scss/_local_css.scss */
+@media screen and (max-width: 848px) {
+  /* line 1596, ../scss/_local_css.scss */
+  .content .hero .categoryTitle h1 {
+    font-size: 2.5rem;
+    margin: 0.125rem 0 0 0;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 1596, ../scss/_local_css.scss */
+  .content .hero .categoryTitle h1 {
+    font-size: 2.5rem;
+    margin: -0.25rem 0 0 0;
+  }
+}
+/* line 1616, ../scss/_local_css.scss */
 .content .hero .image-content {
   float: right;
   width: 50%;
   padding: 0 0 0.625rem 1.25rem;
 }
 @media screen and (max-width: 640px) {
-  /* line 1599, ../scss/_local_css.scss */
+  /* line 1616, ../scss/_local_css.scss */
   .content .hero .image-content {
     width: 100%;
     float: none;
     padding: 0 0 0.625rem 0;
   }
 }
-/* line 1611, ../scss/_local_css.scss */
+/* line 1628, ../scss/_local_css.scss */
 .content .hero p {
   margin: 0 0 2rem 0;
   padding: 0;
 }
-/* line 1616, ../scss/_local_css.scss */
+/* line 1633, ../scss/_local_css.scss */
 .content.healthy .hero .bigB {
   background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat 0px -40px;
   background-size: 350px;
 }
-/* line 1621, ../scss/_local_css.scss */
+@media screen and (max-width: 848px) {
+  /* line 1633, ../scss/_local_css.scss */
+  .content.healthy .hero .bigB {
+    background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat 0px -31px;
+    background-size: 275px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 1633, ../scss/_local_css.scss */
+  .content.healthy .hero .bigB {
+    background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat 0px -26px;
+    background-size: 228px;
+  }
+}
+/* line 1646, ../scss/_local_css.scss */
 .content.smart .hero .bigB {
   background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -77px -40px;
   background-size: 350px;
 }
-/* line 1625, ../scss/_local_css.scss */
+@media screen and (max-width: 848px) {
+  /* line 1646, ../scss/_local_css.scss */
+  .content.smart .hero .bigB {
+    background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -61px -31px;
+    background-size: 275px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 1646, ../scss/_local_css.scss */
+  .content.smart .hero .bigB {
+    background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -50px -26px;
+    background-size: 228px;
+  }
+}
+/* line 1658, ../scss/_local_css.scss */
 .content.green .hero .bigB {
   background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -153px -39px;
   background-size: 350px;
 }
-/* line 1629, ../scss/_local_css.scss */
+@media screen and (max-width: 848px) {
+  /* line 1658, ../scss/_local_css.scss */
+  .content.green .hero .bigB {
+    background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -121px -31px;
+    background-size: 275px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 1658, ../scss/_local_css.scss */
+  .content.green .hero .bigB {
+    background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -100px -26px;
+    background-size: 228px;
+  }
+}
+/* line 1670, ../scss/_local_css.scss */
 .content.aware .hero .bigB {
   background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -230px -39px;
   background-size: 350px;
 }
-/* line 1633, ../scss/_local_css.scss */
+@media screen and (max-width: 848px) {
+  /* line 1670, ../scss/_local_css.scss */
+  .content.aware .hero .bigB {
+    background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -182px -31px;
+    background-size: 275px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 1670, ../scss/_local_css.scss */
+  .content.aware .hero .bigB {
+    background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -150px -26px;
+    background-size: 228px;
+  }
+}
+/* line 1682, ../scss/_local_css.scss */
 .content .buttonRow {
   padding: 0 0 2.6875rem 0;
 }
-/* line 1635, ../scss/_local_css.scss */
+@media screen and (max-width: 848px) {
+  /* line 1682, ../scss/_local_css.scss */
+  .content .buttonRow {
+    padding: 0 0 1.75rem 0;
+  }
+}
+/* line 1687, ../scss/_local_css.scss */
 .content .buttonRow .sectionObject {
   display: -webkit-box;
   display: -moz-box;
@@ -4812,7 +4903,7 @@ header section nav.cbp-spmenu ul li a:hover {
   -ms-justify-content: space-between;
   justify-content: space-between;
 }
-/* line 1645, ../scss/_local_css.scss */
+/* line 1697, ../scss/_local_css.scss */
 .content .buttonRow .sectionObject a {
   display: inline-block;
   width: 28%;
@@ -4820,17 +4911,23 @@ header section nav.cbp-spmenu ul li a:hover {
   color: #222;
 }
 @media screen and (max-width: 848px) {
-  /* line 1645, ../scss/_local_css.scss */
+  /* line 1697, ../scss/_local_css.scss */
   .content .buttonRow .sectionObject a {
     width: 31%;
   }
 }
-/* line 1653, ../scss/_local_css.scss */
+/* line 1705, ../scss/_local_css.scss */
 .content .buttonRow .sectionObject a.buttonList {
   height: 3.75rem;
   margin-bottom: 0;
 }
-/* line 1658, ../scss/_local_css.scss */
+@media screen and (max-width: 848px) {
+  /* line 1705, ../scss/_local_css.scss */
+  .content .buttonRow .sectionObject a.buttonList {
+    height: 3.125rem;
+  }
+}
+/* line 1712, ../scss/_local_css.scss */
 .content .buttonRow .sectionObject a.buttonList p {
   font-family: 'ComeniaSansCondRegular';
   font-size: 2rem;
@@ -4840,134 +4937,141 @@ header section nav.cbp-spmenu ul li a:hover {
   margin: 0;
   text-align: center;
 }
-/* line 1673, ../scss/_local_css.scss */
+@media screen and (max-width: 848px) {
+  /* line 1712, ../scss/_local_css.scss */
+  .content .buttonRow .sectionObject a.buttonList p {
+    font-size: 2rem;
+    padding: 0.125rem 0 0 0;
+  }
+}
+/* line 1731, ../scss/_local_css.scss */
 .content.healthy .buttonRow .sectionObject a.buttonList:nth-child(1) {
   background-color: #184b92;
 }
-/* line 1675, ../scss/_local_css.scss */
+/* line 1733, ../scss/_local_css.scss */
 .content.healthy .buttonRow .sectionObject a.buttonList:nth-child(1):hover {
   background-color: #444;
 }
-/* line 1679, ../scss/_local_css.scss */
+/* line 1737, ../scss/_local_css.scss */
 .content.healthy .buttonRow .sectionObject a.buttonList:nth-child(2) {
   background-color: #225eb3;
 }
-/* line 1681, ../scss/_local_css.scss */
+/* line 1739, ../scss/_local_css.scss */
 .content.healthy .buttonRow .sectionObject a.buttonList:nth-child(2):hover {
   background-color: #555;
 }
-/* line 1685, ../scss/_local_css.scss */
+/* line 1743, ../scss/_local_css.scss */
 .content.healthy .buttonRow .sectionObject a.buttonList:nth-child(3) {
   background-color: #3b7ddb;
 }
-/* line 1687, ../scss/_local_css.scss */
+/* line 1745, ../scss/_local_css.scss */
 .content.healthy .buttonRow .sectionObject a.buttonList:nth-child(3):hover {
   background-color: #666;
 }
-/* line 1691, ../scss/_local_css.scss */
+/* line 1749, ../scss/_local_css.scss */
 .content.healthy .buttonRow .sectionObject a.buttonList:hover {
   text-decoration: none;
 }
-/* line 1696, ../scss/_local_css.scss */
+/* line 1754, ../scss/_local_css.scss */
 .content.smart .buttonRow .sectionObject a.buttonList:nth-child(1) {
   background-color: #8c0832;
 }
-/* line 1698, ../scss/_local_css.scss */
+/* line 1756, ../scss/_local_css.scss */
 .content.smart .buttonRow .sectionObject a.buttonList:nth-child(1):hover {
   background-color: #444;
 }
-/* line 1702, ../scss/_local_css.scss */
+/* line 1760, ../scss/_local_css.scss */
 .content.smart .buttonRow .sectionObject a.buttonList:nth-child(2) {
   background-color: #b2083e;
 }
-/* line 1704, ../scss/_local_css.scss */
+/* line 1762, ../scss/_local_css.scss */
 .content.smart .buttonRow .sectionObject a.buttonList:nth-child(2):hover {
   background-color: #555;
 }
-/* line 1708, ../scss/_local_css.scss */
+/* line 1766, ../scss/_local_css.scss */
 .content.smart .buttonRow .sectionObject a.buttonList:nth-child(3) {
   background-color: #d30043;
 }
-/* line 1710, ../scss/_local_css.scss */
+/* line 1768, ../scss/_local_css.scss */
 .content.smart .buttonRow .sectionObject a.buttonList:nth-child(3):hover {
   background-color: #666;
 }
-/* line 1714, ../scss/_local_css.scss */
+/* line 1772, ../scss/_local_css.scss */
 .content.smart .buttonRow .sectionObject a.buttonList:hover {
   text-decoration: none;
 }
-/* line 1719, ../scss/_local_css.scss */
+/* line 1777, ../scss/_local_css.scss */
 .content.green .buttonRow .sectionObject a.buttonList:nth-child(1) {
   background-color: #527705;
 }
-/* line 1721, ../scss/_local_css.scss */
+/* line 1779, ../scss/_local_css.scss */
 .content.green .buttonRow .sectionObject a.buttonList:nth-child(1):hover {
   background-color: #444;
 }
-/* line 1725, ../scss/_local_css.scss */
+/* line 1783, ../scss/_local_css.scss */
 .content.green .buttonRow .sectionObject a.buttonList:nth-child(2) {
   background-color: #74a709;
 }
-/* line 1727, ../scss/_local_css.scss */
+/* line 1785, ../scss/_local_css.scss */
 .content.green .buttonRow .sectionObject a.buttonList:nth-child(2):hover {
   background-color: #555;
 }
-/* line 1731, ../scss/_local_css.scss */
+/* line 1789, ../scss/_local_css.scss */
 .content.green .buttonRow .sectionObject a.buttonList:nth-child(3) {
   background-color: #8fd300;
 }
-/* line 1733, ../scss/_local_css.scss */
+/* line 1791, ../scss/_local_css.scss */
 .content.green .buttonRow .sectionObject a.buttonList:nth-child(3):hover {
   background-color: #666;
 }
-/* line 1737, ../scss/_local_css.scss */
+/* line 1795, ../scss/_local_css.scss */
 .content.green .buttonRow .sectionObject a.buttonList:hover {
   text-decoration: none;
 }
-/* line 1742, ../scss/_local_css.scss */
+/* line 1800, ../scss/_local_css.scss */
 .content.aware .buttonRow .sectionObject a.buttonList:nth-child(1) {
   background-color: #6c2e83;
 }
-/* line 1744, ../scss/_local_css.scss */
+/* line 1802, ../scss/_local_css.scss */
 .content.aware .buttonRow .sectionObject a.buttonList:nth-child(1):hover {
   background-color: #444;
 }
-/* line 1748, ../scss/_local_css.scss */
+/* line 1806, ../scss/_local_css.scss */
 .content.aware .buttonRow .sectionObject a.buttonList:nth-child(2) {
   background-color: #8c3da6;
 }
-/* line 1750, ../scss/_local_css.scss */
+/* line 1808, ../scss/_local_css.scss */
 .content.aware .buttonRow .sectionObject a.buttonList:nth-child(2):hover {
   background-color: #555;
 }
-/* line 1754, ../scss/_local_css.scss */
+/* line 1812, ../scss/_local_css.scss */
 .content.aware .buttonRow .sectionObject a.buttonList:nth-child(3) {
   background-color: #a060b6;
 }
-/* line 1756, ../scss/_local_css.scss */
+/* line 1814, ../scss/_local_css.scss */
 .content.aware .buttonRow .sectionObject a.buttonList:nth-child(3):hover {
   background-color: #666;
 }
-/* line 1760, ../scss/_local_css.scss */
+/* line 1818, ../scss/_local_css.scss */
 .content.aware .buttonRow .sectionObject a.buttonList:hover {
   text-decoration: none;
 }
-/* line 1764, ../scss/_local_css.scss */
+/* line 1822, ../scss/_local_css.scss */
 .content .sectionHeader {
   padding: 1.25rem 0 0.5rem 0;
 }
 @media screen and (max-width: 640px) {
-  /* line 1764, ../scss/_local_css.scss */
+  /* line 1822, ../scss/_local_css.scss */
   .content .sectionHeader {
     padding: 0 0 0.5rem 0;
   }
 }
-/* line 1770, ../scss/_local_css.scss */
+/* line 1828, ../scss/_local_css.scss */
 .content .sectionHeader .bar {
   padding: 0.625rem 0 0.625rem 0;
   position: relative;
 }
-/* line 1774, ../scss/_local_css.scss */
+/* line 1832, ../scss/_local_css.scss */
 .content .sectionHeader .bar .colorBar {
   display: -webkit-box;
   display: -moz-box;
@@ -4985,9 +5089,21 @@ header section nav.cbp-spmenu ul li a:hover {
   -ms-justify-content: center;
   justify-content: center;
   align-items: center;
-  height: 30px;
+  height: 1.875rem;
 }
-/* line 1793, ../scss/_local_css.scss */
+@media screen and (max-width: 848px) {
+  /* line 1832, ../scss/_local_css.scss */
+  .content .sectionHeader .bar .colorBar {
+    height: 1.5625rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 1832, ../scss/_local_css.scss */
+  .content .sectionHeader .bar .colorBar {
+    height: 2.1875rem;
+  }
+}
+/* line 1857, ../scss/_local_css.scss */
 .content .sectionHeader .bar .colorBar h2 {
   font-family: 'ComeniaSansCondRegular';
   height: 1.875rem;
@@ -4998,14 +5114,22 @@ header section nav.cbp-spmenu ul li a:hover {
   padding: 0.3125rem 1.25rem 0 1.25rem;
   margin: 0;
 }
-@media screen and (max-width: 640px) {
-  /* line 1793, ../scss/_local_css.scss */
+@media screen and (max-width: 848px) {
+  /* line 1857, ../scss/_local_css.scss */
   .content .sectionHeader .bar .colorBar h2 {
-    font-size: 1.5rem;
-    line-height: 20px;
+    height: 1.5625rem;
+    font-size: 2.1875rem;
+    line-height: 18px;
   }
 }
-/* line 1811, ../scss/_local_css.scss */
+@media screen and (max-width: 640px) {
+  /* line 1857, ../scss/_local_css.scss */
+  .content .sectionHeader .bar .colorBar h2 {
+    font-size: 2rem;
+    line-height: 16px;
+  }
+}
+/* line 1880, ../scss/_local_css.scss */
 .content .sectionHeader .bar .arrows {
   position: absolute;
   top: 0;
@@ -5014,12 +5138,12 @@ header section nav.cbp-spmenu ul li a:hover {
   padding: 0 0.625rem 0 0;
 }
 @media screen and (max-width: 848px) {
-  /* line 1811, ../scss/_local_css.scss */
+  /* line 1880, ../scss/_local_css.scss */
   .content .sectionHeader .bar .arrows {
     display: none;
   }
 }
-/* line 1821, ../scss/_local_css.scss */
+/* line 1890, ../scss/_local_css.scss */
 .content .sectionHeader .bar .arrows .arrow {
   display: block;
   width: 3.125rem;
@@ -5027,7 +5151,7 @@ header section nav.cbp-spmenu ul li a:hover {
   padding: 0;
   margin: 0;
 }
-/* line 1827, ../scss/_local_css.scss */
+/* line 1896, ../scss/_local_css.scss */
 .content .sectionHeader .bar .arrows .arrow a {
   display: block;
   width: 3.125rem;
@@ -5035,23 +5159,23 @@ header section nav.cbp-spmenu ul li a:hover {
   padding: 0;
   margin: 0;
 }
-/* line 1833, ../scss/_local_css.scss */
+/* line 1902, ../scss/_local_css.scss */
 .content .sectionHeader .bar .arrows .arrow a.arrowUp {
   background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -488px 0px;
 }
-/* line 1836, ../scss/_local_css.scss */
+/* line 1905, ../scss/_local_css.scss */
 .content .sectionHeader .bar .arrows .arrow a.arrowUp:hover {
   background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -540px 0px;
 }
-/* line 1840, ../scss/_local_css.scss */
+/* line 1909, ../scss/_local_css.scss */
 .content .sectionHeader .bar .arrows .arrow a.arrowDown {
   background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -488px -19px;
 }
-/* line 1843, ../scss/_local_css.scss */
+/* line 1912, ../scss/_local_css.scss */
 .content .sectionHeader .bar .arrows .arrow a.arrowDown:hover {
   background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -540px -19px;
 }
-/* line 1849, ../scss/_local_css.scss */
+/* line 1918, ../scss/_local_css.scss */
 .content .sectionHeader .bar .arrows p {
   font-size: 0.8125rem;
   line-height: 16px;
@@ -5061,67 +5185,67 @@ header section nav.cbp-spmenu ul li a:hover {
   padding: 0;
   margin: 0 0 0 0;
 }
-/* line 1862, ../scss/_local_css.scss */
+/* line 1931, ../scss/_local_css.scss */
 .content.healthy .sectionHeader .bar .colorBar {
   background-color: #367ddb;
 }
-/* line 1864, ../scss/_local_css.scss */
+/* line 1933, ../scss/_local_css.scss */
 .content.healthy .sectionHeader .bar .colorBar h2 {
   color: #367ddb;
 }
 @media screen and (max-width: 640px) {
-  /* line 1864, ../scss/_local_css.scss */
+  /* line 1933, ../scss/_local_css.scss */
   .content.healthy .sectionHeader .bar .colorBar h2 {
     color: #fff;
     background-color: #367ddb;
   }
 }
-/* line 1872, ../scss/_local_css.scss */
+/* line 1941, ../scss/_local_css.scss */
 .content.smart .sectionHeader .bar .colorBar {
   background-color: #d30043;
 }
-/* line 1874, ../scss/_local_css.scss */
+/* line 1943, ../scss/_local_css.scss */
 .content.smart .sectionHeader .bar .colorBar h2 {
   color: #d30043;
 }
 @media screen and (max-width: 640px) {
-  /* line 1874, ../scss/_local_css.scss */
+  /* line 1943, ../scss/_local_css.scss */
   .content.smart .sectionHeader .bar .colorBar h2 {
     color: #fff;
     background-color: #d30043;
   }
 }
-/* line 1882, ../scss/_local_css.scss */
+/* line 1951, ../scss/_local_css.scss */
 .content.green .sectionHeader .bar .colorBar {
   background-color: #8fd300;
 }
-/* line 1884, ../scss/_local_css.scss */
+/* line 1953, ../scss/_local_css.scss */
 .content.green .sectionHeader .bar .colorBar h2 {
   color: #8fd300;
 }
 @media screen and (max-width: 640px) {
-  /* line 1884, ../scss/_local_css.scss */
+  /* line 1953, ../scss/_local_css.scss */
   .content.green .sectionHeader .bar .colorBar h2 {
     color: #fff;
     background-color: #8fd300;
   }
 }
-/* line 1892, ../scss/_local_css.scss */
+/* line 1961, ../scss/_local_css.scss */
 .content.aware .sectionHeader .bar .colorBar {
   background-color: #a060b6;
 }
-/* line 1894, ../scss/_local_css.scss */
+/* line 1963, ../scss/_local_css.scss */
 .content.aware .sectionHeader .bar .colorBar h2 {
   color: #a060b6;
 }
 @media screen and (max-width: 640px) {
-  /* line 1894, ../scss/_local_css.scss */
+  /* line 1963, ../scss/_local_css.scss */
   .content.aware .sectionHeader .bar .colorBar h2 {
     color: #fff;
     background-color: #a060b6;
   }
 }
-/* line 1904, ../scss/_local_css.scss */
+/* line 1973, ../scss/_local_css.scss */
 .content .events h2, .content .programs h2, .content .resources h2 {
   font-family: 'ComeniaSansCondRegular';
   font-size: 1.5rem;
@@ -5131,59 +5255,59 @@ header section nav.cbp-spmenu ul li a:hover {
   margin: 0;
 }
 @media screen and (max-width: 640px) {
-  /* line 1912, ../scss/_local_css.scss */
+  /* line 1981, ../scss/_local_css.scss */
   .content .events p:first-of-type, .content .programs p:first-of-type, .content .resources p:first-of-type {
     margin-top: 0px;
   }
 }
-/* line 1917, ../scss/_local_css.scss */
+/* line 1986, ../scss/_local_css.scss */
 .content .events ul li a, .content .events p a, .content .programs ul li a, .content .programs p a, .content .resources ul li a, .content .resources p a {
   font-weight: bold;
   text-decoration: none;
 }
-/* line 1920, ../scss/_local_css.scss */
+/* line 1989, ../scss/_local_css.scss */
 .content .events ul li a:hover, .content .events p a:hover, .content .programs ul li a:hover, .content .programs p a:hover, .content .resources ul li a:hover, .content .resources p a:hover {
   color: #666;
 }
-/* line 1926, ../scss/_local_css.scss */
+/* line 1995, ../scss/_local_css.scss */
 .content.healthy .events ul li a, .content.healthy .events p a, .content.healthy .programs ul li a, .content.healthy .programs p a, .content.healthy .resources ul li a, .content.healthy .resources p a {
   color: #367ddb;
 }
-/* line 1928, ../scss/_local_css.scss */
+/* line 1997, ../scss/_local_css.scss */
 .content.healthy .events ul li a:hover, .content.healthy .events p a:hover, .content.healthy .programs ul li a:hover, .content.healthy .programs p a:hover, .content.healthy .resources ul li a:hover, .content.healthy .resources p a:hover {
   color: #666;
 }
-/* line 1934, ../scss/_local_css.scss */
+/* line 2003, ../scss/_local_css.scss */
 .content.smart .events ul li a, .content.smart .events p a, .content.smart .programs ul li a, .content.smart .programs p a, .content.smart .resources ul li a, .content.smart .resources p a {
   color: #d30043;
 }
-/* line 1936, ../scss/_local_css.scss */
+/* line 2005, ../scss/_local_css.scss */
 .content.smart .events ul li a:hover, .content.smart .events p a:hover, .content.smart .programs ul li a:hover, .content.smart .programs p a:hover, .content.smart .resources ul li a:hover, .content.smart .resources p a:hover {
   color: #666;
 }
-/* line 1942, ../scss/_local_css.scss */
+/* line 2011, ../scss/_local_css.scss */
 .content.green .events ul li a, .content.green .events p a, .content.green .programs ul li a, .content.green .programs p a, .content.green .resources ul li a, .content.green .resources p a {
   color: #8fd300;
 }
-/* line 1944, ../scss/_local_css.scss */
+/* line 2013, ../scss/_local_css.scss */
 .content.green .events ul li a:hover, .content.green .events p a:hover, .content.green .programs ul li a:hover, .content.green .programs p a:hover, .content.green .resources ul li a:hover, .content.green .resources p a:hover {
   color: #666;
 }
-/* line 1950, ../scss/_local_css.scss */
+/* line 2019, ../scss/_local_css.scss */
 .content.aware .events ul li a, .content.aware .events p a, .content.aware .programs ul li a, .content.aware .programs p a, .content.aware .resources ul li a, .content.aware .resources p a {
   color: #a060b6;
 }
-/* line 1952, ../scss/_local_css.scss */
+/* line 2021, ../scss/_local_css.scss */
 .content.aware .events ul li a:hover, .content.aware .events p a:hover, .content.aware .programs ul li a:hover, .content.aware .programs p a:hover, .content.aware .resources ul li a:hover, .content.aware .resources p a:hover {
   color: #666;
 }
 
-/* line 1963, ../scss/_local_css.scss */
+/* line 2032, ../scss/_local_css.scss */
 .abovebtt {
   padding: 0 0 1.875rem 0;
 }
 
-/* line 1968, ../scss/_local_css.scss */
+/* line 2037, ../scss/_local_css.scss */
 .btt a {
   display: block;
   width: 12.5rem;
@@ -5192,7 +5316,7 @@ header section nav.cbp-spmenu ul li a:hover {
   height: 3.4375rem;
   text-decoration: none;
 }
-/* line 1976, ../scss/_local_css.scss */
+/* line 2045, ../scss/_local_css.scss */
 .btt a .arrow {
   margin-left: auto;
   margin-right: auto;
@@ -5202,11 +5326,11 @@ header section nav.cbp-spmenu ul li a:hover {
   width: 3.75rem;
   height: 1.3125rem;
 }
-/* line 1985, ../scss/_local_css.scss */
+/* line 2054, ../scss/_local_css.scss */
 .btt a .arrow:hover {
   background: url("http://www.brooklyn.cuny.edu/web/abo_initiatives_hwi/spriteSheet.png") no-repeat -424px -24px;
 }
-/* line 1989, ../scss/_local_css.scss */
+/* line 2058, ../scss/_local_css.scss */
 .btt a p {
   margin: 0;
   padding-top: 0.6875rem;
@@ -5217,13 +5341,13 @@ header section nav.cbp-spmenu ul li a:hover {
   color: #fff;
 }
 
-/* line 2005, ../scss/_local_css.scss */
+/* line 2074, ../scss/_local_css.scss */
 footer .footerNav {
   padding: 0 0.625rem 0 0.625rem;
   margin-top: 1.1875rem;
   margin-bottom: 1.25rem;
 }
-/* line 2011, ../scss/_local_css.scss */
+/* line 2080, ../scss/_local_css.scss */
 footer .footerNav ul {
   padding: 0;
   text-align: center;
@@ -5231,44 +5355,44 @@ footer .footerNav ul {
   list-style-type: none;
   text-transform: uppercase;
 }
-/* line 2017, ../scss/_local_css.scss */
+/* line 2086, ../scss/_local_css.scss */
 footer .footerNav ul li {
   display: inline-block;
   padding: 0 0.9375rem 0 0.9375rem;
 }
 @media screen and (max-width: 640px) {
-  /* line 2017, ../scss/_local_css.scss */
+  /* line 2086, ../scss/_local_css.scss */
   footer .footerNav ul li {
     padding: 0 0.3125rem 0 0.3125rem;
   }
 }
-/* line 2027, ../scss/_local_css.scss */
+/* line 2096, ../scss/_local_css.scss */
 footer .footerNav ul li a {
   color: #666;
   text-decoration: none;
 }
-/* line 2030, ../scss/_local_css.scss */
+/* line 2099, ../scss/_local_css.scss */
 footer .footerNav ul li a:hover {
   color: #999;
 }
-/* line 2037, ../scss/_local_css.scss */
+/* line 2106, ../scss/_local_css.scss */
 footer .copyright {
   margin: 0 0 2.5rem 0.625rem;
 }
-/* line 2040, ../scss/_local_css.scss */
+/* line 2109, ../scss/_local_css.scss */
 footer .copyright p {
   font-size: 0.75rem;
   color: #666;
   padding-top: 0.8125rem;
   line-height: 0.9375rem;
 }
-/* line 2045, ../scss/_local_css.scss */
+/* line 2114, ../scss/_local_css.scss */
 footer .copyright p a {
   color: #781a42;
   font-weight: bold;
   text-decoration: none;
 }
-/* line 2049, ../scss/_local_css.scss */
+/* line 2118, ../scss/_local_css.scss */
 footer .copyright p a:hover {
   color: #999;
 }

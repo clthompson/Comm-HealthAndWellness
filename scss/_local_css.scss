@@ -193,9 +193,9 @@ header {
       cursor: pointer;
       display: inline-block;
       background: $SpriteSheet no-repeat 0px 11px;
-      width: 42px;
-      height: 60px;
-      margin-right: 5px;
+      width: rem-calc(42);
+      height: rem-calc(60);
+      margin-right: rem-calc(10);
       //margin: rem-calc(22) rem-calc(11) 0 rem-calc(11);
       //&:hover {
       //  background: $SpriteSheet no-repeat -142px 0px;
@@ -1559,22 +1559,23 @@ header {
 
 // Category Pages
   .hero {
-    padding: rem-calc(40) 0 rem-calc(30) 0;
+    padding: rem-calc(60) 0 rem-calc(30) 0;
     //border: 1px solid #f00;
     @media #{$Medium} {
       padding: rem-calc(40) 0 rem-calc(8) 0;
     }
     @media #{$Small} {
-      padding: rem-calc(20) 0 rem-calc(0) 0;
+      padding: rem-calc(18) 0 rem-calc(0) 0;
     }
     .categoryTitle {
       float: left;
       //border: 1px solid #f00;
       width: 50%;
-      margin-bottom: 20px;
+      margin-bottom: rem-calc(15);
       height: rem-calc(77);
       @media #{$Small} {
         width: 100%;
+        height: rem-calc(50);
       }
       .bigB {
         //border: 1px solid #f00;
@@ -1583,17 +1584,33 @@ header {
         width: rem-calc(77);
         height: rem-calc(77);
         margin: 0 rem-calc(10) 0 0;
+        @media #{$Medium} {
+          width: rem-calc(60);
+          height: rem-calc(60);
+        }
+        @media #{$Small} {
+          width: rem-calc(50);
+          height: rem-calc(50);
+        }
       }
       h1 {
         //border: 1px solid #f00;
         display: inline-block;
-        vertical-align: text-top;
+        //vertical-align: text-top;
         font-family: 'ComeniaSansCondRegular';
         font-size: rem-calc(48);
-        //line-height: 36px;
+        text-transform: uppercase;
         color: $color-gray222;
-        margin: rem-calc(-2) 0 0 0;
+        margin: rem-calc(2) 0 0 0;
         padding: 0;
+        @media #{$Medium} {
+          font-size: rem-calc(40);
+          margin: rem-calc(2) 0 0 0;
+        }
+        @media #{$Small} {
+          font-size: rem-calc(40);
+          margin: rem-calc(-4) 0 0 0;
+        }
       }
     }
     .image-content {
@@ -1617,21 +1634,56 @@ header {
     //border: 1px solid #f00;
     background: $SpriteSheet no-repeat 0px -40px;
     background-size: 350px;
+    @media #{$Medium} {
+      background: $SpriteSheet no-repeat 0px -31px;
+      background-size: 275px;
+    }
+    @media #{$Small} {
+      background: $SpriteSheet no-repeat 0px -26px;
+      background-size: 228px;
+    }
   }
   &.smart .hero .bigB {
     background: $SpriteSheet no-repeat -77px -40px;
     background-size: 350px;
+    @media #{$Medium} {
+      background: $SpriteSheet no-repeat -61px -31px;
+      background-size: 275px;
+    }
+    @media #{$Small} {
+      background: $SpriteSheet no-repeat -50px -26px;
+      background-size: 228px;
+    }
   }
   &.green .hero .bigB {
     background: $SpriteSheet no-repeat -153px -39px;
     background-size: 350px;
+    @media #{$Medium} {
+      background: $SpriteSheet no-repeat -121px -31px;
+      background-size: 275px;
+    }
+    @media #{$Small} {
+      background: $SpriteSheet no-repeat -100px -26px;
+      background-size: 228px;
+    }
   }
   &.aware .hero .bigB {
     background: $SpriteSheet no-repeat -230px -39px;
     background-size: 350px;
+    @media #{$Medium} {
+      background: $SpriteSheet no-repeat -182px -31px;
+      background-size: 275px;
+    }
+    @media #{$Small} {
+      background: $SpriteSheet no-repeat -150px -26px;
+      background-size: 228px;
+    }
   }
   .buttonRow {
     padding: 0 0 rem-calc(43) 0;
+    @media #{$Medium} {
+      padding: 0 0 rem-calc(28) 0;
+    }
     .sectionObject {
       display: -webkit-box;
       display: -moz-box;
@@ -1653,8 +1705,10 @@ header {
         &.buttonList {
           //border: 1px solid #f00;
           height: rem-calc(60);
-          //width: 100%;
           margin-bottom: rem-calc(0);
+          @media #{$Medium} {
+            height: rem-calc(50);
+          }
           p {
             //border: 1px solid #f00;
             font-family: 'ComeniaSansCondRegular';
@@ -1664,6 +1718,10 @@ header {
             padding: rem-calc(8) 0 0 0;
             margin: 0;
             text-align: center;
+            @media #{$Medium} {
+              font-size: rem-calc(32);
+              padding: rem-calc(2) 0 0 0;
+            }
           }
         }
       }
@@ -1788,7 +1846,13 @@ header {
         -ms-justify-content: center;
         justify-content: center;
         align-items: center;
-        height: 30px;
+        height: rem-calc(30);
+        @media #{$Medium} {
+          height: rem-calc(25);
+        }
+        @media #{$Small} {
+          height: rem-calc(35);
+        }
         //border: 1px solid #f00;
         h2 {
           //border: 1px solid #ff0;
@@ -1802,9 +1866,14 @@ header {
           background-color: $color-white;
           padding: rem-calc(5) rem-calc(20) 0 rem-calc(20);
           margin: 0;
+          @media #{$Medium} {
+            height: rem-calc(25);
+            font-size: rem-calc(35);
+            line-height: 18px;
+          }
           @media #{$Small} {
-            font-size: rem-calc(24);
-            line-height: 20px;
+            font-size: rem-calc(32);
+            line-height: 16px;
           }
         }
       }

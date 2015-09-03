@@ -111,7 +111,7 @@
 			"file": "scss/_local_css.scss",
 			"settings":
 			{
-				"buffer_size": 51655,
+				"buffer_size": 53588,
 				"line_ending": "Windows"
 			}
 		},
@@ -136,7 +136,7 @@
 			"file": "css/comm-hw.css",
 			"settings":
 			{
-				"buffer_size": 169704,
+				"buffer_size": 171001,
 				"line_ending": "Windows"
 			}
 		},
@@ -399,15 +399,15 @@
 					"file": "scss/_local_css.scss",
 					"settings":
 					{
-						"buffer_size": 51655,
+						"buffer_size": 53588,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11294,
-								11294
+								43098,
+								43098
 							]
 						],
 						"settings":
@@ -417,7 +417,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6913.0,
+						"translation.y": 25003.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -481,7 +481,7 @@
 					"file": "css/comm-hw.css",
 					"settings":
 					{
-						"buffer_size": 169704,
+						"buffer_size": 171001,
 						"regions":
 						{
 						},
