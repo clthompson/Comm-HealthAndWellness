@@ -136,7 +136,7 @@
 			"file": "css/comm-hw.css",
 			"settings":
 			{
-				"buffer_size": 171001,
+				"buffer_size": 174844,
 				"line_ending": "Windows"
 			}
 		},
@@ -481,7 +481,7 @@
 					"file": "css/comm-hw.css",
 					"settings":
 					{
-						"buffer_size": 171001,
+						"buffer_size": 174844,
 						"regions":
 						{
 						},
@@ -620,7 +620,7 @@
 		[
 			[
 				"",
-				"/Z/Public/webDevelopment/master/MASTER.sublime-project"
+				"/Z/Public/$$$Feirstein/Development/004/feirstein/Feirstein.sublime-project"
 			]
 		],
 		"width": 380.0

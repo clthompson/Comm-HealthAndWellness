@@ -1456,13 +1456,22 @@ header {
       }
     }
     &.healthy {
-      p a {
-        display: inline;
-        color: $b-healthy;
-        font-weight: $bold;
-        &:hover {
-          color: $color-gray666;
-          text-decoration: none;
+      p {
+        a {
+          display: inline;
+          color: $b-healthy;
+          font-weight: $bold;
+          &:hover {
+            color: $color-gray666;
+            text-decoration: none;
+          }
+        }
+        &.homePageNewsLink a {
+          font-weight: normal;
+          text-transform: uppercase;
+          @media #{$Medium} {
+            display: none;
+          }
         }
       }
       & .buttonList {
@@ -1481,13 +1490,22 @@ header {
       }
     }
     &.smart {
-      p a {
-        display: inline;
-        color: $b-smart;
-        font-weight: $bold;
-        &:hover {
-          color: $color-gray666;
-          text-decoration: none;
+      p {
+        a {
+          display: inline;
+          color: $b-smart;
+          font-weight: $bold;
+          &:hover {
+            color: $color-gray666;
+            text-decoration: none;
+          }
+        }
+        &.homePageNewsLink a {
+          font-weight: normal;
+          text-transform: uppercase;
+          @media #{$Medium} {
+            display: none;
+          }
         }
       }
       & .buttonList {
@@ -1506,13 +1524,22 @@ header {
       }
     }
     &.green {
-      p a {
-        display: inline;
-        color: $b-green;
-        font-weight: $bold;
-        &:hover {
-          color: $color-gray666;
-          text-decoration: none;
+      p {
+        a {
+          display: inline;
+          color: $b-green;
+          font-weight: $bold;
+          &:hover {
+            color: $color-gray666;
+            text-decoration: none;
+          }
+        }
+        &.homePageNewsLink a {
+          font-weight: normal;
+          text-transform: uppercase;
+          @media #{$Medium} {
+            display: none;
+          }
         }
       }
       & .buttonList {
@@ -1531,13 +1558,22 @@ header {
       }
     }
     &.aware {
-      p a {
-        display: inline;
-        color: $b-aware;
-        font-weight: $bold;
-        &:hover {
-          color: $color-gray666;
-          text-decoration: none;
+      p {
+        a {
+          display: inline;
+          color: $b-aware;
+          font-weight: $bold;
+          &:hover {
+            color: $color-gray666;
+            text-decoration: none;
+          }
+        }
+        &.homePageNewsLink a {
+          font-weight: normal;
+          text-transform: uppercase;
+          @media #{$Medium} {
+            display: none;
+          }
         }
       }
       & .buttonList {
@@ -1628,7 +1664,75 @@ header {
     p {
       margin: 0 0 rem-calc(32) 0;
       padding: 0;
-    } 
+    }
+    a {
+      //float: right;
+      display: inline-block;
+      width: 100%;
+      text-decoration: none;
+      color: $color-gray222;
+      @media #{$Medium} {
+        width: 31%;
+      }
+      &.buttonList {
+        //border: 1px solid #f00;
+        height: rem-calc(50);
+        margin: rem-calc(25) 0 0 0;
+        @media #{$Medium} {
+          display: none;
+        }
+        p {
+          //border: 1px solid #f00;
+          font-family: 'ComeniaSansCondRegular';
+          font-size: rem-calc(22);
+          text-transform: uppercase;
+          color: $color-white;
+          padding: rem-calc(10) rem-calc(6) 0 rem-calc(6);
+          margin: 0;
+          text-align: center;
+          @media #{$Medium} {
+            font-size: rem-calc(22);
+            padding: rem-calc(2) 0 0 0;
+          }
+        }
+      }
+    }
+  }
+  &.healthy .hero .sectionObject a.buttonList {
+    background-color: $b-healthy-light;
+    &:hover {
+      background-color: $color-gray666;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  &.smart .hero .sectionObject a.buttonList {
+    background-color: $b-smart-light;
+    &:hover {
+      background-color: $color-gray666;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  &.green .hero .sectionObject a.buttonList {
+    background-color: $b-green-light;
+    &:hover {
+      background-color: $color-gray666;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  &.aware .hero .sectionObject a.buttonList {
+    background-color: $b-aware-light;
+    &:hover {
+      background-color: $color-gray666;
+    }
+    &:hover {
+      text-decoration: none;
+    }
   }
   &.healthy .hero .bigB {
     //border: 1px solid #f00;
